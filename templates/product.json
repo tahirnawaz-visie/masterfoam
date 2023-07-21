@@ -1,0 +1,99 @@
+{
+  "sections": {
+    "product": {
+      "type": "product-template",
+      "blocks": {
+        "b09310d8-6243-41a4-8688-c32e3ef763c0": {
+          "type": "descriptions",
+          "settings": {
+            "title": "PRODUCT DETAILS"
+          }
+        },
+        "e93fe9d7-86fe-4f4c-8a25-586b3b13ddba": {
+          "type": "review",
+          "settings": {
+            "title": "REVIEWS"
+          }
+        },
+        "a5ae98c9-5d60-4cc9-a24c-22a0249c1389": {
+          "type": "sizechart",
+          "settings": {
+            "title": "SIZE & FIT"
+          }
+        },
+        "01d734ae-d721-4a1e-81c1-f2de210416f8": {
+          "type": "custom",
+          "settings": {
+            "title": "SHIPPING & RETURNS",
+            "content": "<h4>Returns Policy<\/h4>\n\n<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eros justo, accumsan non dui sit amet. Phasellus semper volutpat mi sed imperdiet. Ut odio lectus, vulputate non ex non, mattis sollicitudin purus. Mauris consequat justo a enim interdum, in consequat dolor accumsan. Nulla iaculis diam purus, ut vehicula leo efficitur at.<\/p>\n<p><br>Interdum et malesuada fames ac ante ipsum primis in faucibus. In blandit nunc enim, sit amet pharetra erat aliquet ac.<\/p>\n\n<h4>Shipping<\/h4>\n<p>Pellentesque ultrices ut sem sit amet lacinia. Sed nisi dui, ultrices ut turpis pulvinar. Sed fringilla ex eget lorem consectetur, consectetur blandit lacus varius. Duis vel scelerisque elit, et vestibulum metus. Integer sit amet tincidunt tortor. Ut lacinia ullamcorper massa, a fermentum arcu vehicula ut. Ut efficitur faucibus dui Nullam tristique dolor eget turpis consequat varius. Quisque a interdum augue. Nam ut nibh mauris.<\/p>"
+          }
+        },
+        "851c8293-421a-46c2-aabb-4cfbda159662": {
+          "type": "custom",
+          "settings": {
+            "title": "CUSTOM TABS",
+            "content": "You can set different tabs for each products."
+          }
+        }
+      },
+      "block_order": [
+        "b09310d8-6243-41a4-8688-c32e3ef763c0",
+        "e93fe9d7-86fe-4f4c-8a25-586b3b13ddba",
+        "a5ae98c9-5d60-4cc9-a24c-22a0249c1389",
+        "01d734ae-d721-4a1e-81c1-f2de210416f8",
+        "851c8293-421a-46c2-aabb-4cfbda159662"
+      ],
+      "settings": {
+        "show_product_tabs": true
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "settings": {
+        "show_related_products": true,
+        "related_products_autoplay": false,
+        "autoplay_speed": "3000",
+        "related_title": "Related Products",
+        "related_sub_title": "You can stop autoplay, increase\/decrease aniamtion speed and number of grid to show and products from store admin.",
+        "grid": 4,
+        "tablet-grid": 3,
+        "mobile-grid": 2,
+        "related_total_product_to_show": "8"
+      }
+    },
+    "recommendations": {
+      "type": "product-recommendations",
+      "settings": {
+        "show_product_recommendations": true,
+        "recommanded_products_autoplay": false,
+        "autoplay_speed": "3000",
+        "recommanded_title": "Recommended Products",
+        "recommanded_sub_title": "You can stop autoplay, increase\/decrease aniamtion speed and number of grid to show and products from store admin.",
+        "grid": 4,
+        "tablet-grid": 3,
+        "mobile-grid": 2,
+        "recommanded_total_product_to_show": "8"
+      }
+    },
+    "recently-viewed": {
+      "type": "recently-viewed",
+      "settings": {
+        "show_recently_products": true,
+        "recently_autoplay": false,
+        "autoplay_speed": "3000",
+        "recently_title": "Recently Viewed Products",
+        "recently_sub_title": "You can stop autoplay, increase\/decrease aniamtion speed and number of grid to show and products from store admin.",
+        "grid": 4,
+        "tablet-grid": 3,
+        "mobile-grid": 2,
+        "recently_pr_limit": "8"
+      }
+    }
+  },
+  "order": [
+    "product",
+    "related-products",
+    "recommendations",
+    "recently-viewed"
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "sections": {
+    "cart": {
+      "type": "cart-template",
+      "settings": {
+        "layout": "style1",
+        "cart_notes_enable": true,
+        "display_saving": true,
+        "shippingTax": true,
+        "additionalCheckout": true,
+        "currency_notes": "We processes all orders in [shop.currency]. While the content of your cart is currently displayed in [selected.currency], the checkout will use [shop.currency] at the most current exchange rate.",
+        "shipping_calculator": true,
+        "shipping_calculator_heading": "Get shipping estimates",
+        "shipping_calculator_default_country": "United States",
+        "shipping_calculator_submit_button_label": "Calculate shipping",
+        "shipping_calculator_submit_button_label_disabled": "Calculating...",
+        "enable_giftcard": true,
+        "gift_product": "gift-wrapping",
+        "gift_wrap_optin": "diffrent-rate",
+        "gift-wrap-text": "Add a Gift Wrap to your order, For $",
+        "gift-wrap-msg": "Gift Message Note:"
+      }
+    },
+    "recommendations": {
+      "type": "product-recommendations",
+      "settings": {
+        "show_product_recommendations": true,
+        "recommanded_products_autoplay": true,
+        "autoplay_speed": "3000",
+        "recommanded_title": "Recommended Products",
+        "recommanded_sub_title": "",
+        "grid": 4,
+        "tablet-grid": 3,
+        "mobile-grid": 2,
+        "recommanded_total_product_to_show": "6"
+      }
+    }
+  },
+  "order": [
+    "cart",
+    "recommendations"
+  ]
+}

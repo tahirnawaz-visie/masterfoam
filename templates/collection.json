@@ -1,0 +1,81 @@
+{
+  "sections": {
+    "collection": {
+      "type": "main-collection",
+      "blocks": {
+        "fe77a0fc-9912-4d85-9b2f-9a3a82a0e552": {
+          "type": "categories",
+          "disabled": true,
+          "settings": {
+            "title": "Categories",
+            "side_categories": "main-menu"
+          }
+        },
+        "6689e460-c4b5-4b81-8249-2bdb2b964b70": {
+          "type": "filter_by",
+          "disabled": true,
+          "settings": {
+            "title": "Filter By:",
+            "column": "Size, Brand",
+            "color_size": "small",
+            "color_style": "rounded"
+          }
+        },
+        "347a9c5e-6540-4272-b2c3-23cdd9169d12": {
+          "type": "products",
+          "settings": {
+            "title": "POPULAR PRODUCT",
+            "sidebar_products": "shoes",
+            "num_of_products": "3",
+            "side_all_products": false,
+            "btn_txt": "View All",
+            "side_prod_opt": "slider"
+          }
+        }
+      },
+      "block_order": [
+        "fe77a0fc-9912-4d85-9b2f-9a3a82a0e552",
+        "6689e460-c4b5-4b81-8249-2bdb2b964b70",
+        "347a9c5e-6540-4272-b2c3-23cdd9169d12"
+      ],
+      "settings": {
+        "fullwidth": true,
+        "show_collection_name": false,
+        "show_collection_image": true,
+        "banner_position": "top",
+        "bheight": 400,
+        "bheightipad": 200,
+        "bheightmob": 100,
+        "banner_style": "info-over",
+        "text-align": "text-left",
+        "collection-des": "top",
+        "clr_bg": "rgba(0,0,0,0)",
+        "clr_text": "#111111",
+        "clr_text_des": "#111111",
+        "secondary_image": false,
+        "show_vendor": false,
+        "prlist_btn_show": false,
+        "btn_mobiles": false,
+        "show_color_swatch": true,
+        "color_type": "color",
+        "vr_bg_position": "50% 0",
+        "color_size": "small",
+        "color_style": "rounded",
+        "sort_enable": true,
+        "dis_prod_cnt": false,
+        "dis_grid_icn": false,
+        "prbox_style": "style4",
+        "grid": 3,
+        "tablet-grid": 3,
+        "mobile-grid": 2,
+        "rows": "12",
+        "pagination": "button",
+        "collection_sidebar": false,
+        "sidebar_position": "left"
+      }
+    }
+  },
+  "order": [
+    "collection"
+  ]
+}
