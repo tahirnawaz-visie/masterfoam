@@ -118,31 +118,17 @@
             "collection_btn": "Shop Now",
             "width": "33%"
           }
-        },
-        "1560593691516": {
-          "type": "featured_collection",
-          "disabled": true,
-          "settings": {
-            "collection": "accssories",
-            "url": "",
-            "collection_name": "ACCESSORIES",
-            "collection_name2": "add finishing touch to your outfit",
-            "textalign": "center",
-            "text-left": false,
-            "collection_btn": "Shop Now",
-            "width": "50%"
-          }
         }
       },
       "block_order": [
         "1560507278694-0",
         "1560507334237",
-        "1560507278694-1",
-        "1560593691516"
+        "1560507278694-1"
       ],
       "settings": {
         "title": "Better Sleep Starts Here",
         "subtitle": "",
+        "layout_content": "collection_custom_design",
         "top-offeset": "default",
         "section_width": false,
         "hide_mobile": false,
@@ -160,41 +146,6 @@
         "btn-style": "bdr-btn1",
         "btn-size-desk": "btn-sm",
         "btn-size-mob": "mob-btn-sm",
-        "snow_effect": false,
-        "snow_style": "style1"
-      }
-    },
-    "d2fef932-e992-46c6-ad0b-52c19d58e508": {
-      "type": "feature-row",
-      "blocks": {
-        "template--16736629489891__d2fef932-e992-46c6-ad0b-52c19d58e508-image_with_text-1": {
-          "type": "image_with_text",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/WhatsApp_Image_2023-07-20_at_8.35.36_PM.jpg",
-            "layout": "left",
-            "title": "",
-            "text": "<p>Experience the science of protection with <strong>FreshGuard<\/strong> Technology<\/p>",
-            "button_label": "",
-            "button_link": "",
-            "btn-size-desk": "btn-sm",
-            "btn-size-mob": "mob-btn-sm",
-            "text_align": "text-center",
-            "text_clr": "#000",
-            "text_bg_clr": "#ffffff",
-            "button_bg_clr": "#000",
-            "button_bdr_clr": "#000",
-            "button_text_clr": "#fff"
-          }
-        }
-      },
-      "block_order": [
-        "template--16736629489891__d2fef932-e992-46c6-ad0b-52c19d58e508-image_with_text-1"
-      ],
-      "settings": {
-        "top-offeset": "default",
-        "section_width": false,
-        "section_cov": false,
-        "sec_bg_clr": "#fafafa",
         "snow_effect": false,
         "snow_style": "style1"
       }
@@ -220,6 +171,44 @@
         "btn-style": "btn",
         "text_align": "left",
         "color_ttl": "#ffffff"
+      }
+    },
+    "d2fef932-e992-46c6-ad0b-52c19d58e508": {
+      "type": "feature-row",
+      "blocks": {
+        "template--16736629489891__d2fef932-e992-46c6-ad0b-52c19d58e508-image_with_text-1": {
+          "type": "image_with_text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/WhatsApp_Image_2023-07-20_at_8.35.36_PM.jpg",
+            "layout": "left",
+            "title": "<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0612\/8042\/0067\/files\/fg.png?v=1689919725\">",
+            "text": "<p>Experience the science of protection with <strong>FreshGuard<\/strong> Technology<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "btn-size-desk": "btn-sm",
+            "btn-size-mob": "mob-btn-sm",
+            "text_align": "text-center",
+            "text_clr": "#000000",
+            "text_bg_clr": "#f7f7f7",
+            "button_bg_clr": "#000000",
+            "button_bdr_clr": "#000000",
+            "button_text_clr": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "template--16736629489891__d2fef932-e992-46c6-ad0b-52c19d58e508-image_with_text-1"
+      ],
+      "custom_css": [
+        "p {font-size: 36px;}"
+      ],
+      "settings": {
+        "top-offeset": "default",
+        "section_width": false,
+        "section_cov": false,
+        "sec_bg_clr": "#fafafa",
+        "snow_effect": false,
+        "snow_style": "style1"
       }
     },
     "e15a66d3-d8b8-4c7c-862b-4cd1ae90a170": {
@@ -300,6 +289,7 @@
       "settings": {
         "title": "",
         "subtitle": "",
+        "layout_content": "collection_theme_layout",
         "top-offeset": "default",
         "section_width": false,
         "hide_mobile": false,
@@ -543,8 +533,8 @@
   "order": [
     "slideshow",
     "1633781722aeb0502c",
-    "d2fef932-e992-46c6-ad0b-52c19d58e508",
     "164948468577f39ad5",
+    "d2fef932-e992-46c6-ad0b-52c19d58e508",
     "e15a66d3-d8b8-4c7c-862b-4cd1ae90a170",
     "1633781728a88de982",
     "163378174190f4bb4d",
