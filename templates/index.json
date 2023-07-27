@@ -251,152 +251,6 @@
         "autoplay_speed": 5
       }
     },
-    "163378174190f4bb4d": {
-      "type": "collection-banner",
-      "disabled": true,
-      "blocks": {
-        "1561783119274-0": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "women",
-            "url": "",
-            "collection_name": "FIND THE BEST COLLECTION AROUND THE WORLD",
-            "collection_name2": "",
-            "textalign": "center",
-            "text-left": false,
-            "collection_btn": "Shop Now",
-            "width": "50%"
-          }
-        },
-        "1561783119274-1": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "women",
-            "url": "",
-            "collection_name": "AWESOME T-SHIRTS, CROP TOPS AND MORE...",
-            "collection_name2": "",
-            "textalign": "center",
-            "text-left": false,
-            "collection_btn": "VIEW COLLECTION",
-            "width": "50%"
-          }
-        }
-      },
-      "block_order": [
-        "1561783119274-0",
-        "1561783119274-1"
-      ],
-      "settings": {
-        "title": "",
-        "subtitle": "",
-        "layout_content": "collection_theme_layout",
-        "top-offeset": "default",
-        "section_width": false,
-        "hide_mobile": false,
-        "pad-desk": 55,
-        "pad-ipad": 15,
-        "pad-mbl": 10,
-        "grid-spacing": 15,
-        "grid-spacing-mbl": 5,
-        "grid-spacing-col": 2,
-        "box-width": 60,
-        "box_bg": "#ffffff",
-        "box_txt": "#000000",
-        "disable_zoom": false,
-        "show_buttons": true,
-        "btn-style": "btn",
-        "btn-size-desk": "btn-sm",
-        "btn-size-mob": "mob-btn-sm",
-        "snow_effect": false,
-        "snow_style": "style1"
-      }
-    },
-    "1633781759ce68e676": {
-      "type": "logo-bar",
-      "disabled": true,
-      "blocks": {
-        "1561785365595-0": {
-          "type": "logo_image",
-          "settings": {
-            "link": "#",
-            "opentab": false
-          }
-        },
-        "1561785365595-1": {
-          "type": "logo_image",
-          "settings": {
-            "link": "",
-            "opentab": false
-          }
-        },
-        "1561785365595-2": {
-          "type": "logo_image",
-          "settings": {
-            "link": "#",
-            "opentab": false
-          }
-        },
-        "1561785365595-5": {
-          "type": "logo_image",
-          "settings": {
-            "link": "",
-            "opentab": false
-          }
-        },
-        "1561785365595-3": {
-          "type": "logo_image",
-          "settings": {
-            "link": "",
-            "opentab": false
-          }
-        }
-      },
-      "block_order": [
-        "1561785365595-0",
-        "1561785365595-1",
-        "1561785365595-2",
-        "1561785365595-5",
-        "1561785365595-3"
-      ],
-      "settings": {
-        "top-offeset": "default",
-        "section_cov": false,
-        "sec_bg_clr": "#fafafa",
-        "title": "",
-        "subtitle": "",
-        "logostyle": "carousel",
-        "grid": 5,
-        "tablet-grid": 5,
-        "mobile-grid": 3
-      }
-    },
-    "1633781776086e75a0": {
-      "type": "featured-blog",
-      "disabled": true,
-      "settings": {
-        "title": "<b>More Ways to Explore<\/b>",
-        "subtitle": "",
-        "top-offeset": "default",
-        "section_cov": true,
-        "sec_bg_clr": "#e6d4ca",
-        "blog": "news",
-        "img_ratio": "40",
-        "post_limit": 3,
-        "grid": 3,
-        "tablet-grid": 2,
-        "mobile-grid": 1,
-        "blog_align": "text-center",
-        "blog_show_author": false,
-        "blog_show_date": true,
-        "show_comment": true,
-        "show_mini_des": false,
-        "show_read_more": false,
-        "show_view_all": false,
-        "btn-style": "btn",
-        "btn-size-desk": "btn-sm",
-        "btn-size-mob": "mob-btn-sm"
-      }
-    },
     "16337817926d98687d": {
       "type": "store-features",
       "disabled": true,
@@ -524,7 +378,7 @@
         "show_mini_des": true,
         "show_read_more": true,
         "show_view_all": false,
-        "btn-style": "btn",
+        "btn-style": "bdr-btn1",
         "btn-size-desk": "btn-sm",
         "btn-size-mob": "mob-btn-sm"
       }
@@ -537,9 +391,6 @@
     "d2fef932-e992-46c6-ad0b-52c19d58e508",
     "e15a66d3-d8b8-4c7c-862b-4cd1ae90a170",
     "1633781728a88de982",
-    "163378174190f4bb4d",
-    "1633781759ce68e676",
-    "1633781776086e75a0",
     "16337817926d98687d",
     "1649484698947b2b97",
     "16494850581775fcb5",
