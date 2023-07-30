@@ -213,6 +213,7 @@
     },
     "e15a66d3-d8b8-4c7c-862b-4cd1ae90a170": {
       "type": "info-lines",
+      "disabled": true,
       "settings": {
         "fullwidth": true,
         "top-offeset": "default",
@@ -231,7 +232,8 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/b1.jpg",
             "tab_name": "Master Cool Air",
-            "description": "Master Cool Air is designed to be the perfect solution for those hot summer nights when you can’t help but toss and turn all night! It removes perspiration and heat from the sleeping area and channels it underneath the mattress, where it may be better dissipated. The mattress is more breathable thanks to the airflow technology so that you can have a restful night's sleep."
+            "description": "Master Cool Air is designed to be the perfect solution for those hot summer nights when you can’t help but toss and turn all night! It removes perspiration and heat from the sleeping area and channels it underneath the mattress, where it may be better dissipated. The mattress is more breathable thanks to the airflow technology so that you can have a restful night's sleep.",
+            "link": ""
           }
         },
         "74c4c42c-32f0-4fa6-a9dc-dd46bbb8b5bc": {
@@ -239,7 +241,8 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/b1.jpg",
             "tab_name": "Master Ortho",
-            "description": "Master Ortho is a revolutionary sleep solution designed to provide exceptional support and alleviate the pressures of everyday life on your body. Engineered with precision and crafted with care, it is your ticket to a restful night's sleep and heat from the sleeping area and channels it underneath the mattress, where it may be better dissipated. The mattress is more breathable thanks to the airflow technology so that you can have a restful night's sleep."
+            "description": "Master Ortho is a revolutionary sleep solution designed to provide exceptional support and alleviate the pressures of everyday life on your body. Engineered with precision and crafted with care, it is your ticket to a restful night's sleep and heat from the sleeping area and channels it underneath the mattress, where it may be better dissipated. The mattress is more breathable thanks to the airflow technology so that you can have a restful night's sleep.",
+            "link": ""
           }
         },
         "eb0f2d74-f649-441e-aca0-ee3c1cd1b1db": {
@@ -247,7 +250,8 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/b1.jpg",
             "tab_name": "Master Spine Plus",
-            "description": "Master Spine Plus is a firm mattress designed with high-pressure technology to support the spine in a neutral posture, which may help alleviate back discomfort.  and heat from the sleeping area and channels it underneath the mattress, where it may be better dissipated. The mattress is more breathable thanks to the airflow technology so that you can have a restful night's sleep."
+            "description": "Master Spine Plus is a firm mattress designed with high-pressure technology to support the spine in a neutral posture, which may help alleviate back discomfort.  and heat from the sleeping area and channels it underneath the mattress, where it may be better dissipated. The mattress is more breathable thanks to the airflow technology so that you can have a restful night's sleep.",
+            "link": ""
           }
         }
       },
@@ -257,7 +261,7 @@
         "eb0f2d74-f649-441e-aca0-ee3c1cd1b1db"
       ],
       "settings": {
-        "title": "",
+        "title": "Top Seller",
         "section_cov": false,
         "star_image": "shopify:\/\/shop_images\/WhatsApp_Image_2023-07-27_at_3.41.06_PM.jpg",
         "arrow_image": "shopify:\/\/shop_images\/WhatsApp_Image_2023-07-27_at_3.41.06_PM_1.jpg",
@@ -408,7 +412,7 @@
         "section_cov": true,
         "sec_bg_clr": "#e6d4ca",
         "blog": "news",
-        "img_ratio": "100",
+        "img_ratio": "70",
         "post_limit": 3,
         "grid": 3,
         "tablet-grid": 2,
@@ -420,7 +424,7 @@
         "show_mini_des": true,
         "show_read_more": true,
         "show_view_all": false,
-        "btn-style": "bdr-btn1",
+        "btn-style": "btn",
         "btn-size-desk": "btn-sm",
         "btn-size-mob": "mob-btn-sm"
       }

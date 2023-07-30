@@ -4,6 +4,11 @@
   {% if section.blocks.size != 0 %}
   	<div class="{% unless section.settings.section_width %}page-width{% else %} footer-fw{% endunless %}">
   	<div class="footer-top footer-block">
+     {% if section.settings.whatsuppt %}
+      <div class="whatsuppt_section">
+        <img src="{{ section.settings.whatsuppt_img | img_url: '150x'  }}" />
+      </div>
+      {% endif %}
         {% for block in section.blocks %}          
         {% case block.settings.width %}
         {% when '20%' %}         
@@ -256,7 +261,19 @@
         	"id": "payment_img_width",
         	"label": "Max width",
         	"default": "350"
-      	}
+      	},
+      {
+		"type":"checkbox",
+		"id":"whatsuppt",
+		"label":"WhatsApp?",
+		"default": false
+	  },
+      {
+          "type": "image_picker",
+          "id": "whatsuppt_img",
+          "label": "WhatsApp Image",
+          "info": "Use image instead of WhatsApp"
+        }
     ],
 	"max_blocks": 10,
 	"blocks": [
