@@ -1,0 +1,90 @@
+<div class="content-indent{% if section.settings.hide_mobile %} small--hide{% endif %} {{ section.settings.top-offeset}}">
+  <div class="collection-banners sec-{{ section.id}}{% unless section.settings.section_width %} page-width{% else %} fullwidth-{{section.id}}{% endunless %}{% if section.settings.snow_effect %} falling-snow{% endif %}{% if section.settings.snow_style == "style2" %} style2{% else %} style1{% endif %}" id="{{ section.id }}" data-section-id="{{ section.id }}" data-section-type="masonary">
+   
+    {%- if section.settings.title != blank or section.settings.subtitle != blank -%}
+    <div class="sec-ttl {{ settings.title_align}} wow fadeIn">
+      <h3 class="h3">{{ section.settings.title }}</h3>
+      {%- if section.settings.subtitle != blank -%}<span>{{section.settings.subtitle}}</span>{%- endif -%}
+    </div>
+    {% endif %}  
+    
+      <div class="grid grid-mr-{{ section.settings.grid-spacing}} grid-masonary{% if section.settings.disable_zoom %} no-zoom{% endif %}">            
+        <div class="grid-sizer-{{section.id}} col-{{section.settings.grid-spacing-col}}"></div>
+        {% for block in section.blocks limit: section.blocks.size %}      
+        	{% case block.settings.width %}
+              {% when '20%' %}{%- assign block_width = 'medium-up--one-fifth' -%}{%- assign image_size = '150,350,550,750' -%}
+              {% when '25%' %}{%- assign block_width = 'medium-up--one-quarter' -%}{%- assign image_size = '150,350,550,750' -%}
+              {% when '33%' %}{%- assign block_width = 'medium-up--one-third' -%}{%- assign image_size = '150,350,550,750' -%}
+              {% when '40%' %}{%- assign block_width = 'medium-up--two-fifths' -%}{%- assign image_size = '150,350,550,750' -%}
+              {% when '50%' %}{%- assign block_width = 'medium-up--one-half' -%}{%- assign image_size = '150,350,550,750,950' -%}
+              {% when '60%' %}{%- assign block_width = 'medium-up--tree-fifths' -%}{%- assign image_size = '550,750,950,1200,1500' -%}
+              {% when '66%' %}{%- assign block_width = 'medium-up--two-thirds' -%}{%- assign image_size = '550,750,950,1200,1500' -%}
+              {% when '75%' %}{%- assign block_width = 'medium-up--three-quarters' -%}{%- assign image_size = '550,750,950,1200,1500,1800' -%}
+              {% when '80%' %}{%- assign block_width = 'medium-up--four-fifths' -%}{%- assign image_size = '550,750,950,1200,1500,1800' -%}
+              {% when '100%' %}{%- assign block_width = 'one-whole' -%}
+            {% endcase %}
+        {% assign product_box = forloop.index | minus:1 %}
+        {% assign delay_time = 50 | times : product_box %}      		
+        <div class="grid__item ms-item {{ block_width }} pd-{{ section.settings.grid-spacing}} wow fadeInUp" {{ block.shopify_attributes }} data-wow-delay="{{delay_time}}ms">
+          {%- assign collection = collections[block.settings.collection] -%}
+          {% if block.settings.collection_image != blank %}
+  {%- assign collection_image = block.settings.collection_image -%}
+  {%- assign aspectratio = block.settings.collection_image.aspect_ratio -%}
+{% elsif collection.products.first and collection.products.first.images != empty %}
+  {%- assign collection_image = collection.products.first.featured_image -%}
+  {%- assign aspectratio = collection.products.first.featured_image.aspect_ratio -%}
+{% else %}
+  {% assign collection_image = blank %}
+{% endif %}
+
+{%- assign img_url = collection_image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
+<div class="collection-grid-item">
+  <a href="{{ block.settings.url | default:collection.url }}" class="collection-grid-item__link">
+    <div class="imgWrap imgWrap-custom">
+      <div class="img lazyload" {% if collection_image != blank %}data-bgset="{% include 'prgrid-img', image: collection_image, sizes: sizes %}" data-sizes="auto" data-parent-fit="contain" style="padding-bottom:{{ 1 | divided_by: collection_image.aspect_ratio | times: 100}}%;"{% endif %}>
+        {% if collection_image == blank %}
+            {% capture current %}{% cycle 1, 2, 3, 4, 5, 6 %}{% endcapture %}
+            {{ 'collection-' | append: current | placeholder_svg_tag: 'placeholder-svg' }}
+        {% endif %}
+      </div>
+    </div>
+     <div class="details-custom{% if section.settings.textalign %} {{ section.settings.textalign}}{% endif %}{% if section.settings.leftpadzero %} pad-0{% endif %} wd-{{ section.settings.box-width}} {{ block.settings.textalign}}{% if block.settings.text-left %} text-left{% endif %}">
+        {% if block.settings.collection_name2 != blank %}
+        	<p> {{ block.settings.collection_name2 }} </p>                       
+        {% endif %}  
+       <h3 class="collection-grid-item__title {{section.settings.text_size}} {{ section.settings.font_weight}}">
+          {% if collection.empty? %}
+            {% if block.settings.collection_name != blank %}
+               {{ block.settings.collection_name }}
+            {% else %}
+           	   {{ 'homepage.onboarding.collection_title' | t }}
+            {% endif %}                  	
+          {% else %}
+            {% if block.settings.collection_name != blank %}
+           	   {{ block.settings.collection_name }}
+            {% else %}
+              {{ collection.title }}
+            {% endif %}                  		
+          {% endif %}
+        </h3>
+         
+
+        {% if section.settings.product_count %}
+        	<span class="counts">{{ 'collections.general.items_with_count' | t: count: collection.all_products_count }}</span>
+        {% endif %}                          
+
+        {% if section.settings.show_buttons %}
+          {% if  block.settings.collection_btn != blank %} 
+         	 <button class="btn {{section.settings.btn-size-mob}} {{section.settings.btn-size-desk}} {{section.settings.btn-style}}" type="button">{{block.settings.collection_btn}}</button>
+          {% endif %}
+        {% endif %}                              
+    </div>
+  </a>
+</div>
+
+        </div>
+        {% endfor %}
+      </div>
+    {% if section.blocks.size == 0 %}{% include 'no-blocks' %}{% endif %}
+  </div>
+</div>

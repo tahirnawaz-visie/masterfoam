@@ -1,0 +1,157 @@
+
+  {% if section.settings.title != blank %}
+    <div class="tip">
+        <h2>{{ section.settings.title }}</h2>
+    </div>
+    {% endif %}
+    <div class="page-width">
+        <div class="grid">
+        {% for block in section.blocks %}
+        
+            <div class="grid__items">
+               <img src="{{ block.settings.image | img_url: 'large'  }}" />
+                
+                <div class="lft">
+                    <div class="stars" style="">
+                      <svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 121 28" width="121" height="28">
+                      	<defs>
+                      		<image  width="115" height="20" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHMAAAAUCAMAAACJbPI2AAAAAXNSR0IB2cksfwAAAb9QTFRF4wYT4wYT4wYT4wYT4wYT4wYT4wYT4wYT4wYT4wYT4wYT4wYT4wYT4wYT4wYT4wYT4wYT4wYT4wYT4wYT4wYT4wYT4wYT4wYT4wYT4wYT4wYT4wYT4wYT4wYT4wYT4wYT4wYT4wYT4wYT4wYT4wYT4wYT4wYT4wYT4wYT4wYT4wYT4wYT4wYT4wYT4wYT4wYT4wYT4wYT4wYT4wYT4wYT4wYT4wYT4wYT4wYT4wYT4wYT4wYT4wYT4wYT4wYT4wYT4wYT4wYT4wYT4wYT4wYT4wYT4wYT4wYT4wYT4wYT4wYT4wYT4wYT4wYT4wYT4wYT4wYT4wYT4wYT4wYT4wYT4wYT4wYT4wYT4wYT4wYT4wYT4wYT4wYT4wYT4wYT4wYT4wYT4wYT4wYT4wYT4wYT4wYT4wYT4wYT4wYT4wYT4wYT4wYT4wYT4wYT4wYT4wYT4wYT4wYT4wYT4wYT4wYT4wYT4wYT4wYT4wYT4wYT4wYT4wYT4wYT4wYT4wYT4wYT4wYT4wYT4wYT4wYT4wYT4wYT4wYT4wYT4wYT4wYT4wYT4wYT4wYT4wYT4wYT4wYT4wYT4wYT4wYT4wYT4wYTyiwL0AAAAJV0Uk5TAKhUZKdhXKIS/iPDzBcdx8WK/6D3+5KY+vmM3upK4+VSUOjhDLnEwb0OfJf1houD2ThPRkHdh5z9nY4EP9rfRQLcQ4g88vZIrrX0s7DzCMJV+F0KxshaWcpr/HoU1nF22BZ3biHrKpMl5yaPKPDsYu2msgar7nTxeb/iMdG+1c8+qTc176MzaMC7c9fQMNQQZ22BH81I6KJmAAACsUlEQVR4nG3V+1/SUBgG8JOYMQKNV1C8QSqZmqGWGjrNqWVlaRF2gewultnNELEw6GLZhez6B3fOtrOdw979wM6+n+czdp6dbYRY2z6CblUu3Ktx3l+D+wEM3YoHDR/0ouxTalGvO4SyR/Eh6od6NB0IotwAjaiHmlBuhGZEW6AVC7cBoG2FIYLxYYB2zDug04lRBQBr6whAF8JuAMDaOgrQjbCPxnsc2kv1GJLuA8DaOk7jMcQDAAGEG2i836EDVJG2BinDCae3UEbaOsniQ07vpDxsHY2cMrY4S48a4zGVjJs8wfi0eTBJtJg5pHcCFDMe08ikyVMsPmweTBO12RiNMlZMniFnzkLlNnuOEO28g+GCSsjQnIPnpmn8ojN+SaPz7nPw/DghC5cr0Gvc7CsJmUNXdU4uVsSvJXW/HpK56YbO0ZsV8a4F3VNpweK3eOtLt8XslLVK70jxu5x9E2L83n3uD+ICpx9yXg5bmFkR7rxf4aw8EvjxqhXveCL4mh0fE/hpqxWPiK+6iInPNGm51fBwSl6GGZOfy3EXj7+QWHvJr1BSXpcSldLr/CSvJFZ5XfGs5Bs8viFxks8/rmIXCL1SOsd5XuKUFd+UPM85J/GWFRfr8rIpvmZXPyCGPSy3+ob9FkTfZvG37OqLIhdYMKzfJnFVkKJ+dhYvCRqkM3lHCrR3JSlwPY291/Sd2BarNv+BfNypaKua5j4Zu3WBszS+85kM0hbSmqV0qSyyx0alL/QtIZ2BRBXbt81CXuBdgC/sRma75bZyENDfku0JqdxNgK96nL4I7O9/XfybOXIFhbY88H3JGPWU4Yft3jT/p93gts0rsPfTGLmLIDwUe8Ff5uh32v7+l+2nrLZsL8V+4Sn7Y39ytZJ9wuWyXe7aiB33z1hDtfTXnsU/9vsfNvOLaRJx2EQAAAAASUVORK5CYII="/>
+                      </defs>
+                      	<style>
+                      	</style>
+                      	<use id="Vector Smart Object3 copy" href="#img1" x="3" y="4"/>
+                      </svg>
+                    </div>
+                    <h3>
+                      <a  href="{{ block.settings.link }}">
+                        {{ block.settings.tab_name }} 
+                        <svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 33 23" width="33" height="23">
+                          	<defs>
+                          		<image  width="27" height="19" id="img_arr" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABsAAAATCAMAAABWWYYKAAAAAXNSR0IB2cksfwAAAJ9QTFRF4wYT4wYT4wYT4wYT4wYT4wYT4wYT4wYT4wYT4wYT4wYT4wYT4wYT4wYT4wYT4wYT4wYT4wYT4wYT4wYT4wYT4wYT4wYT4wYT4wYT4wYT4wYT4wYT4wYT4wYT4wYT4wYT4wYT4wYT4wYT4wYT4wYT4wYT4wYT4wYT4wYT4wYT4wYT4wYT4wYT4wYT4wYT4wYT4wYT4wYT4wYT4wYT4wYTJdWD1QAAADV0Uk5TAAGRgGX/WAnK9zYY4ugeMfTPDE/+sQJ3iqBhovo+2Ok9o196iFSuNPbOChzm5RoLMnFRl3hdmIIIAAAAf0lEQVR4nHXNxxKCUBBE0UG9JkTFgAnFBGIO+P/fpgvd6OteTE3Nqak2+41XKv/dvqlAVVmtTqOp0G8RtBV2uoQ9hf0Bw0jhCMbKbALT93RmFhDPDZmF+kuIl6JvBWtBG9gKSiHz3LTL2R/cdDxxvrjpGpLfRNkdHoIsKp6f7QXIKQsz3Tyj7gAAAABJRU5ErkJggg=="/>
+                          	</defs>
+                          	<style>
+                          	</style>
+                          	<use id="Vector Smart Object2" href="#img_arr" x="3" y="2"/>
+                          </svg>
+                        </a>
+                    </h3>
+                    <p>{{ block.settings.description | truncate: 150 }}</p>
+                    <a  href="{{ block.settings.link }}" class="btn mob-btn-sm btn-sm btn-link bdr-btn1">
+                        LEARN MORE
+                    </a>
+                </div>
+            </div>
+          {% endfor %}
+  
+        </div>
+    </div>
+
+<style>
+  .top-seller-section{
+    background:#fff;
+    padding: 40px 0;
+  }
+  .top-seller-section .grid{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .top-seller-section .grid__items {
+    width: 32%;
+    padding: 10px;
+}
+    .top-seller-section .grid__items h3 svg{
+        position: relative;
+    top: 3px;
+  }
+   .top-seller-section .stars{
+    margin-top: 25px;
+  }
+  .top-seller-section .grid__items img{
+    width: 100%;
+  }
+</style>
+
+
+{% schema %}
+  {
+    "name": "Top Seller",
+    "class": "top-seller-section",
+    "settings": [
+      {
+          "type": "textarea",
+          "id": "title",
+          "label": "Title Name",
+		  "info":"Use <strong>text here</strong> to make tab bold"
+        },
+      {
+        "type": "checkbox",
+        "id": "section_cov",
+        "label": "Add Background?",
+        "default": false
+      },
+      {
+			"type":"image_picker",
+			"id":"star_image",
+		     "label":"Add Image"			 
+		},
+      {
+			"type":"image_picker",
+			"id":"arrow_image",
+		     "label":"Add Image"			 
+		},
+       {
+        "type": "select",
+        "id": "grid",
+        "label": "Columns Per Row",
+        "default": "3",
+        "options": [        
+          { "value": "2", "label": "2" },
+          { "value": "3", "label": "3" },
+          { "value": "4", "label": "4" }          
+        ]
+      }
+    ],
+    "blocks": [
+      {
+        "type": "collection_column",
+        "name": "Collection",
+        "settings": [
+          {
+			"type":"image_picker",
+			"id":"image",
+		     "label":"Add Image"			 
+		},
+ 		{
+          "type": "textarea",
+          "id": "tab_name",
+          "label": "Column Name",
+		  "info":"Use <strong>text here</strong> to make tab bold"
+        },
+        {
+          "type": "textarea",
+          "id": "description",
+          "label": "Descriptions",
+		  "info":"Use <strong>text here</strong> to make tab bold"
+        },
+          {
+            "type": "url",
+            "id": "link",
+            "label": "Button Link"
+          }
+      	]
+     }
+	],
+    "presets": [
+      {
+        "name": "Top Seller"
+        
+      }
+    ]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

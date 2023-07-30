@@ -118,18 +118,20 @@
     {% if boxstyle == "style1" or boxstyle == "style4" %}{{buttons}}{% endif %}
     {% if boxstyle == "style5" %}{{buttons2}}{% endif %}
   </div>
-  {% if boxstyle == "style3" %}{% include 'color-swatches' %}{% endif %}
+  
   <div class="details">
     {% if vendorName %}<div class="grid-view-item__vendor">{{ product.vendor }}</div>{% endif %}
-    <a href="{{ product.url | within: collection }}" class="grid-view-item__title">{{ product.title }}</a>
-    {% unless settings.catalogmode %}<div class="grid-view-item__meta">{% include 'product-price' %}</div>{% endunless %}
     {% if prReview %}
       {% include 'ratings' %}
     {% endif %}
+    <a href="{{ product.url | within: collection }}" class="grid-view-item__title">{{ product.title }}</a>
+    {% unless settings.catalogmode %}<div class="grid-view-item__meta">{% include 'product-price' %}</div>{% endunless %}
+    
     {% if boxstyle != "style3" %}{% include 'color-swatches' %}{% endif %}
     {% if boxstyle == "style5" %}{{addtocart}}{% endif %}
     {% if boxstyle == "style2" or boxstyle == "style3" %}{{buttons}}{% endif %}
     {{ productTimerMobile}}
+    {% if boxstyle == "style3" %}{% include 'color-swatches' %}{% endif %}
   </div>
   {% if settings.enable_quickshop %}<div class="shopWrapper" id="ProductSection-{{product.id}}"></div>{% endif %}
 </div>

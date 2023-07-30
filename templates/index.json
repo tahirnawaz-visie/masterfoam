@@ -118,31 +118,17 @@
             "collection_btn": "Shop Now",
             "width": "33%"
           }
-        },
-        "1560593691516": {
-          "type": "featured_collection",
-          "disabled": true,
-          "settings": {
-            "collection": "accssories",
-            "url": "",
-            "collection_name": "ACCESSORIES",
-            "collection_name2": "add finishing touch to your outfit",
-            "textalign": "center",
-            "text-left": false,
-            "collection_btn": "Shop Now",
-            "width": "50%"
-          }
         }
       },
       "block_order": [
         "1560507278694-0",
         "1560507334237",
-        "1560507278694-1",
-        "1560593691516"
+        "1560507278694-1"
       ],
       "settings": {
         "title": "Better Sleep Starts Here",
         "subtitle": "",
+        "layout_content": "collection_custom_design",
         "top-offeset": "default",
         "section_width": false,
         "hide_mobile": false,
@@ -160,41 +146,6 @@
         "btn-style": "bdr-btn1",
         "btn-size-desk": "btn-sm",
         "btn-size-mob": "mob-btn-sm",
-        "snow_effect": false,
-        "snow_style": "style1"
-      }
-    },
-    "d2fef932-e992-46c6-ad0b-52c19d58e508": {
-      "type": "feature-row",
-      "blocks": {
-        "template--16736629489891__d2fef932-e992-46c6-ad0b-52c19d58e508-image_with_text-1": {
-          "type": "image_with_text",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/WhatsApp_Image_2023-07-20_at_8.35.36_PM.jpg",
-            "layout": "left",
-            "title": "",
-            "text": "<p>Experience the science of protection with <strong>FreshGuard<\/strong> Technology<\/p>",
-            "button_label": "",
-            "button_link": "",
-            "btn-size-desk": "btn-sm",
-            "btn-size-mob": "mob-btn-sm",
-            "text_align": "text-center",
-            "text_clr": "#000",
-            "text_bg_clr": "#ffffff",
-            "button_bg_clr": "#000",
-            "button_bdr_clr": "#000",
-            "button_text_clr": "#fff"
-          }
-        }
-      },
-      "block_order": [
-        "template--16736629489891__d2fef932-e992-46c6-ad0b-52c19d58e508-image_with_text-1"
-      ],
-      "settings": {
-        "top-offeset": "default",
-        "section_width": false,
-        "section_cov": false,
-        "sec_bg_clr": "#fafafa",
         "snow_effect": false,
         "snow_style": "style1"
       }
@@ -222,20 +173,100 @@
         "color_ttl": "#ffffff"
       }
     },
+    "d2fef932-e992-46c6-ad0b-52c19d58e508": {
+      "type": "feature-row",
+      "blocks": {
+        "template--16736629489891__d2fef932-e992-46c6-ad0b-52c19d58e508-image_with_text-1": {
+          "type": "image_with_text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/WhatsApp_Image_2023-07-20_at_8.35.36_PM.jpg",
+            "layout": "left",
+            "title": "<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0612\/8042\/0067\/files\/fg.png?v=1689919725\">",
+            "text": "<p>Experience the science of protection with <strong>FreshGuard<\/strong> Technology<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "btn-size-desk": "btn-sm",
+            "btn-size-mob": "mob-btn-sm",
+            "text_align": "text-center",
+            "text_clr": "#000000",
+            "text_bg_clr": "#f7f7f7",
+            "button_bg_clr": "#000000",
+            "button_bdr_clr": "#000000",
+            "button_text_clr": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "template--16736629489891__d2fef932-e992-46c6-ad0b-52c19d58e508-image_with_text-1"
+      ],
+      "custom_css": [
+        "p {font-size: 36px;}"
+      ],
+      "settings": {
+        "top-offeset": "default",
+        "section_width": false,
+        "section_cov": false,
+        "sec_bg_clr": "#fafafa",
+        "snow_effect": false,
+        "snow_style": "style1"
+      }
+    },
     "e15a66d3-d8b8-4c7c-862b-4cd1ae90a170": {
       "type": "info-lines",
       "settings": {
         "fullwidth": true,
         "top-offeset": "default",
         "infolines": "Top Seller",
-        "text-size": 48,
+        "text-size": 46,
         "sec_bg_clr": "#ed1c24",
         "text_clr": "#ffffff",
         "text-padding": 20
       }
     },
+    "86b534eb-4f3d-4978-b2b1-bf023fc52d64": {
+      "type": "top-seller",
+      "blocks": {
+        "9ed8d32e-887f-45f2-b283-4586858be968": {
+          "type": "collection_column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/b1.jpg",
+            "tab_name": "Master Cool Air",
+            "description": "Master Cool Air is designed to be the perfect solution for those hot summer nights when you can’t help but toss and turn all night! It removes perspiration and heat from the sleeping area and channels it underneath the mattress, where it may be better dissipated. The mattress is more breathable thanks to the airflow technology so that you can have a restful night's sleep."
+          }
+        },
+        "74c4c42c-32f0-4fa6-a9dc-dd46bbb8b5bc": {
+          "type": "collection_column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/b1.jpg",
+            "tab_name": "Master Ortho",
+            "description": "Master Ortho is a revolutionary sleep solution designed to provide exceptional support and alleviate the pressures of everyday life on your body. Engineered with precision and crafted with care, it is your ticket to a restful night's sleep and heat from the sleeping area and channels it underneath the mattress, where it may be better dissipated. The mattress is more breathable thanks to the airflow technology so that you can have a restful night's sleep."
+          }
+        },
+        "eb0f2d74-f649-441e-aca0-ee3c1cd1b1db": {
+          "type": "collection_column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/b1.jpg",
+            "tab_name": "Master Spine Plus",
+            "description": "Master Spine Plus is a firm mattress designed with high-pressure technology to support the spine in a neutral posture, which may help alleviate back discomfort.  and heat from the sleeping area and channels it underneath the mattress, where it may be better dissipated. The mattress is more breathable thanks to the airflow technology so that you can have a restful night's sleep."
+          }
+        }
+      },
+      "block_order": [
+        "9ed8d32e-887f-45f2-b283-4586858be968",
+        "74c4c42c-32f0-4fa6-a9dc-dd46bbb8b5bc",
+        "eb0f2d74-f649-441e-aca0-ee3c1cd1b1db"
+      ],
+      "settings": {
+        "title": "",
+        "section_cov": false,
+        "star_image": "shopify:\/\/shop_images\/WhatsApp_Image_2023-07-27_at_3.41.06_PM.jpg",
+        "arrow_image": "shopify:\/\/shop_images\/WhatsApp_Image_2023-07-27_at_3.41.06_PM_1.jpg",
+        "grid": "3"
+      }
+    },
     "1633781728a88de982": {
       "type": "product-slider",
+      "disabled": true,
       "settings": {
         "title": "",
         "subtitle": "",
@@ -245,7 +276,7 @@
         "prlist_btn_show": false,
         "btn_mobiles": false,
         "show_view_all": "",
-        "show_color_swatch": true,
+        "show_color_swatch": false,
         "color_type": "color",
         "vr_bg_position": "50% 0",
         "color_size": "small",
@@ -253,158 +284,13 @@
         "top-offeset": "default",
         "section_cov": false,
         "sec_bg_clr": "#fafafa",
-        "prbox_style": "style1",
+        "prbox_style": "style4",
         "grid": 4,
         "tablet-grid": 3,
         "mobile-grid": 2,
         "rows": "5",
         "autoplay": false,
         "autoplay_speed": 5
-      }
-    },
-    "163378174190f4bb4d": {
-      "type": "collection-banner",
-      "disabled": true,
-      "blocks": {
-        "1561783119274-0": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "women",
-            "url": "",
-            "collection_name": "FIND THE BEST COLLECTION AROUND THE WORLD",
-            "collection_name2": "",
-            "textalign": "center",
-            "text-left": false,
-            "collection_btn": "Shop Now",
-            "width": "50%"
-          }
-        },
-        "1561783119274-1": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "women",
-            "url": "",
-            "collection_name": "AWESOME T-SHIRTS, CROP TOPS AND MORE...",
-            "collection_name2": "",
-            "textalign": "center",
-            "text-left": false,
-            "collection_btn": "VIEW COLLECTION",
-            "width": "50%"
-          }
-        }
-      },
-      "block_order": [
-        "1561783119274-0",
-        "1561783119274-1"
-      ],
-      "settings": {
-        "title": "",
-        "subtitle": "",
-        "top-offeset": "default",
-        "section_width": false,
-        "hide_mobile": false,
-        "pad-desk": 55,
-        "pad-ipad": 15,
-        "pad-mbl": 10,
-        "grid-spacing": 15,
-        "grid-spacing-mbl": 5,
-        "grid-spacing-col": 2,
-        "box-width": 60,
-        "box_bg": "#ffffff",
-        "box_txt": "#000000",
-        "disable_zoom": false,
-        "show_buttons": true,
-        "btn-style": "btn",
-        "btn-size-desk": "btn-sm",
-        "btn-size-mob": "mob-btn-sm",
-        "snow_effect": false,
-        "snow_style": "style1"
-      }
-    },
-    "1633781759ce68e676": {
-      "type": "logo-bar",
-      "disabled": true,
-      "blocks": {
-        "1561785365595-0": {
-          "type": "logo_image",
-          "settings": {
-            "link": "#",
-            "opentab": false
-          }
-        },
-        "1561785365595-1": {
-          "type": "logo_image",
-          "settings": {
-            "link": "",
-            "opentab": false
-          }
-        },
-        "1561785365595-2": {
-          "type": "logo_image",
-          "settings": {
-            "link": "#",
-            "opentab": false
-          }
-        },
-        "1561785365595-5": {
-          "type": "logo_image",
-          "settings": {
-            "link": "",
-            "opentab": false
-          }
-        },
-        "1561785365595-3": {
-          "type": "logo_image",
-          "settings": {
-            "link": "",
-            "opentab": false
-          }
-        }
-      },
-      "block_order": [
-        "1561785365595-0",
-        "1561785365595-1",
-        "1561785365595-2",
-        "1561785365595-5",
-        "1561785365595-3"
-      ],
-      "settings": {
-        "top-offeset": "default",
-        "section_cov": false,
-        "sec_bg_clr": "#fafafa",
-        "title": "",
-        "subtitle": "",
-        "logostyle": "carousel",
-        "grid": 5,
-        "tablet-grid": 5,
-        "mobile-grid": 3
-      }
-    },
-    "1633781776086e75a0": {
-      "type": "featured-blog",
-      "disabled": true,
-      "settings": {
-        "title": "<b>More Ways to Explore<\/b>",
-        "subtitle": "",
-        "top-offeset": "default",
-        "section_cov": true,
-        "sec_bg_clr": "#e6d4ca",
-        "blog": "news",
-        "img_ratio": "40",
-        "post_limit": 3,
-        "grid": 3,
-        "tablet-grid": 2,
-        "mobile-grid": 1,
-        "blog_align": "text-center",
-        "blog_show_author": false,
-        "blog_show_date": true,
-        "show_comment": true,
-        "show_mini_des": false,
-        "show_read_more": false,
-        "show_view_all": false,
-        "btn-style": "btn",
-        "btn-size-desk": "btn-sm",
-        "btn-size-mob": "mob-btn-sm"
       }
     },
     "16337817926d98687d": {
@@ -518,7 +404,7 @@
       "settings": {
         "title": "More Ways to Explore",
         "subtitle": "",
-        "top-offeset": "default",
+        "top-offeset": "none",
         "section_cov": true,
         "sec_bg_clr": "#e6d4ca",
         "blog": "news",
@@ -534,7 +420,7 @@
         "show_mini_des": true,
         "show_read_more": true,
         "show_view_all": false,
-        "btn-style": "btn",
+        "btn-style": "bdr-btn1",
         "btn-size-desk": "btn-sm",
         "btn-size-mob": "mob-btn-sm"
       }
@@ -543,13 +429,11 @@
   "order": [
     "slideshow",
     "1633781722aeb0502c",
-    "d2fef932-e992-46c6-ad0b-52c19d58e508",
     "164948468577f39ad5",
+    "d2fef932-e992-46c6-ad0b-52c19d58e508",
     "e15a66d3-d8b8-4c7c-862b-4cd1ae90a170",
+    "86b534eb-4f3d-4978-b2b1-bf023fc52d64",
     "1633781728a88de982",
-    "163378174190f4bb4d",
-    "1633781759ce68e676",
-    "1633781776086e75a0",
     "16337817926d98687d",
     "1649484698947b2b97",
     "16494850581775fcb5",

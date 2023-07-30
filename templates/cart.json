@@ -9,7 +9,7 @@
         "shippingTax": true,
         "additionalCheckout": true,
         "currency_notes": "We processes all orders in [shop.currency]. While the content of your cart is currently displayed in [selected.currency], the checkout will use [shop.currency] at the most current exchange rate.",
-        "shipping_calculator": true,
+        "shipping_calculator": false,
         "shipping_calculator_heading": "Get shipping estimates",
         "shipping_calculator_default_country": "United States",
         "shipping_calculator_submit_button_label": "Calculate shipping",
