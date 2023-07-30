@@ -29,8 +29,6 @@
           "type": "image",
           "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/bookme-new-web.jpg",
-            "mb_image": "shopify:\/\/shop_images\/bookme-new-res.jpg",
             "alignment": "top",
             "smalltitle": "",
             "heading1": "#000000",
@@ -82,7 +80,6 @@
           "settings": {
             "collection": "",
             "url": "",
-            "collection_image": "shopify:\/\/shop_images\/b1.jpg",
             "collection_name": "Mattresses",
             "collection_name2": "Premium Collection of",
             "textalign": "center",
@@ -96,7 +93,6 @@
           "settings": {
             "collection": "",
             "url": "",
-            "collection_image": "shopify:\/\/shop_images\/b1.jpg",
             "collection_name": "MEN SHIRTS",
             "collection_name2": "Up to 70% off on selected item",
             "textalign": "center",
@@ -110,7 +106,6 @@
           "settings": {
             "collection": "",
             "url": "",
-            "collection_image": "shopify:\/\/shop_images\/b1.jpg",
             "collection_name": "DENIM",
             "collection_name2": "Find your perfect outfit",
             "textalign": "center",
@@ -179,7 +174,6 @@
         "template--16736629489891__d2fef932-e992-46c6-ad0b-52c19d58e508-image_with_text-1": {
           "type": "image_with_text",
           "settings": {
-            "image": "shopify:\/\/shop_images\/WhatsApp_Image_2023-07-20_at_8.35.36_PM.jpg",
             "layout": "left",
             "title": "<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0612\/8042\/0067\/files\/fg.png?v=1689919725\">",
             "text": "<p>Experience the science of protection with <strong>FreshGuard<\/strong> Technology<\/p>",
@@ -229,25 +223,25 @@
         "9ed8d32e-887f-45f2-b283-4586858be968": {
           "type": "collection_column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/b1.jpg",
             "tab_name": "Master Cool Air",
-            "description": "Master Cool Air is designed to be the perfect solution for those hot summer nights when you can’t help but toss and turn all night! It removes perspiration and heat from the sleeping area and channels it underneath the mattress, where it may be better dissipated. The mattress is more breathable thanks to the airflow technology so that you can have a restful night's sleep."
+            "description": "Master Cool Air is designed to be the perfect solution for those hot summer nights when you can’t help but toss and turn all night! It removes perspiration and heat from the sleeping area and channels it underneath the mattress, where it may be better dissipated. The mattress is more breathable thanks to the airflow technology so that you can have a restful night's sleep.",
+            "link": ""
           }
         },
         "74c4c42c-32f0-4fa6-a9dc-dd46bbb8b5bc": {
           "type": "collection_column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/b1.jpg",
             "tab_name": "Master Ortho",
-            "description": "Master Ortho is a revolutionary sleep solution designed to provide exceptional support and alleviate the pressures of everyday life on your body. Engineered with precision and crafted with care, it is your ticket to a restful night's sleep and heat from the sleeping area and channels it underneath the mattress, where it may be better dissipated. The mattress is more breathable thanks to the airflow technology so that you can have a restful night's sleep."
+            "description": "Master Ortho is a revolutionary sleep solution designed to provide exceptional support and alleviate the pressures of everyday life on your body. Engineered with precision and crafted with care, it is your ticket to a restful night's sleep and heat from the sleeping area and channels it underneath the mattress, where it may be better dissipated. The mattress is more breathable thanks to the airflow technology so that you can have a restful night's sleep.",
+            "link": ""
           }
         },
         "eb0f2d74-f649-441e-aca0-ee3c1cd1b1db": {
           "type": "collection_column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/b1.jpg",
             "tab_name": "Master Spine Plus",
-            "description": "Master Spine Plus is a firm mattress designed with high-pressure technology to support the spine in a neutral posture, which may help alleviate back discomfort.  and heat from the sleeping area and channels it underneath the mattress, where it may be better dissipated. The mattress is more breathable thanks to the airflow technology so that you can have a restful night's sleep."
+            "description": "Master Spine Plus is a firm mattress designed with high-pressure technology to support the spine in a neutral posture, which may help alleviate back discomfort.  and heat from the sleeping area and channels it underneath the mattress, where it may be better dissipated. The mattress is more breathable thanks to the airflow technology so that you can have a restful night's sleep.",
+            "link": ""
           }
         }
       },
@@ -259,8 +253,6 @@
       "settings": {
         "title": "",
         "section_cov": false,
-        "star_image": "shopify:\/\/shop_images\/WhatsApp_Image_2023-07-27_at_3.41.06_PM.jpg",
-        "arrow_image": "shopify:\/\/shop_images\/WhatsApp_Image_2023-07-27_at_3.41.06_PM_1.jpg",
         "grid": "3"
       }
     },
