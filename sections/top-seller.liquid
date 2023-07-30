@@ -1,6 +1,6 @@
 
   {% if section.settings.title != blank %}
-    <div class="tip">
+    <div class="title-box">
         <h2>{{ section.settings.title }}</h2>
     </div>
     {% endif %}
@@ -9,8 +9,9 @@
         {% for block in section.blocks %}
         
             <div class="grid__items">
+              {% if block.settings.image != blank %}
                <img src="{{ block.settings.image | img_url: 'large'  }}" />
-                
+                 {% endif %}
                 <div class="lft">
                     <div class="stars" style="">
                       <svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 121 28" width="121" height="28">
@@ -49,7 +50,19 @@
 <style>
   .top-seller-section{
     background:#fff;
-    padding: 40px 0;
+    padding: 0 0 40px 0;
+  }
+  .title-box{
+    background: #ed1c24;
+       margin-bottom: 30px;
+        padding: 20px 10px;
+    
+  }
+  .title-box h2{
+     color: #ffffff;
+    font-size: 36px;
+        margin: 0;
+    text-align: center;
   }
   .top-seller-section .grid{
     display: flex;
@@ -114,7 +127,7 @@
     "blocks": [
       {
         "type": "collection_column",
-        "name": "Collection",
+        "name": "Seller",
         "settings": [
           {
 			"type":"image_picker",

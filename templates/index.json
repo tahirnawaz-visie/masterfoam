@@ -211,6 +211,7 @@
     },
     "e15a66d3-d8b8-4c7c-862b-4cd1ae90a170": {
       "type": "info-lines",
+      "disabled": true,
       "settings": {
         "fullwidth": true,
         "top-offeset": "default",
@@ -258,7 +259,7 @@
         "eb0f2d74-f649-441e-aca0-ee3c1cd1b1db"
       ],
       "settings": {
-        "title": "",
+        "title": "Top Seller",
         "section_cov": false,
         "grid": "3"
       }
@@ -407,7 +408,7 @@
         "section_cov": true,
         "sec_bg_clr": "#e6d4ca",
         "blog": "news",
-        "img_ratio": "100",
+        "img_ratio": "70",
         "post_limit": 3,
         "grid": 3,
         "tablet-grid": 2,
@@ -419,7 +420,7 @@
         "show_mini_des": true,
         "show_read_more": true,
         "show_view_all": false,
-        "btn-style": "bdr-btn1",
+        "btn-style": "btn",
         "btn-size-desk": "btn-sm",
         "btn-size-mob": "mob-btn-sm"
       }
