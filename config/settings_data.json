@@ -443,7 +443,7 @@
             "type": "menu",
             "settings": {
               "title": "CUSTOMER SERVICES",
-              "menulinks": "",
+              "menulinks": "contact-us",
               "width": "20%"
             }
           },
