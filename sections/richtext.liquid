@@ -19,11 +19,11 @@
           {% endif %}                                  
         </div>       
         
-        {% if section.settings.btntxt and section.settings.btnurl != blank %}                             
+        {% if section.settings.btntxt %}                             
         <a class="btn {{section.settings.btn-size-mob}} {{section.settings.btn-size-desk}} {{section.settings.btn-style}}" href="{{section.settings.btnurl}}">{{ section.settings.btntxt }}</a>
         {% endif %}
         
-        {% if section.settings.btntxt1 and section.settings.btnurl1 != blank %}                             
+        {% if section.settings.btntxt1 %}                             
         <a class="btn {{section.settings.btn-size-mob}} {{section.settings.btn-size-desk}} {{section.settings.btn-style2}}" href="{{section.settings.btnurl1}}">{{ section.settings.btntxt1 }}</a>
         {% endif %}
 
