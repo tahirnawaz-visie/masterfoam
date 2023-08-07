@@ -13,7 +13,7 @@
     "16337695579db422ae": {
       "type": "richtext",
       "settings": {
-        "fullwidth": true,
+        "fullwidth": false,
         "top-offeset": "default",
         "image": "shopify:\/\/shop_images\/slideFoam.jpg",
         "title": "<b>ABOUT US<\/b>",
