@@ -76,34 +76,33 @@
       </div>
      {{googlemap}}
   {% else %}
-  	<div class="grid">
-      <div class="grid__item medium-up--one-third">{{contactForm}}</div>
-      <div class="grid__item medium-up--two-thirds">
-		<div class="grid">
-        	<div class="grid__item medium-up--three-fifths">
-          		<div class="contact-details">{{address}}</div>
-              	 {% if section.settings.show_socials %}
-                    <div class="follow-us">
-                      {% if section.settings.socials_ttl != blank %}<label> {{ section.settings.socials_ttl }}</label>{% endif %}
-                      {% include 'social-media' %}
-                    </div>
-                 {% endif %}
-        	</div>
-          	{% if section.settings.store_opening_time != blank %}
-            <div class="grid__item medium-up--two-fifths">
-              <div class="open-hours">{{ section.settings.store_opening_time }}</div>			
+  	 <div class="grid">
+        <div class="grid__item medium-up--one-third">
+          <div class="contact-details">
+            {{address}}
+            {% if section.settings.store_address != blank or section.settings.store_phone != blank or section.settings.store_email != blank %}<hr/>{% endif %}
+            {% if section.settings.store_opening_time != blank %}<div class="open-hours">{{ section.settings.store_opening_time }}</div><hr/>{% endif %}
+            {% if section.settings.show_socials %}
+            <div class="follow-us">
+              {% if section.settings.socials_ttl != blank %}<label>{{ section.settings.socials_ttl }}</label>{% endif %}
+              {%- include 'social-media' -%}
             </div>
             {% endif %}
+          </div>
         </div>
+        <div class="grid__item medium-up--two-thirds">{{contactForm}}</div>
       </div>
-      <div class="grid__item medium-up--two-thirds">{{googlemap}}</div>
-  	</div>
+     {{googlemap}}
   {% endif %}
 </div>
 
 <style>
+  .h4{
+    font-size: 14px;
+    color: #e30613;
+  }
   {% if section.settings.layout == "style1" %}
-  	.contact-details { padding:30px; background:{{section.settings.form_bg}}; color:{{section.settings.form_text}};}
+  	.contact-details { padding:30px 0; background:{{section.settings.form_bg}}; color:{{section.settings.form_text}};}
   {% else %}
   	.contact-frm { padding:30px; background:{{section.settings.form_bg}}; color:{{section.settings.form_text}};}
   {% endif %}
@@ -149,6 +148,10 @@
             {
               "value": "style2",
               "label": "style 2"
+            },
+            {
+              "value": "style3",
+              "label": "style 3"
             }
           ]
         },		  
