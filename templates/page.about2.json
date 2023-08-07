@@ -33,7 +33,7 @@
         "txt_align": "tc",
         "section_cov": false,
         "sec_bg_clr": "#fafafa",
-        "text_clr": "#ed1c24"
+        "text_clr": "#db0908"
       }
     },
     "46ff2df3-6e25-403b-a63b-806fc0bbe835": {
@@ -97,7 +97,7 @@
         "txt_align": "tc",
         "section_cov": true,
         "sec_bg_clr": "#ededed",
-        "text_clr": "#ed1c24"
+        "text_clr": "#db0908"
       }
     },
     "1633769564023b4dfb": {
