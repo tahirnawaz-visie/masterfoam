@@ -23,14 +23,14 @@
         "tb_height": 350,
         "mb_height": 250,
         "parallax_scroll": false,
-        "image": "shopify:\/\/shop_images\/slideFoam.jpg",
+        "image": "shopify:\/\/shop_images\/cont.jpg",
         "alignment": "center",
         "textalign": "center",
         "pretext": "",
         "title": "",
         "text": "",
-        "txt_clr": "#000",
-        "bg_clr": "#fff",
+        "txt_clr": "#000000",
+        "bg_clr": "#ffffff",
         "bg_opacity": 0.9,
         "bg_desktop": false,
         "bg_mobile": false,
@@ -44,9 +44,9 @@
         "snow_style": "style1",
         "hero_dealtimer": false,
         "cnt_date": "12\/20\/2020",
-        "cnt_bg": "#000",
-        "cnt_text": "#eee",
-        "cnt_bdr": "#000"
+        "cnt_bg": "#000000",
+        "cnt_text": "#eeeeee",
+        "cnt_bdr": "#000000"
       }
     },
     "contact": {
