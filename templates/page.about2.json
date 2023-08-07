@@ -15,6 +15,8 @@
       "settings": {
         "fullwidth": false,
         "top-offeset": "default",
+        "pre_heading": "About MasterFoam",
+        "pre_heading_size": 20,
         "title": "60+ Years of Comfort Reinvented",
         "ttl-text-size": 36,
         "richtxt": "<p>We create batter-then-best sleep solutions that help every body feel and live better.<\/p>",
@@ -52,8 +54,8 @@
         "pretext": "",
         "title": "",
         "text": "",
-        "txt_clr": "#000",
-        "bg_clr": "#fff",
+        "txt_clr": "#000000",
+        "bg_clr": "#ffffff",
         "bg_opacity": 0.9,
         "bg_desktop": false,
         "bg_mobile": false,
@@ -67,9 +69,9 @@
         "snow_style": "style1",
         "hero_dealtimer": false,
         "cnt_date": "12\/20\/2020",
-        "cnt_bg": "#000",
-        "cnt_text": "#eee",
-        "cnt_bdr": "#000"
+        "cnt_bg": "#000000",
+        "cnt_text": "#eeeeee",
+        "cnt_bdr": "#000000"
       }
     },
     "16d3d62e-560f-411e-84bd-49f7b534cce9": {
@@ -77,6 +79,8 @@
       "settings": {
         "fullwidth": true,
         "top-offeset": "default",
+        "pre_heading": "<b>I AM RICH TEXT BLOCK<\/b>",
+        "pre_heading_size": 20,
         "title": "<b>I AM RICH TEXT BLOCK<\/b>",
         "ttl-text-size": 20,
         "richtxt": "<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.<\/p>",
@@ -93,7 +97,7 @@
         "txt_align": "tc",
         "section_cov": true,
         "sec_bg_clr": "#dddddd",
-        "text_clr": "#111"
+        "text_clr": "#111111"
       }
     },
     "1633769564023b4dfb": {
