@@ -96,8 +96,8 @@
         "max-width": 60,
         "txt_align": "tc",
         "section_cov": true,
-        "sec_bg_clr": "#dddddd",
-        "text_clr": "#111111"
+        "sec_bg_clr": "#ededed",
+        "text_clr": "#ed1c24"
       }
     },
     "1633769564023b4dfb": {
