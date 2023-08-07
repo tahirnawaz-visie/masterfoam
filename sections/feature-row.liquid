@@ -165,12 +165,38 @@
         "default": "Image with text",
 		"info":"Use <strong>text here</strong> to make heading bold"
       },
+          {
+            "type": "range",
+            "id": "heading_size",
+            "label": "Heading Font Size",
+            "min": 12,
+            "max": 100,
+            "step": 1,
+            "unit": "px",
+            "default": 20
+         },    
       {
         "type": "richtext",
         "id": "text",
         "label": "Text",
         "default": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>"
 		
+      },
+          {
+            "type": "range",
+            "id": "richtext_size",
+            "label": "Richtext Font Size",
+            "min": 12,
+            "max": 100,
+            "step": 1,
+            "unit": "px",
+            "default": 20
+         },  
+          {
+        "type": "color",
+        "id": "richtext_size_clr",
+        "label": "Text Color",
+        "default": "#000"
       },
       {
         "type": "text",
