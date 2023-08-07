@@ -25,7 +25,7 @@
         {{ image_layout }}
         <div class="feature-row__item feature-row__text {{ block.settings.layout }} wow{% if block.settings.layout == 'right' %} fadeInLeft{% else %} fadeInRight{% endif %}" data-wow-delay="{{delay_time}}ms">
           <div class="row-text {{block.settings.text_align}}">
-            {% if section.settings.pre_heading != blank %}<p class="pre_heading">{{ section.settings.pre_heading}}</p> {% endif %}
+            {% if block.settings.pre_heading != blank %}<p class="pre_heading">{{ block.settings.pre_heading}}</p> {% endif %}
             {% if block.settings.title != blank %}<h3 style="color:{{block.settings.text_clr}};">{{ block.settings.title }}</h3>{% endif %}
             {% if block.settings.text != blank %}<div class="rte rte-setting featured-row__subtext" style="color:{{block.settings.text_clr}};">{{ block.settings.text }}</div>{% endif %}
             {% if block.settings.button_label != blank and block.settings.button_link != blank %}
