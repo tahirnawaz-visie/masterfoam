@@ -123,50 +123,10 @@
             "button_bdr_clr": "#000000",
             "button_text_clr": "#ffffff"
           }
-        },
-        "3a7419a4-8a61-43ec-b2d7-43113cc5cbdc": {
-          "type": "image_with_text",
-          "disabled": true,
-          "settings": {
-            "layout": "right",
-            "title": "Our Vision",
-            "text": "<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<\/p>",
-            "button_label": "",
-            "button_link": "",
-            "btn-size-desk": "btn-sm",
-            "btn-size-mob": "mob-btn-sm",
-            "text_align": "text-left",
-            "text_clr": "#000000",
-            "text_bg_clr": "#ffffff",
-            "button_bg_clr": "#000000",
-            "button_bdr_clr": "#000000",
-            "button_text_clr": "#ffffff"
-          }
-        },
-        "679037ac-fdf7-4af6-9a62-df6890f32c60": {
-          "type": "image_with_text",
-          "disabled": true,
-          "settings": {
-            "layout": "left",
-            "title": "The Founder",
-            "text": "<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<\/p>",
-            "button_label": "Read More",
-            "button_link": "\/",
-            "btn-size-desk": "btn-sm",
-            "btn-size-mob": "mob-btn-sm",
-            "text_align": "text-left",
-            "text_clr": "#000000",
-            "text_bg_clr": "#ffffff",
-            "button_bg_clr": "#000000",
-            "button_bdr_clr": "#000000",
-            "button_text_clr": "#ffffff"
-          }
         }
       },
       "block_order": [
-        "1633769564023b4dfb-0",
-        "3a7419a4-8a61-43ec-b2d7-43113cc5cbdc",
-        "679037ac-fdf7-4af6-9a62-df6890f32c60"
+        "1633769564023b4dfb-0"
       ],
       "settings": {
         "top-offeset": "default",
