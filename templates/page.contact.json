@@ -11,6 +11,44 @@
         "sec_bg_clr": "#fafafa"
       }
     },
+    "6df4f2d0-4728-4703-890d-4a74b5c86784": {
+      "type": "hero",
+      "settings": {
+        "top-offeset": "none",
+        "section_width": true,
+        "pad-desk": 0,
+        "pad-ipad": 0,
+        "pad-mbl": 0,
+        "ds_height": 500,
+        "tb_height": 350,
+        "mb_height": 250,
+        "parallax_scroll": false,
+        "image": "shopify:\/\/shop_images\/slideFoam.jpg",
+        "alignment": "center",
+        "textalign": "center",
+        "pretext": "",
+        "title": "",
+        "text": "",
+        "txt_clr": "#000",
+        "bg_clr": "#fff",
+        "bg_opacity": 0.9,
+        "bg_desktop": false,
+        "bg_mobile": false,
+        "button_label": "",
+        "button_link": "\/",
+        "link_image": false,
+        "btn-style": "btn",
+        "btn-size-desk": "btn-sm",
+        "btn-size-mob": "mob-btn-sm",
+        "snow_effect": false,
+        "snow_style": "style1",
+        "hero_dealtimer": false,
+        "cnt_date": "12\/20\/2020",
+        "cnt_bg": "#000",
+        "cnt_text": "#eee",
+        "cnt_bdr": "#000"
+      }
+    },
     "contact": {
       "type": "contact-template",
       "settings": {
@@ -26,8 +64,8 @@
         "store_opening_time": "<p><b>Opening Hours<\/b><\/p>\nMon - Sat : 9am - 11pm<br>\nSunday: 11am - 5pm",
         "cnt_title": "",
         "store_address": "<b>ADDRESS:<\/b> 55 Gallaxy Enque, 2568 steet, 23568 NY",
-        "store_phone": "<b>PHONE:<\/b> +1 (440) 568 4568",
-        "store_email": "<b>EMAIL:<\/b> sales@yousite.com",
+        "store_phone": "PHONE: +1 (440) 568 4568",
+        "store_email": "EMAIL: sales@yousite.com",
         "show_socials": true,
         "socials_ttl": "Stay Connected",
         "form_bg": "#f8f8f8",
@@ -37,6 +75,7 @@
   },
   "order": [
     "a46a483e-f11a-4b6d-bdf9-5ebf3cc648c6",
+    "6df4f2d0-4728-4703-890d-4a74b5c86784",
     "contact"
   ]
 }
