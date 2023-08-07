@@ -10,6 +10,8 @@
 
       <div class="wrap-block {{section.settings.txt_align}}">                   
         <div class="simple-text text-{{section.id}}">
+        
+          {% if section.settings.pre_heading != blank %}<p class="pre_heading">{{ section.settings.pre_heading}}</p> {% endif %}
           {% if section.settings.title != blank %}<span>{{ section.settings.title}}</span> {% endif %}
 
           {% if section.settings.richtxt != blank %}
@@ -35,6 +37,10 @@
   .richtxt.id-{{section.id}} .btn { margin-left:5px; margin-right:5px;}
   
   .simple-text.text-{{section.id}}  a,  .simple-text.text-{{section.id}} {color:{{section.settings.text_clr}}; text-decoration:none; }
+  .id-{{section.id}} .pre_heading{
+    color:{{section.settings.text_clr}};
+    font-size:{{section.settings.pre_heading_size}}px;
+  }
    @media only screen and (min-width: 1023px) {
       .richtxt.id-{{section.id}} .wrap-block { max-width:{{section.settings.max-width}}%; width:100%; }
    }
@@ -81,6 +87,22 @@
             "id": "image",
             "label": "Image"
           },
+      {
+        "type": "textarea",
+        "id": "pre_heading",
+        "label": "Pre heading",
+		"default": "<b>I AM RICH TEXT BLOCK</b>"		
+        },
+		{
+            "type": "range",
+            "id": "pre_heading_size",
+            "label": "Heading Font Size",
+            "min": 12,
+            "max": 100,
+            "step": 1,
+            "unit": "px",
+            "default": 20
+         },
 		{
         "type": "textarea",
         "id": "title",
