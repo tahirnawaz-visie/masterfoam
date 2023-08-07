@@ -40,13 +40,14 @@
   .id-{{section.id}} .pre_heading{
     color:{{section.settings.text_clr}};
     font-size:{{section.settings.pre_heading_size}}px;
+        margin: 0;
   }
    @media only screen and (min-width: 1023px) {
       .richtxt.id-{{section.id}} .wrap-block { max-width:{{section.settings.max-width}}%; width:100%; }
    }
    @media only screen and (min-width: 768px) {
     .simple-text.text-{{section.id}} { font-size:{{section.settings.text-size}}px;}    
-    .simple-text.text-{{section.id}} span { font-size:{{section.settings.ttl-text-size}}px;}    
+    .simple-text.text-{{section.id}} span { font-size:{{section.settings.ttl-text-size}}px;font-weight: 600;}    
    }  
 </style>
 
