@@ -15,11 +15,11 @@
       "type": "hero",
       "settings": {
         "top-offeset": "none",
-        "section_width": true,
+        "section_width": false,
         "pad-desk": 0,
         "pad-ipad": 0,
         "pad-mbl": 0,
-        "ds_height": 500,
+        "ds_height": 400,
         "tb_height": 350,
         "mb_height": 250,
         "parallax_scroll": false,
