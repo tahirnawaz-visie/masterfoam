@@ -15,7 +15,6 @@
       "settings": {
         "fullwidth": false,
         "top-offeset": "default",
-        "image": "shopify:\/\/shop_images\/slideFoam.jpg",
         "title": "<b>ABOUT US<\/b>",
         "ttl-text-size": 20,
         "richtxt": "<p>Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<\/p>",
@@ -33,6 +32,44 @@
         "section_cov": false,
         "sec_bg_clr": "#fafafa",
         "text_clr": "#111111"
+      }
+    },
+    "46ff2df3-6e25-403b-a63b-806fc0bbe835": {
+      "type": "hero",
+      "settings": {
+        "top-offeset": "none",
+        "section_width": false,
+        "pad-desk": 0,
+        "pad-ipad": 0,
+        "pad-mbl": 0,
+        "ds_height": 400,
+        "tb_height": 350,
+        "mb_height": 250,
+        "parallax_scroll": false,
+        "image": "shopify:\/\/shop_images\/bab.jpg",
+        "alignment": "center",
+        "textalign": "center",
+        "pretext": "",
+        "title": "",
+        "text": "",
+        "txt_clr": "#000",
+        "bg_clr": "#fff",
+        "bg_opacity": 0.9,
+        "bg_desktop": false,
+        "bg_mobile": false,
+        "button_label": "SHOP COLLECTION",
+        "button_link": "\/",
+        "link_image": false,
+        "btn-style": "btn",
+        "btn-size-desk": "btn-sm",
+        "btn-size-mob": "mob-btn-sm",
+        "snow_effect": false,
+        "snow_style": "style1",
+        "hero_dealtimer": false,
+        "cnt_date": "12\/20\/2020",
+        "cnt_bg": "#000",
+        "cnt_text": "#eee",
+        "cnt_bdr": "#000"
       }
     },
     "16d3d62e-560f-411e-84bd-49f7b534cce9": {
@@ -65,7 +102,7 @@
         "1633769564023b4dfb-0": {
           "type": "image_with_text",
           "settings": {
-            "image": "shopify:\/\/shop_images\/b1.jpg",
+            "image": "shopify:\/\/shop_images\/abs.jpg",
             "layout": "right",
             "title": "Our Mission",
             "text": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
@@ -138,6 +175,7 @@
   "order": [
     "page",
     "16337695579db422ae",
+    "46ff2df3-6e25-403b-a63b-806fc0bbe835",
     "16d3d62e-560f-411e-84bd-49f7b534cce9",
     "1633769564023b4dfb"
   ]
