@@ -65,7 +65,8 @@
         "1633769564023b4dfb-0": {
           "type": "image_with_text",
           "settings": {
-            "layout": "left",
+            "image": "shopify:\/\/shop_images\/b1.jpg",
+            "layout": "right",
             "title": "Our Mission",
             "text": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
             "button_label": "",
