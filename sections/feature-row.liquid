@@ -1,6 +1,6 @@
 <div class="content-indent {{ section.settings.top-offeset}}">
   {% if section.settings.section_cov %}<div class="section-cover" style="background-color:{{section.settings.sec_bg_clr}};">{% endif%}
-  <div class="{% unless section.settings.section_width %} page-width{% endunless %}">
+  <div class="id-{{section.id}} {% unless section.settings.section_width %} page-width{% endunless %}">
 
     {% for block in section.blocks limit: section.blocks.size %}    
       {% assign box-delay = forloop.index | minus:1 %}
@@ -25,6 +25,7 @@
         {{ image_layout }}
         <div class="feature-row__item feature-row__text {{ block.settings.layout }} wow{% if block.settings.layout == 'right' %} fadeInLeft{% else %} fadeInRight{% endif %}" data-wow-delay="{{delay_time}}ms">
           <div class="row-text {{block.settings.text_align}}">
+            {% if section.settings.pre_heading != blank %}<p class="pre_heading">{{ section.settings.pre_heading}}</p> {% endif %}
             {% if block.settings.title != blank %}<h3 style="color:{{block.settings.text_clr}};">{{ block.settings.title }}</h3>{% endif %}
             {% if block.settings.text != blank %}<div class="rte rte-setting featured-row__subtext" style="color:{{block.settings.text_clr}};">{{ block.settings.text }}</div>{% endif %}
             {% if block.settings.button_label != blank and block.settings.button_link != blank %}
@@ -34,6 +35,11 @@
         </div>
       </div>
       <style type="text/css">
+        .id-{{section.id}} .pre_heading{
+          color:{{section.settings.text_clr}};
+          font-size:{{section.settings.pre_heading_size}}px;
+              margin: 0;
+        }
         .row-{{ block.id }} .btn { background:{{block.settings.button_bg_clr}}; border:2px solid {{ block.settings.button_bdr_clr}}; 
           color:{{block.settings.button_text_clr}};}
         .row-{{ block.id }} .btn:hover {opacity:0.9;}
@@ -135,7 +141,23 @@
         		{ "value": "left","label":"Left"},
 				{ "value": "right","label":"Right"}
 			]
-      },	  
+      },
+      {
+        "type": "textarea",
+        "id": "pre_heading",
+        "label": "Pre heading",
+		"default": "<b>I AM RICH TEXT BLOCK</b>"		
+        },
+		{
+            "type": "range",
+            "id": "pre_heading_size",
+            "label": "Heading Font Size",
+            "min": 12,
+            "max": 100,
+            "step": 1,
+            "unit": "px",
+            "default": 20
+         },    
       {
         "type": "textarea",
         "id": "title",
