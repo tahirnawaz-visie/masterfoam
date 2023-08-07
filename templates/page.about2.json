@@ -35,6 +35,30 @@
         "text_clr": "#111111"
       }
     },
+    "16d3d62e-560f-411e-84bd-49f7b534cce9": {
+      "type": "richtext",
+      "settings": {
+        "fullwidth": true,
+        "top-offeset": "default",
+        "title": "<b>I AM RICH TEXT BLOCK<\/b>",
+        "ttl-text-size": 20,
+        "richtxt": "<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.<\/p>",
+        "text-size": 14,
+        "btntxt": "Read More",
+        "btnurl": "\/",
+        "btn-style": "btn",
+        "btntxt1": "",
+        "btnurl1": "",
+        "btn-style2": "btn",
+        "btn-size-desk": "btn-sm",
+        "btn-size-mob": "mob-btn-sm",
+        "max-width": 60,
+        "txt_align": "tc",
+        "section_cov": true,
+        "sec_bg_clr": "#dddddd",
+        "text_clr": "#111"
+      }
+    },
     "1633769564023b4dfb": {
       "type": "feature-row",
       "blocks": {
@@ -58,6 +82,7 @@
         },
         "3a7419a4-8a61-43ec-b2d7-43113cc5cbdc": {
           "type": "image_with_text",
+          "disabled": true,
           "settings": {
             "layout": "right",
             "title": "Our Vision",
@@ -76,6 +101,7 @@
         },
         "679037ac-fdf7-4af6-9a62-df6890f32c60": {
           "type": "image_with_text",
+          "disabled": true,
           "settings": {
             "layout": "left",
             "title": "The Founder",
@@ -111,6 +137,7 @@
   "order": [
     "page",
     "16337695579db422ae",
+    "16d3d62e-560f-411e-84bd-49f7b534cce9",
     "1633769564023b4dfb"
   ]
 }
