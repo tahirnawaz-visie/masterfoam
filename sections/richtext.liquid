@@ -15,7 +15,9 @@
           {% if section.settings.title != blank %}<span>{{ section.settings.title}}</span> {% endif %}
 
           {% if section.settings.richtxt != blank %}
+            <div class="richtxt_bg_clr">
           {{ section.settings.richtxt }}
+            </div>
           {% endif %}                                  
         </div>       
         
@@ -41,6 +43,9 @@
     color:{{section.settings.text_clr}};
     font-size:{{section.settings.pre_heading_size}}px;
         margin: 0;
+  }
+  .id-{{section.id}} .richtxt_bg_clr p{
+    color: {{ section.settings.richtxt_bg_clr}};
   }
    @media only screen and (min-width: 1023px) {
       .richtxt.id-{{section.id}} .wrap-block { max-width:{{section.settings.max-width}}%; width:100%; }
