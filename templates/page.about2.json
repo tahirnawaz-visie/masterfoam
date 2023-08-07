@@ -37,7 +37,7 @@
     "46ff2df3-6e25-403b-a63b-806fc0bbe835": {
       "type": "hero",
       "settings": {
-        "top-offeset": "none",
+        "top-offeset": "small",
         "section_width": false,
         "pad-desk": 0,
         "pad-ipad": 0,
