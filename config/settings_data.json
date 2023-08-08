@@ -2,7 +2,7 @@
   "current": {
     "layout_style": "normal",
     "box_width": "1300",
-    "color_body_bg": "#f8f8f8",
+    "color_body_bg": "#fff",
     "top-information-bar": false,
     "enable_wishlist": false,
     "wishlist_page": "wishlist",
