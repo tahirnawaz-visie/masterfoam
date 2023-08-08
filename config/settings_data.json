@@ -187,7 +187,7 @@
     "spr_vendor": true,
     "spr_availability": true,
     "spr_sku": true,
-    "show_short_desc_single": true,
+    "show_short_desc_single": false,
     "read_more_link": "ReadMore",
     "askaboutproduct": false,
     "quan-sel": false,
