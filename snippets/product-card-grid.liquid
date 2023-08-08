@@ -137,7 +137,7 @@
   {% if settings.enable_quickshop %}<div class="shopWrapper" id="ProductSection-{{product.id}}"></div>{% endif %}
    <div>
 
-      <button class="btn add-to-cart loadMore" href="javascript:void(0);" id="{{ product.variants.first.id }}" rel="1">{{ 'products.product.add_to_cart' | t}}</button>
+      <button class="btn add-to-cart loadMore" id="{{ product.variants.first.id }}" rel="1">{{ 'products.product.add_to_cart' | t}}</button>
   </div>
   </div>
  
