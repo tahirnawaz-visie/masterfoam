@@ -255,25 +255,7 @@
 		<div id="countdown" class="prcountdown" data-date="{{product.metafields.my_fields.countdown}}"></div>
 	{% endif %}
 
-	{% if settings.show_short_desc_single %}
-		<div class="product-single__description rte" itemprop="description">          
-            {%- assign desctabId = "" -%}
-              {% for block in section.blocks %}
-             	 {% if block.type == "descriptions" %}
-              {%- assign desctabId = block.id -%}
-              {% endif %}
-            {% endfor %}
-          
-			{% if product.metafields.my_fields.short_des != blank %}
-				{{ product.metafields.my_fields.short_des }}
-			{% elsif product.empty? %}
-          {{ 'homepage.onboarding.product_description' | t }}
-			{% else %}
-				{{ product.description | strip_html | truncatewords: 40 }}
-			{% endif %}            
-		</div>
-        {% if settings.read_more_link != blank %}<div class="moredetail"><a href="#tab{{desctabId}}">{{settings.read_more_link}}</a></div>{% endif %}
-	{% endif %}
+
 
 	{%- if settings.quantity_msg -%}
 		{%- assign enableqtyMsg = true -%}
@@ -361,7 +343,25 @@
   				{%- endunless -%}
             {% endform %}
         {%- endif -%}
-  	
+  		{% if settings.show_short_desc_single %}
+		<div class="product-single__description rte" itemprop="description">          
+            {%- assign desctabId = "" -%}
+              {% for block in section.blocks %}
+             	 {% if block.type == "descriptions" %}
+              {%- assign desctabId = block.id -%}
+              {% endif %}
+            {% endfor %}
+          
+			{% if product.metafields.my_fields.short_des != blank %}
+				{{ product.metafields.my_fields.short_des }}
+			{% elsif product.empty? %}
+          {{ 'homepage.onboarding.product_description' | t }}
+			{% else %}
+				{{ product.description | strip_html | truncatewords: 40 }}
+			{% endif %}            
+		</div>
+        {% if settings.read_more_link != blank %}<div class="moredetail"><a href="#tab{{desctabId}}">{{settings.read_more_link}}</a></div>{% endif %}
+	{% endif %}
 	{%- if settings.show_free_ship and settings.free_ship != blank and settings.free_ship_msg != blank -%}
 	  	{%- assign shipProd = all_products[settings.free_ship] -%}
 		<p id="freeShipMsg" class="freeShipMsg" data-price="{{shipProd.price}}"><i class="ad ad-truck-l"></i> {{settings.free_ship_msg | replace: '$','<b class="freeShip"></b>' }}</p>
