@@ -541,9 +541,11 @@
 		<div class="grid__item {{ product_image_width }} product-single__photos {{settings.thumbnail_pos}}">{{productImages | strip_newlines | remove: "	"}}
           {% if product.metafields.custom.product_data %}
             <br/>
-            <div>
+            {% if product.metafields.custom.title != blank %}
+            <div class="custom_title">
               <h3>{{ product.metafields.custom.title }}</h3>
             </div>
+          {% endif %}
            <div class="cutom_meta">
                <div><img src="{{ product.metafields.custom.video_images | file_url }}" alt="" /></div>
              
