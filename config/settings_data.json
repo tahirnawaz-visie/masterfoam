@@ -223,6 +223,7 @@
     "Prod_price_font_size": 20,
     "prod_price_font_weight": "600",
     "sprice": "#e34848",
+    "addto_btn_bg": "#ed1c24",
     "tab_align": "center",
     "prTab_ft": 14,
     "pr_tabs_bg_act": "#f6f6f6",
