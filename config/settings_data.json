@@ -224,6 +224,8 @@
     "prod_price_font_weight": "600",
     "sprice": "#e34848",
     "addto_btn_bg": "#ed1c24",
+    "addto_btn_text_hov": "#ed1c24",
+    "addto_btn_text_bdr": "#ed1c24",
     "tab_align": "center",
     "prTab_ft": 14,
     "pr_tabs_bg_act": "#f6f6f6",
