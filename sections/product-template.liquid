@@ -538,7 +538,9 @@
 
 {% if settings.product_latyout != "style7" %}
 	<div class="grid product-single">
-		<div class="grid__item {{ product_image_width }} product-single__photos {{settings.thumbnail_pos}}">{{productImages | strip_newlines | remove: "	"}}</div>
+		<div class="grid__item {{ product_image_width }} product-single__photos {{settings.thumbnail_pos}}">{{productImages | strip_newlines | remove: "	"}}
+          Hello
+        </div>
 		<div class="grid__item {{ product_description_width }} product-single__meta">
 			{{productDetails | strip_newlines | remove: "	"}}
 			{% if settings.product_latyout == "style3" %}{{productTabs | strip_newlines | remove: "	"}}{% endif %}
