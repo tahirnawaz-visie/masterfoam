@@ -39,7 +39,7 @@
         "show_related_products": true,
         "related_products_autoplay": false,
         "autoplay_speed": "3000",
-        "related_title": "Related Products",
+        "related_title": "Top Seller",
         "related_sub_title": "",
         "grid": 4,
         "tablet-grid": 3,
