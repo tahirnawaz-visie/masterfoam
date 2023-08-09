@@ -540,6 +540,7 @@
 	<div class="grid product-single">
 		<div class="grid__item {{ product_image_width }} product-single__photos {{settings.thumbnail_pos}}">{{productImages | strip_newlines | remove: "	"}}
           {% if product.metafields.custom.product_data %}
+            <br/>
             <div>
               <h3>{{ product.metafields.custom.title }}</h3>
             </div>
