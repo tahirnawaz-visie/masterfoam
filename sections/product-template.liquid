@@ -539,7 +539,12 @@
 {% if settings.product_latyout != "style7" %}
 	<div class="grid product-single">
 		<div class="grid__item {{ product_image_width }} product-single__photos {{settings.thumbnail_pos}}">{{productImages | strip_newlines | remove: "	"}}
-          Hello
+          {% if product.metafields.custom.product_data %}
+            <div>
+              <h3>{{ product.metafields.custom.title }}</h3>
+            </div>
+            Hello
+          {% endif %}
         </div>
 		<div class="grid__item {{ product_description_width }} product-single__meta">
 			{{productDetails | strip_newlines | remove: "	"}}
