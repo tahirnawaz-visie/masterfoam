@@ -35,7 +35,6 @@
     },
     "related-products": {
       "type": "related-products",
-      "disabled": true,
       "settings": {
         "show_related_products": true,
         "related_products_autoplay": false,
@@ -77,21 +76,12 @@
         "mobile-grid": 2,
         "recently_pr_limit": "8"
       }
-    },
-    "c547a7ca-3980-46ea-a447-a9d7612ccf43": {
-      "type": "top-seller",
-      "settings": {
-        "title": "Top Seller",
-        "section_cov": false,
-        "grid": "3"
-      }
     }
   },
   "order": [
     "product",
     "related-products",
     "recommendations",
-    "recently-viewed",
-    "c547a7ca-3980-46ea-a447-a9d7612ccf43"
+    "recently-viewed"
   ]
 }
