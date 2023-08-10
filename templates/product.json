@@ -58,13 +58,13 @@
       "type": "related-products",
       "settings": {
         "show_related_products": true,
-        "related_products_autoplay": false,
+        "related_products_autoplay": true,
         "autoplay_speed": "3000",
         "related_title": "",
         "related_sub_title": "",
-        "grid": 4,
-        "tablet-grid": 3,
-        "mobile-grid": 2,
+        "grid": 3,
+        "tablet-grid": 2,
+        "mobile-grid": 1,
         "related_total_product_to_show": "8"
       }
     },
