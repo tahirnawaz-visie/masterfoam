@@ -548,10 +548,14 @@
           {% endif %}
            <div class="cutom_meta">
               {% if product.metafields.custom.video != blank %}
+                  <div>
                    {% if product.metafields.custom.video contains "youtube" %}        
-         <div class="video-wrapper"><iframe src="//www.youtube.com/embed/pMhqVew0Y6s?rel=0&showinfo=0&vq=720" width="850" height="480" frameborder="0" allowfullscreen></iframe></div>
-         {% endif %}
-             {% endif %}
+                       <div class="video-wrapper">
+                         <iframe src="//www.youtube.com/embed/pMhqVew0Y6s?rel=0&showinfo=0&vq=720" width="850" height="480" frameborder="0" allowfullscreen></iframe>
+                       </div>
+                       {% endif %}
+                  </div>
+                   {% endif %}
              
              <div><img src="{{ product.metafields.custom.images_1 | file_url }}" alt="" /></div>
               <div><img src="{{ product.metafields.custom.images_2 | file_url }}" alt="" /></div>
