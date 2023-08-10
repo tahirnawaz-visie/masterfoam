@@ -552,7 +552,12 @@
                    {% if product.metafields.custom.video contains "youtube" %}
                      
                          <iframe src="//www.youtube.com/embed/{{ product.metafields.custom.video | split: "=" | last }}?rel=0&showinfo=0&vq=720" width="100%" height="100%" frameborder="0" allowfullscreen></iframe>
-                       {% endif %}
+                       {% else %}
+                     <video width="100%" height="100%" controls>
+                      <source src="{{ product.metafields.custom.video }}" type="video/mp4">
+                      Your browser does not support the video tag.
+                    </video>
+                    {% endif %}
                   </div>
                    {% endif %}
              
