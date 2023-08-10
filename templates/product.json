@@ -46,9 +46,9 @@
       "type": "info-lines",
       "settings": {
         "fullwidth": true,
-        "top-offeset": "default",
+        "top-offeset": "none",
         "infolines": "Top Seller",
-        "text-size": 36,
+        "text-size": 32,
         "sec_bg_clr": "#ed1c24",
         "text_clr": "#fff",
         "text-padding": 20
