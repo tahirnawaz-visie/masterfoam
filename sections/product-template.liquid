@@ -560,12 +560,18 @@
                     {% endif %}
                   </div>
                    {% endif %}
-             
+              {% if product.metafields.custom.images_1 != blank %}
              <div><img src="{{ product.metafields.custom.images_1 | file_url }}" alt="" /></div>
+               {% endif %}
+              {% if product.metafields.custom.images_1 != blank %}
               <div><img src="{{ product.metafields.custom.images_2 | file_url }}" alt="" /></div>
+             {% endif %}
+              {% if product.metafields.custom.images_1 != blank %}
               <div><img src="{{ product.metafields.custom.images_3 | file_url }}" alt="" /></div>
+               {% endif %}
+              {% if product.metafields.custom.images_1 != blank %}
                <div><img src="{{ product.metafields.custom.images_4 | file_url }}" alt="" /></div>
-             
+              {% endif %}
            </div>
           {% endif %}
         </div>
