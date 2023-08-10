@@ -4,9 +4,9 @@
       "type": "cart-template",
       "settings": {
         "layout": "style1",
-        "cart_notes_enable": true,
+        "cart_notes_enable": false,
         "display_saving": true,
-        "shippingTax": true,
+        "shippingTax": false,
         "additionalCheckout": true,
         "currency_notes": "We processes all orders in [shop.currency]. While the content of your cart is currently displayed in [selected.currency], the checkout will use [shop.currency] at the most current exchange rate.",
         "shipping_calculator": false,
