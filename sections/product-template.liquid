@@ -549,10 +549,9 @@
            <div class="cutom_meta">
               {% if product.metafields.custom.video != blank %}
                   <div>
-                   {% if product.metafields.custom.video contains "youtube" %}        
-                       <!-- <div class="video-wrapper"> -->
+                   {% if product.metafields.custom.video contains "youtube" %}
+                     {{ product.metafields.custom.video | split: "=" | last }}
                          <iframe src="//www.youtube.com/embed/pMhqVew0Y6s?rel=0&showinfo=0&vq=720" width="100%" height="100%" frameborder="0" allowfullscreen></iframe>
-                       <!-- </div> -->
                        {% endif %}
                   </div>
                    {% endif %}
