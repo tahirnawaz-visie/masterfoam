@@ -473,6 +473,7 @@
   <div class="description">
     <p>{{ product.description }}</p>
   </div>
+  {% if settings.show_collection and found_a_collection %}
   <div>
     <h3>Don’t Lose Hope</h3>
     <ul>
@@ -482,6 +483,7 @@
     </ul>
     <p>Our most ergonomic mattress to ease aches and pains.</p>
   </div>
+  {% endif %}
 	{% if section.blocks.size > 0 %}
 		<div class="tabs-listing prTabs wow fadeIn">
 			{% if section.settings.show_product_tabs and settings.product_latyout != "style3" %}
@@ -853,7 +855,13 @@
     "default": true,
 	"info":"[set different tabs for each product](https://www.adornthemes.com/knowledge-base/how-to-set-meta-fields-to-display-different-data-for-products/)"
 
-  }  
+  },
+  {
+    "type": "checkbox",
+    "id": "show_dontshow_tabs",
+    "label": "Show do not text",
+    "default": true
+  }
   ],
   "blocks": [
   {
