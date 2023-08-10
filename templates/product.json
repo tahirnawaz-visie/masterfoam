@@ -38,7 +38,20 @@
         "1624958b-e1e5-4e3a-811a-cd07bffd1936"
       ],
       "settings": {
-        "show_product_tabs": true
+        "show_product_tabs": true,
+        "show_dontshow_tabs": true
+      }
+    },
+    "d3a9b578-2c29-463f-81b0-54a4253091ea": {
+      "type": "info-lines",
+      "settings": {
+        "fullwidth": true,
+        "top-offeset": "default",
+        "infolines": "Top Seller",
+        "text-size": 36,
+        "sec_bg_clr": "#ed1c24",
+        "text_clr": "#fff",
+        "text-padding": 20
       }
     },
     "related-products": {
@@ -47,7 +60,7 @@
         "show_related_products": true,
         "related_products_autoplay": false,
         "autoplay_speed": "3000",
-        "related_title": "Top Seller",
+        "related_title": "",
         "related_sub_title": "",
         "grid": 4,
         "tablet-grid": 3,
@@ -88,6 +101,7 @@
   },
   "order": [
     "product",
+    "d3a9b578-2c29-463f-81b0-54a4253091ea",
     "related-products",
     "recommendations",
     "recently-viewed"
