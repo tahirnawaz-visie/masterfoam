@@ -292,68 +292,6 @@
               "box_sized": false
             }
           },
-          "1560145007901": {
-            "type": "megamenu1",
-            "disabled": true,
-            "settings": {
-              "title": "Features",
-              "url": "#",
-              "newtab": false,
-              "mm_linklist": "",
-              "mmcolumns": 5,
-              "imgcall": "right",
-              "columnWidth": 50,
-              "mmimgcolumns": 2,
-              "imageTtl1": "",
-              "imageurl": "",
-              "imageTtl2": "",
-              "Image2url": "",
-              "imageTtl3": "",
-              "Image3url": "",
-              "imageTtl4": "",
-              "Image4url": "",
-              "custom_size": false,
-              "mm_size": "600",
-              "mm_align": "left",
-              "box_sized": false
-            }
-          },
-          "1559988240897": {
-            "type": "dropdown",
-            "disabled": true,
-            "settings": {
-              "title": "Lookbook",
-              "url": "",
-              "mm_linklist": ""
-            }
-          },
-          "1553256701490": {
-            "type": "dropdown",
-            "disabled": true,
-            "settings": {
-              "title": "Pages&nbsp;[label1]",
-              "url": "",
-              "mm_linklist": ""
-            }
-          },
-          "1559992848977": {
-            "type": "dropdown",
-            "disabled": true,
-            "settings": {
-              "title": "Blog",
-              "url": "#",
-              "mm_linklist": ""
-            }
-          },
-          "1560491164958": {
-            "type": "single_link",
-            "disabled": true,
-            "settings": {
-              "title": "<span style=\"color:#f00;\">Buy Now!<\/span>",
-              "url": "https:\/\/1.envato.market\/KdyYx",
-              "newtab": false
-            }
-          },
           "ff0e6f22-f740-4d49-9986-8cbc1de21b2e": {
             "type": "dropdown",
             "disabled": true,
@@ -371,43 +309,20 @@
               "newtab": false
             }
           },
-          "e0561ef6-f5dc-4564-a2d2-2b92aa1a2fc2": {
+          "c1c92b2a-fa16-4ff8-b433-35c38e73f138": {
             "type": "single_link",
             "settings": {
-              "title": "Celeste",
-              "url": "shopify:\/\/collections\/celeste",
-              "newtab": false
-            }
-          },
-          "b5952af7-e772-4559-8a78-e7c5b727dc61": {
-            "type": "single_link",
-            "settings": {
-              "title": "MoltyOrtho",
-              "url": "shopify:\/\/collections\/moltyortho",
-              "newtab": false
-            }
-          },
-          "bf2993b8-0d37-46d3-ae18-ec0be92968ed": {
-            "type": "single_link",
-            "settings": {
-              "title": "MoltyInside",
-              "url": "shopify:\/\/collections\/moltyinside",
+              "title": "Master Spring",
+              "url": "shopify:\/\/collections\/masterfoam",
               "newtab": false
             }
           }
         },
         "block_order": [
           "1560070247268",
-          "1560145007901",
-          "1559988240897",
-          "1553256701490",
-          "1559992848977",
-          "1560491164958",
           "ff0e6f22-f740-4d49-9986-8cbc1de21b2e",
           "ebd1313f-e9ab-41f5-b108-c2c8aaeafe1b",
-          "e0561ef6-f5dc-4564-a2d2-2b92aa1a2fc2",
-          "b5952af7-e772-4559-8a78-e7c5b727dc61",
-          "bf2993b8-0d37-46d3-ae18-ec0be92968ed"
+          "c1c92b2a-fa16-4ff8-b433-35c38e73f138"
         ],
         "settings": {
           "menuarrow": false,
