@@ -266,41 +266,6 @@
       "navigation": {
         "type": "navigation",
         "blocks": {
-          "1560070247268": {
-            "type": "megamenu1",
-            "disabled": true,
-            "settings": {
-              "title": "Shop",
-              "url": "#",
-              "newtab": false,
-              "mm_linklist": "",
-              "mmcolumns": 4,
-              "imgcall": "right",
-              "columnWidth": 24,
-              "mmimgcolumns": 1,
-              "imageTtl1": "FLAT 50% OFF ON WOMENS",
-              "imageurl": "shopify:\/\/collections\/women",
-              "imageTtl2": "",
-              "Image2url": "",
-              "imageTtl3": "",
-              "Image3url": "",
-              "imageTtl4": "",
-              "Image4url": "",
-              "custom_size": false,
-              "mm_size": "800",
-              "mm_align": "left",
-              "box_sized": false
-            }
-          },
-          "ff0e6f22-f740-4d49-9986-8cbc1de21b2e": {
-            "type": "dropdown",
-            "disabled": true,
-            "settings": {
-              "title": "<span style=\"color:#f00;\">Buy Now!<\/span>",
-              "url": "https:\/\/1.envato.market\/KdyYx",
-              "mm_linklist": ""
-            }
-          },
           "ebd1313f-e9ab-41f5-b108-c2c8aaeafe1b": {
             "type": "single_link",
             "settings": {
@@ -316,13 +281,20 @@
               "url": "shopify:\/\/collections\/masterfoam",
               "newtab": false
             }
+          },
+          "fe615c9b-1385-447a-9177-31f5d8d1cf50": {
+            "type": "single_link",
+            "settings": {
+              "title": "HealthCare",
+              "url": "shopify:\/\/pages\/about-us",
+              "newtab": false
+            }
           }
         },
         "block_order": [
-          "1560070247268",
-          "ff0e6f22-f740-4d49-9986-8cbc1de21b2e",
           "ebd1313f-e9ab-41f5-b108-c2c8aaeafe1b",
-          "c1c92b2a-fa16-4ff8-b433-35c38e73f138"
+          "c1c92b2a-fa16-4ff8-b433-35c38e73f138",
+          "fe615c9b-1385-447a-9177-31f5d8d1cf50"
         ],
         "settings": {
           "menuarrow": false,
