@@ -289,12 +289,21 @@
               "url": "shopify:\/\/pages\/about-us",
               "newtab": false
             }
+          },
+          "1d1de728-075f-4d65-9bda-af8987c1668f": {
+            "type": "single_link",
+            "settings": {
+              "title": "Master Inside",
+              "url": "shopify:\/\/collections",
+              "newtab": false
+            }
           }
         },
         "block_order": [
           "ebd1313f-e9ab-41f5-b108-c2c8aaeafe1b",
           "c1c92b2a-fa16-4ff8-b433-35c38e73f138",
-          "fe615c9b-1385-447a-9177-31f5d8d1cf50"
+          "fe615c9b-1385-447a-9177-31f5d8d1cf50",
+          "1d1de728-075f-4d65-9bda-af8987c1668f"
         ],
         "settings": {
           "menuarrow": false,
