@@ -294,7 +294,7 @@
           "1d1de728-075f-4d65-9bda-af8987c1668f": {
             "type": "single_link",
             "settings": {
-              "title": "Master Inside",
+              "title": "Accessories",
               "url": "",
               "newtab": false
             }
@@ -344,7 +344,7 @@
             "type": "menu",
             "settings": {
               "title": "INFORMATION",
-              "menulinks": "",
+              "menulinks": "footer",
               "width": "20%"
             }
           },
