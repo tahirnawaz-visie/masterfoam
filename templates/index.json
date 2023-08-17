@@ -414,7 +414,7 @@
         "section_cov": true,
         "sec_bg_clr": "#e6d4ca",
         "blog": "news",
-        "img_ratio": "70",
+        "img_ratio": "100",
         "post_limit": 3,
         "grid": 3,
         "tablet-grid": 2,
