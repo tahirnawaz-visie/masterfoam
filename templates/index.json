@@ -184,14 +184,14 @@
             "pre_heading_size": 20,
             "title": "<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0612\/8042\/0067\/files\/fg.png?v=1689919725\">",
             "heading_size": 20,
-            "text": "<p>Experience the science of protection with <strong>FreshGuard<\/strong> Technology<\/p>",
-            "richtext_size": 20,
+            "text": "<p>Experience the science of protection with the <strong>FreshGuard<\/strong> Technology<\/p>",
+            "richtext_size": 18,
             "richtext_size_clr": "#000000",
             "button_label": "",
             "button_link": "",
             "btn-size-desk": "btn-sm",
             "btn-size-mob": "mob-btn-sm",
-            "text_align": "text-center",
+            "text_align": "text-left",
             "text_clr": "#000000",
             "text_bg_clr": "#f7f7f7",
             "button_bg_clr": "#000000",
@@ -204,7 +204,7 @@
         "template--16736629489891__d2fef932-e992-46c6-ad0b-52c19d58e508-image_with_text-1"
       ],
       "custom_css": [
-        "p {font-size: 36px;}"
+        "p {font-size: 28px;}"
       ],
       "settings": {
         "top-offeset": "default",
