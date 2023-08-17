@@ -277,10 +277,9 @@
           },
           "c1c92b2a-fa16-4ff8-b433-35c38e73f138": {
             "type": "single_link",
-            "disabled": true,
             "settings": {
               "title": "Master Spring",
-              "url": "shopify:\/\/collections\/masterfoam",
+              "url": "",
               "newtab": false
             }
           },
