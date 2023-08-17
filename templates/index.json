@@ -150,6 +150,7 @@
     },
     "164948468577f39ad5": {
       "type": "video",
+      "disabled": true,
       "settings": {
         "top-offeset": "default",
         "section_width": true,
@@ -179,8 +180,13 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/WhatsApp_Image_2023-07-20_at_8.35.36_PM.jpg",
             "layout": "left",
+            "pre_heading": "",
+            "pre_heading_size": 20,
             "title": "<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0612\/8042\/0067\/files\/fg.png?v=1689919725\">",
+            "heading_size": 20,
             "text": "<p>Experience the science of protection with <strong>FreshGuard<\/strong> Technology<\/p>",
+            "richtext_size": 20,
+            "richtext_size_clr": "#000",
             "button_label": "",
             "button_link": "",
             "btn-size-desk": "btn-sm",
@@ -295,7 +301,6 @@
     },
     "16337817926d98687d": {
       "type": "store-features",
-      "disabled": true,
       "blocks": {
         "1561784085337-0": {
           "type": "text_block",
@@ -330,6 +335,7 @@
         "1561784085337-1",
         "1561784085337-2"
       ],
+      "disabled": true,
       "settings": {
         "hide_mobile": false,
         "top-offeset": "none",
