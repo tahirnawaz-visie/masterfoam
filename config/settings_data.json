@@ -336,7 +336,7 @@
             "type": "menu",
             "settings": {
               "title": "Products",
-              "menulinks": "",
+              "menulinks": "main-menu",
               "width": "20%"
             }
           },
