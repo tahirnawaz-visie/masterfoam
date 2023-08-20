@@ -68,8 +68,8 @@
         "store_email": "EMAIL: sales@yousite.com",
         "show_socials": true,
         "socials_ttl": "Stay Connected",
-        "form_bg": "#f8f8f8",
-        "form_text": "#111"
+        "form_bg": "#ffffff",
+        "form_text": "#111111"
       }
     }
   },
