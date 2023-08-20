@@ -3,14 +3,14 @@
     "blog": {
       "type": "blog-template",
       "settings": {
-        "layout": "list",
+        "layout": "grid",
         "img_ratio": "100",
         "sidebar_position": "nosidebar",
         "blog_align": "text-left",
         "grid": 3,
         "tablet-grid": 2,
         "mobile-grid": 1,
-        "blog_show_author": true,
+        "blog_show_author": false,
         "blog_show_date": true,
         "show_comment": true,
         "show_mini_des": true,
