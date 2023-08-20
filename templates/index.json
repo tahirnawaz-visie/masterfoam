@@ -204,7 +204,7 @@
         "template--16736629489891__d2fef932-e992-46c6-ad0b-52c19d58e508-image_with_text-1"
       ],
       "custom_css": [
-        "p {font-size: 28px;}"
+        "p {font-size: 28px; text-align: left; line-height: inherit;}"
       ],
       "settings": {
         "top-offeset": "default",
