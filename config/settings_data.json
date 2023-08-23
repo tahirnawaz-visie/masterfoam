@@ -287,7 +287,7 @@
             "type": "single_link",
             "settings": {
               "title": "HealthCare",
-              "url": "",
+              "url": "shopify:\/\/collections\/health-care",
               "newtab": false
             }
           },
@@ -295,7 +295,7 @@
             "type": "single_link",
             "settings": {
               "title": "Accessories",
-              "url": "",
+              "url": "shopify:\/\/collections\/accessories",
               "newtab": false
             }
           }
