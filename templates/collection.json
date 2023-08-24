@@ -162,49 +162,21 @@
         "sidebar_position": "left"
       }
     },
-    "06553940-7d4a-4de0-a57a-68e95a024fbb": {
-      "type": "top-seller",
-      "blocks": {
-        "01792604-96b8-4740-a00f-393b4e00f7ea": {
-          "type": "collection_column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/b1.jpg",
-            "tab_name": "Test",
-            "description": "test",
-            "link": ""
-          }
-        },
-        "c3b3479c-cae8-4da9-a62c-c256c606a279": {
-          "type": "collection_column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/b1.jpg",
-            "tab_name": "Test",
-            "description": "Test",
-            "link": ""
-          }
-        },
-        "a8caac26-224b-4862-aac9-e5c878acec5d": {
-          "type": "collection_column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/b1.jpg",
-            "tab_name": "Test",
-            "description": "Test",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "01792604-96b8-4740-a00f-393b4e00f7ea",
-        "c3b3479c-cae8-4da9-a62c-c256c606a279",
-        "a8caac26-224b-4862-aac9-e5c878acec5d"
-      ],
+    "related-products": {
+      "type": "related-products",
       "custom_css": [
-        ".title-box {margin-top: 20px;}"
+        "h3.h3 {margin-top: 40px; display: inline-block;}"
       ],
       "settings": {
-        "title": "Top Seller",
-        "section_cov": false,
-        "grid": "3"
+        "show_related_products": true,
+        "related_products_autoplay": true,
+        "autoplay_speed": "5000",
+        "related_title": "Related Products",
+        "related_sub_title": "",
+        "grid": 3,
+        "tablet-grid": 2,
+        "mobile-grid": 1,
+        "related_total_product_to_show": "8"
       }
     }
   },
@@ -212,6 +184,6 @@
     "798f2be8-16dc-4739-a4a2-01bc60fc68e0",
     "5fa443e7-c288-4295-a929-7a98d115c066",
     "collection",
-    "06553940-7d4a-4de0-a57a-68e95a024fbb"
+    "related-products"
   ]
 }
