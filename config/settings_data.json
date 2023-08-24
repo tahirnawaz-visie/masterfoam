@@ -277,6 +277,7 @@
           },
           "c1c92b2a-fa16-4ff8-b433-35c38e73f138": {
             "type": "single_link",
+            "disabled": true,
             "settings": {
               "title": "Master Spring",
               "url": "",
@@ -285,6 +286,7 @@
           },
           "fe615c9b-1385-447a-9177-31f5d8d1cf50": {
             "type": "single_link",
+            "disabled": true,
             "settings": {
               "title": "HealthCare",
               "url": "shopify:\/\/collections\/health-care",
