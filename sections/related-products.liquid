@@ -103,9 +103,17 @@
 {{ relatedProducts | strip_newlines | remove: "  " | remove: "	" }}
 
 <style>
-  #{{ section.id }} .sec-ttl .h3{
+  #{{ section.id }} .sec-ttl {
     background-color: {{section.settings.sec_bg_clr}};
+  padding: 20px 0;
+  margin-bottom: 20px;
+  }
+  #{{ section.id }} .sec-ttl .h3{
+    
     color: {{section.settings.sec_txt_clr}};
+  margin: 0;
+    font-size: 32px;
+    display: inline-block;
   }
 </style>
 
