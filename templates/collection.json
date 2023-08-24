@@ -170,8 +170,10 @@
       "settings": {
         "show_related_products": true,
         "related_products_autoplay": true,
+        "sec_bg_clr": "#ed1c24",
+        "sec_txt_clr": "#ffffff",
         "autoplay_speed": "5000",
-        "related_title": "",
+        "related_title": "Top Seller",
         "related_sub_title": "",
         "grid": 3,
         "tablet-grid": 2,
