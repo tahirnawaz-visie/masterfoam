@@ -171,7 +171,7 @@
         "show_related_products": true,
         "related_products_autoplay": true,
         "autoplay_speed": "5000",
-        "related_title": "Related Products",
+        "related_title": "",
         "related_sub_title": "",
         "grid": 3,
         "tablet-grid": 2,
