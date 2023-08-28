@@ -164,6 +164,7 @@
     },
     "related-products": {
       "type": "related-products",
+      "disabled": true,
       "custom_css": [
         "h3.h3 {margin-top: 40px; display: inline-block;}"
       ],
