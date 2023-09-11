@@ -267,6 +267,7 @@
       "settings": {
         "title": "Top Seller",
         "section_cov": false,
+        "star_image": "shopify:\/\/shop_images\/m-ortho-01.jpg",
         "grid": "3"
       }
     },
