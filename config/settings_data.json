@@ -286,7 +286,6 @@
           },
           "fe615c9b-1385-447a-9177-31f5d8d1cf50": {
             "type": "single_link",
-            "disabled": true,
             "settings": {
               "title": "HealthCare",
               "url": "shopify:\/\/collections\/health-care",
