@@ -126,7 +126,7 @@
     "snow_effect": false,
     "topbar": true,
     "topbar_fullwidth": false,
-    "leftTxt": "<p class=\"find-store\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0612\/8042\/0067\/files\/map.png?v=1689917527\"> <span>Find Store<\/span><\/p>",
+    "leftTxt": "<p class=\"find-store\"><a href=\"https:\/\/www.masterfoam.com.pk\/pages\/store-locator\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0612\/8042\/0067\/files\/map.png?v=1689917527\"> <span>Find Store<\/span><\/a><\/p>",
     "leftTxt-mobile": false,
     "centerTxt": "",
     "rightTxt": "[social-icons]",
