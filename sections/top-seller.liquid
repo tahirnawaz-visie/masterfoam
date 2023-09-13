@@ -5,7 +5,7 @@
     </div>
     {% endif %}
     <div class="page-width">
-        <div class="grid carousel" data-slick='{"slidesToShow": {{ section.settings.grid }},"slidesToScroll": 1, {%- if settings.rtl -%}"rtl": true,{%- endif -%} "infinite": true, "autoplay":false, "autoplaySpeed": 3000, "responsive":[{"breakpoint": 1024,"settings":{"slidesToShow": 2 }},{"breakpoint": 767,"settings":{"slidesToShow":1 }} ]}'>
+        <div class="grid grid-products carousel" data-slick='{"slidesToShow": {{ section.settings.grid }},"slidesToScroll": 1, {%- if settings.rtl -%}"rtl": true,{%- endif -%} "infinite": true, "autoplay":false, "autoplaySpeed": 3000, "responsive":[{"breakpoint": 1024,"settings":{"slidesToShow": 2 }},{"breakpoint": 767,"settings":{"slidesToShow":1 }} ]}'>
         {% for block in section.blocks %}
         
             <div class="grid__items">
