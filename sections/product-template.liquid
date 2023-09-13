@@ -485,10 +485,12 @@
         <img src="{{ 'star.jpg' | asset_url }}" loading="lazy" />
         <span>Good Night Sleep</span>
       </li>
+      {% if product.type != 'Accessories' %}
        <li>
         <img src="{{ 'cala.jpg' | asset_url }}" loading="lazy" />
         <span>10 Years Warranty</span>
       </li>
+      {% endif %}
     </ul>
     <p>Our most ergonomic mattress to ease aches and pains.</p>
   </div>
