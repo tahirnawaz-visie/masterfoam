@@ -566,39 +566,67 @@ input[type="checkbox"] {
 
   </style>
 {% for block in section.blocks %}
- {% if forloop.first%}
+  
+{%- case block.type -%}
+      {% when 'descriptions' %}
+          <div class="faq-drawer">
+          <input class="faq-drawer__trigger" id="faq-drawer" type="checkbox" />
+          <label class="faq-drawer__title" for="faq-drawer">{{block.settings.title}} </label>
+          <div class="faq-drawer__content-wrapper">
+            <div class="faq-drawer__content">
+              <p> {{ product.description }} </p>
+            </div>
+          </div>
+        </div>
+      {% when 'review' %}
+        <div class="faq-drawer">
+          <input class="faq-drawer__trigger" id="faq-drawer" type="checkbox" />
+          <label class="faq-drawer__title" for="faq-drawer">{{block.settings.title}} </label>
+          <div class="faq-drawer__content-wrapper">
+            <div class="faq-drawer__content">
+             {% include 'reviews' %}
+            </div>
+          </div>
+        </div>
+         
+      {% when 'sizechart' %}
+          {%- assign sizechartcontent = false -%}
+          {% if sizechart %}
+            <div class="faq-drawer">
+          <input class="faq-drawer__trigger" id="faq-drawer" type="checkbox" />
+          <label class="faq-drawer__title" for="faq-drawer">{{block.settings.title}} </label>
+          <div class="faq-drawer__content-wrapper">
+            <div class="faq-drawer__content">
+              <p> {{sizechartData}} </p>
+            </div>
+          </div>
+        </div>
+           
+          {% endif %}
+      {% when 'custom' %}
   <div class="faq-drawer">
-      <input class="faq-drawer__trigger" id="faq-drawer" type="checkbox" /><label class="faq-drawer__title" for="faq-drawer">Description </label>
-      <div class="faq-drawer__content-wrapper">
-        <div class="faq-drawer__content">
-          <p> {{ product.description }} </p>
+          <input class="faq-drawer__trigger" id="faq-drawer" type="checkbox" />
+          <label class="faq-drawer__title" for="faq-drawer">{{block.settings.title}} </label>
+          <div class="faq-drawer__content-wrapper">
+            <div class="faq-drawer__content">
+              <p> {{block.settings.content}}</p>
+            </div>
+          </div>
         </div>
-      </div>
-    </div>
-   {% else %}
-    <div class="faq-drawer">
-      <input class="faq-drawer__trigger" id="faq-drawer-2" type="checkbox" /><label class="faq-drawer__title" for="faq-drawer-2">DRAWER TWO</label>
-      <div class="faq-drawer__content-wrapper">
-        <div class="faq-drawer__content">
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-          </p>
+      {% when 'metafields' %}
+          {%- if product.metafields.my_fields[block.settings.key] != blank -%}
+            <div class="faq-drawer">
+          <input class="faq-drawer__trigger" id="faq-drawer" type="checkbox" />
+          <label class="faq-drawer__title" for="faq-drawer">{{block.settings.title}} </label>
+          <div class="faq-drawer__content-wrapper">
+            <div class="faq-drawer__content">
+              <p> {{product.metafields.my_fields[block.settings.key]}} </p>
+            </div>
+          </div>
         </div>
-      </div>
-    </div>
-   {% endif %}
-{% if forloop.last %}
-    <div class="faq-drawer">
-      <input class="faq-drawer__trigger" id="faq-drawer-3" type="checkbox" /><label class="faq-drawer__title" for="faq-drawer-3">DRAWER THREE</label>
-      <div class="faq-drawer__content-wrapper">
-        <div class="faq-drawer__content">
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.            
-          </p>
-        </div>
-      </div>
-    </div>
-{% endif %}
+              
+          {%- endif -%}
+  {%- endcase -%}
   
 {% endfor %}
   
