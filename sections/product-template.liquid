@@ -565,7 +565,7 @@ input[type="checkbox"] {
 }
 
   </style>
-
+{% for block in section.blocks %}
   <div class="faq-drawer">
       <input class="faq-drawer__trigger" id="faq-drawer" type="checkbox" /><label class="faq-drawer__title" for="faq-drawer">Description </label>
       <div class="faq-drawer__content-wrapper">
@@ -596,7 +596,7 @@ input[type="checkbox"] {
         </div>
       </div>
     </div>
-
+{% endfor %}
 
 
 
