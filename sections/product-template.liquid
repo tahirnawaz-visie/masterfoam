@@ -495,51 +495,110 @@
     <p>Our most ergonomic mattress to ease aches and pains.</p>
   </div>
   {% endif %}
+  <style>
+    .faq-drawer {
+  margin-bottom: 30px;
+}
 
-  <button class="accordion">Website Design and Development</button>
-  <div class="accordion-content">
-    <p>
-      Whether you need a wordpress website, a shopify site, or a custom fullstack application, we got you! No matter what kind of website or application you need, it will be made with clean and maintable code that follows modern development standards. We also have top notch designers that can make unique designs that will make your website look different and unique. Not to mention that we also provide 24/7 website maintenance so that you get all the support you need.
-    </p>
-  </div>
+.faq-drawer__content-wrapper {
+  font-size: 1.25em;
+  line-height: 1.4em;
+  max-height: 0px;
+  overflow: hidden;
+  transition: 0.25s ease-in-out;
+}
 
-  <button class="accordion">Website Analytics and Performance</button>
-  <div class="accordion-content">
-    <p>
-      We believe that in order to have a successful website, you need to constantly adjust and adapt to the data provided by your website visitors. Here at Pierre Web Development, we have narrowed down the specific key performance indicators that will dramatically boost your success with connecting to target markets. We will provide a basic metric dashboard based on how much traffic your site gets, detailed analytical reports that show which parts of your website is the most popular among visitors as well as access to tools you can use to make meaningful decisions based on this data.
-    </p>
-  </div>
+.faq-drawer__title {
+  border-top: #000 1px solid;
+  cursor: pointer;
+  display: block;
+  font-size: 1.25em;
+  font-weight: 700;
+  padding: 30px 0 0 0;
+  position: relative;
+  margin-bottom: 0;
+  transition: all 0.25s ease-out;
+}
 
-  <button class="accordion">Digital Marketing</button>
-  <div class="accordion-content">
-    <p>
-      We know that every great website focuses on helping you get more business and building a brand that your ideal customers will love and support. We can help you set up a great, SEO-focused content strategy, a paid ads campaign, email marketing integration with Mailchimp as well as a social media marketing campaign. We also use popular website analytic tools to track your site's performance and provide you with weekly analytic reports to help bolster your growth.
-    </p>
-  </div>
+.faq-drawer__title::after {
+  border-style: solid;
+  border-width: 1px 1px 0 0;
+  content: " ";
+  display: inline-block;
+  float: right;
+  height: 10px;
+  left: 2px;
+  position: relative;
+  right: 20px;
+  top: 2px;
+  transform: rotate(135deg);
+  transition: 0.35s ease-in-out;
+  vertical-align: top;
+  width: 10px;
+}
 
-<script>
+/* OPTIONAL HOVER STATE */
+.faq-drawer__title:hover { 
+  color: #4E4B52  ;
+}
 
-const accordionBtns = document.querySelectorAll(".accordion");
+.faq-drawer__trigger:checked
+  + .faq-drawer__title
+  + .faq-drawer__content-wrapper {
+  max-height: 350px;
+}
 
-accordionBtns.forEach((accordion) => {
-  accordion.onclick = function () {
-    this.classList.toggle("is-open");
+.faq-drawer__trigger:checked + .faq-drawer__title::after {
+  transform: rotate(-45deg);
+  transition: 0.25s ease-in-out;
+}
 
-    let content = this.nextElementSibling;
-    console.log(content);
+input[type="checkbox"] {
+  display: none;
+}
 
-    if (content.style.maxHeight) {
-      //this is if the accordion is open
-      content.style.maxHeight = null;
-    } else {
-      //if the accordion is currently closed
-      content.style.maxHeight = content.scrollHeight + "px";
-      console.log(content.style.maxHeight);
-    }
-  };
-});
+@media only screen and (max-width: 600px) {
+  .container {
+    padding: 80px;
+  }
+}
 
-</script>
+  </style>
+
+  <div class="faq-drawer">
+      <input class="faq-drawer__trigger" id="faq-drawer" type="checkbox" /><label class="faq-drawer__title" for="faq-drawer">DRAWER ONE </label>
+      <div class="faq-drawer__content-wrapper">
+        <div class="faq-drawer__content">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+          </p>
+        </div>
+      </div>
+    </div>
+    
+    <div class="faq-drawer">
+      <input class="faq-drawer__trigger" id="faq-drawer-2" type="checkbox" /><label class="faq-drawer__title" for="faq-drawer-2">DRAWER TWO</label>
+      <div class="faq-drawer__content-wrapper">
+        <div class="faq-drawer__content">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+          </p>
+        </div>
+      </div>
+    </div>
+    
+    <div class="faq-drawer">
+      <input class="faq-drawer__trigger" id="faq-drawer-3" type="checkbox" /><label class="faq-drawer__title" for="faq-drawer-3">DRAWER THREE</label>
+      <div class="faq-drawer__content-wrapper">
+        <div class="faq-drawer__content">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.            
+          </p>
+        </div>
+      </div>
+    </div>
+
+
 
 
 
