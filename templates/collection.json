@@ -67,9 +67,9 @@
         "text-align": "center",
         "btn-size-desk": "btn-md",
         "btn-size-mob": "mob-btn-sm",
-        "ds_height": 500,
-        "tb_height": 350,
-        "mb_height": 250
+        "ds_height": 700,
+        "tb_height": 500,
+        "mb_height": 300
       }
     },
     "5fa443e7-c288-4295-a929-7a98d115c066": {
