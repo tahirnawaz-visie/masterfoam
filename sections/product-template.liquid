@@ -493,6 +493,8 @@
     <p>Our most ergonomic mattress to ease aches and pains.</p>
   </div>
   {% endif %}
+{% if section.settings.show_collapsable %}
+  
 <div class="accordionWrapper">
   {% for block in section.blocks %}
   
@@ -567,18 +569,12 @@
         }
     }
 </script>
-
+ {% else %}
    
   {% include 'upsell' %}
   <div class="description">
     {{ product.description }}
   </div>
-  
- 
-
-
-
-
   
 	{% if section.blocks.size > 0 %}
 		<div class="tabs-listing prTabs wow fadeIn">
@@ -643,6 +639,7 @@
 			</div>
 		</div>
 	{% endif %}
+   {% endif %}
 {% endcapture %}
 
 
@@ -960,7 +957,14 @@
     "id": "show_dontshow_tabs",
     "label": "Show do not text",
     "default": true
+  },
+ {
+    "type": "checkbox",
+    "id": "show_collapsable",
+    "label": "Show do not text",
+    "default": true
   }
+    
   ],
   "blocks": [
   {
