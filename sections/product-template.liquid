@@ -499,7 +499,7 @@
   {% for block in section.blocks %}
   
 {%- case block.type -%}
-      {% when 'descriptions' %}
+      {% when 'descriptionscoll' %}
         <div class="accordionItem close">
           <h2 class="accordionItemHeading">{{block.settings.title}}</h2>
           <div class="accordionItemContent">
