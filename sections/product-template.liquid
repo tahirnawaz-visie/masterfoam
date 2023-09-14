@@ -599,30 +599,7 @@ input[type="checkbox"] {
       </div>
     </div>
 {% endif %}
-  {%- case block.type -%}
-						{% when 'descriptions' %}
-							{{blockTitle}}
-							<div id="tab{{block.id}}" class="{{tabClass}} product-description rte">{{ product.description }}</div>
-						{% when 'review' %}
-							{{blockTitle}}
-							<div id="tab{{block.id}}" class="{{tabClass}} reviewtab">
-                             {% include 'reviews' %}
-              				</div>
-						{% when 'sizechart' %}
-              				{%- assign sizechartcontent = false -%}
-              				{% if sizechart %}
-                              {{blockTitle}}
-                              <div id="tab{{block.id}}" class="{{tabClass}}">{{sizechartData}}</div>
-              				{% endif %}
-						{% when 'custom' %}
-							{{blockTitle}}
-							<div id="tab{{block.id}}" class="{{tabClass}} rte">{{block.settings.content}}</div>
-						{% when 'metafields' %}
-							{%- if product.metafields.my_fields[block.settings.key] != blank -%}
-								{{blockTitle}}
-								<div id="tab{{block.id}}" class="{{tabClass}}">{{product.metafields.my_fields[block.settings.key]}}</div>
-							{%- endif -%}
-					{%- endcase -%}
+  
 {% endfor %}
   
 
