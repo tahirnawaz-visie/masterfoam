@@ -586,7 +586,8 @@ input[type="checkbox"] {
         </div>
       </div>
     </div>
-
+   {% endif %}
+{% if forloop.last %}
     <div class="faq-drawer">
       <input class="faq-drawer__trigger" id="faq-drawer-3" type="checkbox" /><label class="faq-drawer__title" for="faq-drawer-3">DRAWER THREE</label>
       <div class="faq-drawer__content-wrapper">
