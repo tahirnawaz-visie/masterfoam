@@ -467,13 +467,8 @@
         {%- endif -%}
 	</div>
 {% endcapture %}
-{% capture productTabs %}
-  	
-  {% include 'upsell' %}
-  <div class="description">
-    {{ product.description }}
-  </div>
-  {% if section.settings.show_dontshow_tabs %}
+
+{% if section.settings.show_dontshow_tabs %}
   <div class="show_dontshow_tabs">
     <h3>Don’t Lose Hope</h3>
     <ul class="show_dontshow_tabs_div">
@@ -495,6 +490,14 @@
     <p>Our most ergonomic mattress to ease aches and pains.</p>
   </div>
   {% endif %}
+
+{% capture productTabs %}
+  	
+  {% include 'upsell' %}
+  <div class="description">
+    {{ product.description }}
+  </div>
+  
  
 
 
@@ -565,6 +568,8 @@
 		</div>
 	{% endif %}
 {% endcapture %}
+
+
 
 {% if settings.product_latyout != "style7" %}
 	<div class="grid product-single">
