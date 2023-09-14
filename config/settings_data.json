@@ -183,6 +183,7 @@
     "product_latyout": "style3",
     "pimg_maxHt": "650",
     "sticky_cart": false,
+    "enable_zoom": false,
     "thumbnail_pos": "bottom",
     "show_saleoff": false,
     "show_taxlbl": true,
