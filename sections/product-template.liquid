@@ -494,33 +494,61 @@
   </div>
   {% endif %}
 <div class="accordionWrapper">
-<div class="accordionItem open">
-      <h2 class="accordionItemHeading">About accordions</h2>
-      <div class="accordionItemContent">
-        <p>JavaScript accordions let you squeeze a lot of content into a small space in a Web page.</p>
-        <p>This simple accordion degrades gracefully in browsers that don't support JavaScript or CSS.</p>
-      </div>
-    </div>
+  {% for block in section.blocks %}
+  
+{%- case block.type -%}
+      {% when 'descriptions' %}
+        <div class="accordionItem close">
+          <h2 class="accordionItemHeading">{{block.settings.title}}</h2>
+          <div class="accordionItemContent">
+            <p>{{ product.description }} </p>
+          </div>
+        </div>
 
-    <div class="accordionItem close">
-      <h2 class="accordionItemHeading">Accordion items</h2>
-      <div class="accordionItemContent">
-        <p>A JavaScript accordion is made up of a number of expandable/collapsible items. Only one item is ever shown at a time.</p>
-        <p>You can include any content you want inside an accordion item. Here's a bullet list:</p>
-        <ul>
-          <li>List item #1</li>
-          <li>List item #2</li>
-          <li>List item #3</li>
-        </ul>
-      </div>
-    </div>
+      {% when 'review' %}
+      <div class="accordionItem close">
+          <h2 class="accordionItemHeading">{{block.settings.title}}</h2>
+          <div class="accordionItemContent">
+           {% include 'reviews' %}
+          </div>
+        </div>
+         
+      {% when 'sizechart' %}
+          {%- assign sizechartcontent = false -%}
+          {% if sizechart %}
 
-    <div class="accordionItem close">
-      <h2 class="accordionItemHeading">How to use a JavaScript accordion</h2>
-      <div class="accordionItemContent">
-        <p>Click an accordion item's heading to expand it. To collapse the item, click it again, or click another item heading.</p>
-      </div>
-    </div>
+          <div class="accordionItem close">
+          <h2 class="accordionItemHeading">{{block.settings.title}}</h2>
+          <div class="accordionItemContent">
+            <p>{{ sizechartData }} </p>
+          </div>
+        </div>
+           
+          {% endif %}
+      {% when 'custom' %}
+      <div class="accordionItem close">
+          <h2 class="accordionItemHeading">{{block.settings.title}}</h2>
+          <div class="accordionItemContent">
+            <p>{{block.settings.content}} </p>
+          </div>
+        </div>
+
+      {% when 'metafields' %}
+          {%- if product.metafields.my_fields[block.settings.key] != blank -%}
+          <div class="accordionItem close">
+          <h2 class="accordionItemHeading">{{block.settings.title}}</h2>
+          <div class="accordionItemContent">
+            <p>{{product.metafields.my_fields[block.settings.key]}}  </p>
+          </div>
+        </div>
+              
+          {%- endif -%}
+  {%- endcase -%}
+  
+{% endfor %}
+
+   
+    
 </div>
 
 <script>
