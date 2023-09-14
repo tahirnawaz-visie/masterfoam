@@ -23,11 +23,11 @@
             "title": "REVIEWS"
           }
         },
-        "1624958b-e1e5-4e3a-811a-cd07bffd1936": {
-          "type": "sizechart",
-          "disabled": true,
+        "118c8f21-17c8-4e89-adfe-10117c3d2444": {
+          "type": "custom",
           "settings": {
-            "title": "Size & Fit"
+            "title": "Custom Text",
+            "content": ""
           }
         }
       },
@@ -35,11 +35,12 @@
         "b09310d8-6243-41a4-8688-c32e3ef763c0",
         "01d734ae-d721-4a1e-81c1-f2de210416f8",
         "e93fe9d7-86fe-4f4c-8a25-586b3b13ddba",
-        "1624958b-e1e5-4e3a-811a-cd07bffd1936"
+        "118c8f21-17c8-4e89-adfe-10117c3d2444"
       ],
       "settings": {
         "show_product_tabs": true,
-        "show_dontshow_tabs": true
+        "show_dontshow_tabs": true,
+        "show_collapsable": true
       }
     },
     "d3a9b578-2c29-463f-81b0-54a4253091ea": {
