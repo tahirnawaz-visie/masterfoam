@@ -2653,7 +2653,27 @@ font-family: adorn-icons!important;
 .open .accordionItemHeading{
     margin:0px;
 }
+.grid.product-single{
+  position: relative;
+    display: inline-block;
+    width: 100%;
+}
+.grid.product-single::after {
+    content: '';
+    /* display: table; */
+    /* clear: both; */
+    position: absolute;
+    background: #f6f6f6;
+    width: 450px;
+    height: 100%;
+    /* left: 0; */
+    right: 0;
+    bottom: 0;
+    display: inline-block;
+    z-index: -1;
+}
 
+                         
 
 {% endcapture %}
 {{ siteCss | strip_newlines | remove: "  " | remove: "	" | replace: "; ",";" | replace: " { ","{" }}
