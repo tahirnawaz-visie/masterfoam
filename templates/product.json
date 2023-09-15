@@ -10,6 +10,12 @@
             "title": "PRODUCT DETAILS"
           }
         },
+        "87788bd6-0a50-4514-b5de-216012c2d384": {
+          "type": "descriptionscoll",
+          "settings": {
+            "title": "Description"
+          }
+        },
         "01d734ae-d721-4a1e-81c1-f2de210416f8": {
           "type": "custom",
           "settings": {
@@ -22,19 +28,13 @@
           "settings": {
             "title": "REVIEWS"
           }
-        },
-        "87788bd6-0a50-4514-b5de-216012c2d384": {
-          "type": "descriptionscoll",
-          "settings": {
-            "title": "Description"
-          }
         }
       },
       "block_order": [
         "b09310d8-6243-41a4-8688-c32e3ef763c0",
+        "87788bd6-0a50-4514-b5de-216012c2d384",
         "01d734ae-d721-4a1e-81c1-f2de210416f8",
-        "e93fe9d7-86fe-4f4c-8a25-586b3b13ddba",
-        "87788bd6-0a50-4514-b5de-216012c2d384"
+        "e93fe9d7-86fe-4f4c-8a25-586b3b13ddba"
       ],
       "settings": {
         "show_product_tabs": true,
