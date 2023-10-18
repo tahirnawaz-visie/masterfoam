@@ -413,12 +413,15 @@
     },
     "0da49d82-5b5c-4a9a-84cf-6462a1f9f20c": {
       "type": "featured-blog",
+      "custom_css": [
+        ".sec-ttl .h3,.sec-ttl h3 {font-weight: 700; text-transform: capitalize;}"
+      ],
       "settings": {
         "title": "More Ways to Explore",
         "subtitle": "",
         "top-offeset": "none",
         "section_cov": true,
-        "sec_bg_clr": "#e6d4ca",
+        "sec_bg_clr": "#ffe9c0",
         "blog": "news",
         "img_ratio": "100",
         "post_limit": 3,
