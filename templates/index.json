@@ -183,22 +183,22 @@
         "template--16736629489891__d2fef932-e992-46c6-ad0b-52c19d58e508-image_with_text-1": {
           "type": "image_with_text",
           "settings": {
-            "image": "shopify:\/\/shop_images\/WhatsApp_Image_2023-07-20_at_8.35.36_PM.jpg",
+            "image": "shopify:\/\/shop_images\/b2.png",
             "layout": "left",
             "pre_heading": "",
             "pre_heading_size": 20,
-            "title": "<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0612\/8042\/0067\/files\/fg.png?v=1689919725\">",
+            "title": "<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0768\/4312\/2999\/files\/b1.png?v=1697602633\">",
             "heading_size": 20,
             "text": "<p>Experience the science of protection with the <strong>FreshGuard<\/strong> Technology<\/p>",
             "richtext_size": 18,
-            "richtext_size_clr": "#000000",
+            "richtext_size_clr": "#e30613",
             "button_label": "",
             "button_link": "",
             "btn-size-desk": "btn-sm",
             "btn-size-mob": "mob-btn-sm",
             "text_align": "text-left",
             "text_clr": "#000000",
-            "text_bg_clr": "#f7f7f7",
+            "text_bg_clr": "#ffe9c0",
             "button_bg_clr": "#000000",
             "button_bdr_clr": "#000000",
             "button_text_clr": "#ffffff"
@@ -214,8 +214,8 @@
       "settings": {
         "top-offeset": "default",
         "section_width": false,
-        "section_cov": false,
-        "sec_bg_clr": "#fafafa",
+        "section_cov": true,
+        "sec_bg_clr": "#ffe9c0",
         "snow_effect": false,
         "snow_style": "style1"
       }
