@@ -62,14 +62,14 @@
         "snow_style": "style2",
         "autoplay": true,
         "autoplay_speed": "7000",
-        "arrow": true,
+        "arrow": false,
         "dots": true,
         "txtanimation": true,
         "animation-style": "style1",
         "text-align": "center",
         "btn-size-desk": "btn-md",
         "btn-size-mob": "mob-btn-sm",
-        "ds_height": 700,
+        "ds_height": 800,
         "tb_height": 550,
         "mb_height": 350
       }
