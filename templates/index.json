@@ -211,7 +211,7 @@
         "p {font-size: 26px; text-align: left; line-height: inherit;}"
       ],
       "settings": {
-        "top-offeset": "default",
+        "top-offeset": "none",
         "section_width": false,
         "section_cov": true,
         "sec_bg_clr": "#ffe9c0",
