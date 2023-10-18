@@ -155,7 +155,6 @@
     },
     "164948468577f39ad5": {
       "type": "video",
-      "disabled": true,
       "settings": {
         "top-offeset": "default",
         "section_width": true,
@@ -391,30 +390,6 @@
         "autoplay_speed": 5
       }
     },
-    "16494850581775fcb5": {
-      "type": "video",
-      "disabled": true,
-      "settings": {
-        "top-offeset": "default",
-        "section_width": false,
-        "hide_mobile": false,
-        "snow_effect": false,
-        "snow_style": "style1",
-        "pad-desk": 55,
-        "pad-ipad": 15,
-        "pad-mbl": 10,
-        "video_url": "https:\/\/www.youtube.com\/watch?v=dmI5pAWdLaM",
-        "mp4url": "",
-        "title": "",
-        "hide_text": false,
-        "btntxt": "",
-        "btnurl": "",
-        "hide_btn": false,
-        "btn-style": "btn",
-        "text_align": "left",
-        "color_ttl": "#ffffff"
-      }
-    },
     "0da49d82-5b5c-4a9a-84cf-6462a1f9f20c": {
       "type": "featured-blog",
       "custom_css": [
@@ -455,7 +430,6 @@
     "1633781728a88de982",
     "16337817926d98687d",
     "1649484698947b2b97",
-    "16494850581775fcb5",
     "0da49d82-5b5c-4a9a-84cf-6462a1f9f20c"
   ]
 }
