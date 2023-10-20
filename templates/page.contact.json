@@ -4,7 +4,7 @@
       "type": "custom-liquid",
       "settings": {
         "title": "",
-        "subtitle": "<b>We would love to hear from you!<\/b>",
+        "subtitle": "<b>We would love to hear from you!*<\/b>",
         "custom_liquid": "",
         "top-offeset": "default",
         "section_cov": true,
