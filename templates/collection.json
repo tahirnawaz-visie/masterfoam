@@ -75,12 +75,12 @@
     "5fa443e7-c288-4295-a929-7a98d115c066": {
       "type": "info-lines",
       "custom_css": [
-        ".simple-text {text-transform: uppercase;}"
+        ".simple-text {text-transform: ;}"
       ],
       "settings": {
         "fullwidth": true,
         "top-offeset": "default",
-        "infolines": "better sleep starts here",
+        "infolines": "<strong>Better Sleep Starts Here <strong><\/strong><\/strong>",
         "text-size": 40,
         "sec_bg_clr": "#ffffff",
         "text_clr": "#ed1c24",
