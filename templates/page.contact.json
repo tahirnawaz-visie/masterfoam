@@ -7,8 +7,8 @@
         "subtitle": "",
         "custom_liquid": "",
         "top-offeset": "default",
-        "section_cov": false,
-        "sec_bg_clr": "#fafafa"
+        "section_cov": true,
+        "sec_bg_clr": "#ffe9c0"
       }
     },
     "6df4f2d0-4728-4703-890d-4a74b5c86784": {
