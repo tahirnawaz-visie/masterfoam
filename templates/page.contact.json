@@ -3,7 +3,8 @@
     "a46a483e-f11a-4b6d-bdf9-5ebf3cc648c6": {
       "type": "custom-liquid",
       "custom_css": [
-        ".section-cover{margin-bottom: 30px;}"
+        ".section-cover {margin-bottom: 50px;}",
+        ".sec-ttl {padding-bottom: 0;}"
       ],
       "settings": {
         "title": "",
