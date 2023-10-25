@@ -134,7 +134,7 @@
         "1633769564023b4dfb-0"
       ],
       "custom_css": [
-        ".rte p {line-height: 40px;}"
+        ".rte p {line-height: 40px; text-align: left;}"
       ],
       "settings": {
         "top-offeset": "default",
