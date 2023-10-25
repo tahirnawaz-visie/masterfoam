@@ -133,6 +133,9 @@
       "block_order": [
         "1633769564023b4dfb-0"
       ],
+      "custom_css": [
+        ".rte p{line-height: 40px;}"
+      ],
       "settings": {
         "top-offeset": "default",
         "section_width": false,
