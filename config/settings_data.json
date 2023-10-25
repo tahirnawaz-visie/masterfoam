@@ -170,7 +170,7 @@
     "pr_font_w": "600",
     "trim_title": true,
     "Prod_price": 16,
-    "color_price_text": "#ed1c24",
+    "color_price_text": "#828181",
     "color_sale_text": "#ed1c24",
     "prbox_bdr": "rgba(0,0,0,0)",
     "acti_swatch_bdr_clr": "#e34848",
