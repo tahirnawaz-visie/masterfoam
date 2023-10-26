@@ -7,6 +7,7 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/Master_Foam_-_New_Banner_1600x700_8cbcb85e-4dc3-4222-af51-76a9d1507bae.jpg",
+            "mb_image": "shopify:\/\/shop_images\/1080x1080_2.jpg",
             "alignment": "top",
             "smalltitle": "",
             "heading1": "#ffffff",
