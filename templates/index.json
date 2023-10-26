@@ -156,6 +156,7 @@
     },
     "164948468577f39ad5": {
       "type": "video",
+      "disabled": true,
       "settings": {
         "top-offeset": "default",
         "section_width": true,
