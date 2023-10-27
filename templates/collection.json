@@ -191,7 +191,7 @@
         "infolines": "",
         "text-size": 16,
         "sec_bg_clr": "#fafafa",
-        "text_clr": "#111",
+        "text_clr": "#111111",
         "text-padding": 20
       }
     },
@@ -234,7 +234,8 @@
       "settings": {
         "title": "Top Sellers",
         "section_cov": false,
-        "grid": "3"
+        "grid": "3",
+        "heading1": "#ffe9c0"
       }
     }
   },
