@@ -325,8 +325,8 @@
             "type": "custom",
             "settings": {
               "title": "",
-              "logo": "shopify:\/\/shop_images\/f-logo.png",
-              "logo-width": 180,
+              "logo": "shopify:\/\/shop_images\/Master.svg",
+              "logo-width": 140,
               "custom-text": "",
               "show_socials": false,
               "socials_ttl": "",
