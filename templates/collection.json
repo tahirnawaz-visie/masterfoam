@@ -111,9 +111,8 @@
         },
         "347a9c5e-6540-4272-b2c3-23cdd9169d12": {
           "type": "products",
-          "disabled": true,
           "settings": {
-            "title": "POPULAR PRODUCT",
+            "title": "Top Sellers",
             "sidebar_products": "shoes",
             "num_of_products": "3",
             "side_all_products": false,
