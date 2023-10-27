@@ -203,16 +203,26 @@
             "description": "Experience the ultimate in sleep comfort with the Master Ortho Firm Mattress. Designed to provide exceptional support and alleviate pressure points, this mattress is your key to waking up rejuvenated and ready to conquer each day.",
             "link": "https:\/\/www.masterfoam.com.pk\/products\/master-ortho-firm"
           }
+        },
+        "7c6d0f7a-d005-4954-80d2-af60cdaf50ca": {
+          "type": "collection_column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Final_Side_Angle_6f560768-2d6c-44ef-9b4f-12589f6295d3.jpg",
+            "tab_name": "MasterFoam",
+            "description": "Since decades, Master Foam has focused on providing true comfort, support, and durability. The mattress is expertly crafted to offer extraordinary sleep at an outstanding value.",
+            "link": "https:\/\/www.masterfoam.com.pk\/products\/master-foam"
+          }
         }
       },
       "block_order": [
         "86efe601-3628-49d1-a447-d81c84262c66",
-        "31358240-4e06-4b08-84a1-23ebcafba57f"
+        "31358240-4e06-4b08-84a1-23ebcafba57f",
+        "7c6d0f7a-d005-4954-80d2-af60cdaf50ca"
       ],
       "settings": {
         "title": "Top Sellers",
         "section_cov": false,
-        "grid": "2"
+        "grid": "3"
       }
     }
   },
