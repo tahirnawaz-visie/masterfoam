@@ -183,6 +183,18 @@
         "related_total_product_to_show": "8"
       }
     },
+    "8712cd6a-c4a5-4797-ab20-dab2ff797591": {
+      "type": "info-lines",
+      "settings": {
+        "fullwidth": true,
+        "top-offeset": "default",
+        "infolines": "",
+        "text-size": 16,
+        "sec_bg_clr": "#fafafa",
+        "text_clr": "#111",
+        "text-padding": 20
+      }
+    },
     "a2d24187-3bc8-495f-890c-0ec5671d6d09": {
       "type": "top-seller",
       "blocks": {
@@ -231,6 +243,7 @@
     "5fa443e7-c288-4295-a929-7a98d115c066",
     "collection",
     "related-products",
+    "8712cd6a-c4a5-4797-ab20-dab2ff797591",
     "a2d24187-3bc8-495f-890c-0ec5671d6d09"
   ]
 }
