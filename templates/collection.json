@@ -113,7 +113,7 @@
           "type": "products",
           "settings": {
             "title": "Top Sellers",
-            "sidebar_products": "shoes",
+            "sidebar_products": "masterfoam",
             "num_of_products": "3",
             "side_all_products": false,
             "btn_txt": "View All",
