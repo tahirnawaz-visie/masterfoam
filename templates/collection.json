@@ -6,8 +6,7 @@
         "template--16736629424355__798f2be8-16dc-4739-a4a2-01bc60fc68e0-image-1": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Master_Foam_-_New_Banner_1600x700_8cbcb85e-4dc3-4222-af51-76a9d1507bae.jpg",
-            "mb_image": "shopify:\/\/shop_images\/1080x1080_2.jpg",
+            "image": "shopify:\/\/shop_images\/mastm.jpg",
             "alignment": "top",
             "smalltitle": "",
             "heading1": "#ffffff",
@@ -60,9 +59,9 @@
         "snow_effect": false,
         "snow_style": "style1",
         "autoplay": true,
-        "autoplay_speed": "5000",
+        "autoplay_speed": "7000",
         "arrow": false,
-        "dots": true,
+        "dots": false,
         "txtanimation": false,
         "animation-style": "style2",
         "text-align": "center",
@@ -70,7 +69,7 @@
         "btn-size-mob": "mob-btn-sm",
         "ds_height": 700,
         "tb_height": 500,
-        "mb_height": 450
+        "mb_height": 300
       }
     },
     "5fa443e7-c288-4295-a929-7a98d115c066": {
