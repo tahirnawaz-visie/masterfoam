@@ -240,7 +240,7 @@
         "9ed8d32e-887f-45f2-b283-4586858be968": {
           "type": "collection_column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Cool_Air1080.jpg",
+            "image": "shopify:\/\/shop_images\/Cool_Air_2_e2c55854-1c16-4310-8a6a-8966ba28d25b.jpg",
             "tab_name": "Master Cool Air",
             "description": "Master Cool Air comes with the latest technology for cooling comfort and superior support. The cool gel beads help you get a good night's sleep by keeping your mattress cool, all night.",
             "link": "shopify:\/\/products\/master-cool-air"
@@ -249,7 +249,6 @@
         "74c4c42c-32f0-4fa6-a9dc-dd46bbb8b5bc": {
           "type": "collection_column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/1080x108000_5a450018-1e69-4aa3-af90-3282a3f7099f.jpg",
             "tab_name": "Master Ortho Firm",
             "description": "Experience the ultimate in sleep comfort with the Master Ortho Firm Mattress. Designed to provide exceptional support and alleviate pressure points, this mattress is your key to waking up rejuvenated and ready to conquer each day.",
             "link": "shopify:\/\/products\/master-ortho-firm"
@@ -258,7 +257,6 @@
         "eb0f2d74-f649-441e-aca0-ee3c1cd1b1db": {
           "type": "collection_column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Master_foam1080.jpg",
             "tab_name": "Master Foam",
             "description": "Since decades, Master Foam has focused on providing true comfort, support, and durability. The mattress is expertly crafted to offer extraordinary sleep at an outstanding value.",
             "link": "shopify:\/\/products\/master-foam"
