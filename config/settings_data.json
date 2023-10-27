@@ -161,7 +161,7 @@
     "vr_bg_position": "50% 50%",
     "color_size": "medium",
     "color_style": "rounded_rectangle",
-    "primg_ratio": "130",
+    "primg_ratio": "100",
     "primg_size": "cover",
     "prbox_style": "style4",
     "grid_space": 20,
