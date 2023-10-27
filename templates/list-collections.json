@@ -2,6 +2,7 @@
   "sections": {
     "list-collections": {
       "type": "list-collections-template",
+      "disabled": true,
       "settings": {
         "section_width": false,
         "page_title": "Collections 2022",
@@ -153,7 +154,7 @@
     "164327491985df9699": {
       "type": "products-rows",
       "settings": {
-        "title": "<br>\nBEST SELLER",
+        "title": "BEST SELLER",
         "subtitle": "Shop best selling items from last month",
         "collection": "masterfoam",
         "secondary_image": true,
