@@ -1,4 +1,4 @@
-<div id="{{ section.id }}" data-section-id="{{ section.id }}" data-section-type="carousel">
+<div id="te-{{ section.id }}" data-section-id="{{ section.id }}" data-section-type="carousel">
   {% if section.settings.title != blank %}
     <div class="title-box">
         <h2>{{ section.settings.title }}</h2>
@@ -48,6 +48,9 @@
     </div>
   </div>
 <style>
+#te-{{ section.id }}{
+  background: {{ section.settings.heading1 }}
+}
   .top-seller-section{
     background:#fff;
     padding: 0 0 40px 0;
@@ -122,7 +125,13 @@
           { "value": "3", "label": "3" },
           { "value": "4", "label": "4" }          
         ]
-      }
+      },
+      {
+              "type": "color",
+              "id": "heading1",
+              "label": "Color",
+              "default": "#000"
+           }
     ],
     "blocks": [
       {
