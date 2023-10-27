@@ -194,10 +194,20 @@
             "description": "Master Cool Air comes with the latest technology for cooling comfort and superior support. The cool gel beads help you get a good night's sleep by keeping your mattress cool, all night.",
             "link": ""
           }
+        },
+        "31358240-4e06-4b08-84a1-23ebcafba57f": {
+          "type": "collection_column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Final_Side_Angle.jpg",
+            "tab_name": "Master Ortho Firm",
+            "description": "Experience the ultimate in sleep comfort with the Master Ortho Firm Mattress. Designed to provide exceptional support and alleviate pressure points, this mattress is your key to waking up rejuvenated and ready to conquer each day.",
+            "link": ""
+          }
         }
       },
       "block_order": [
-        "86efe601-3628-49d1-a447-d81c84262c66"
+        "86efe601-3628-49d1-a447-d81c84262c66",
+        "31358240-4e06-4b08-84a1-23ebcafba57f"
       ],
       "settings": {
         "title": "Top Sellers",
