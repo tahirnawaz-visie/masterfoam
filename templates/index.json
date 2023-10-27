@@ -64,7 +64,7 @@
         "autoplay": true,
         "autoplay_speed": "7000",
         "arrow": false,
-        "dots": true,
+        "dots": false,
         "txtanimation": true,
         "animation-style": "style1",
         "text-align": "center",
