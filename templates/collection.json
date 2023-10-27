@@ -188,7 +188,6 @@
       "blocks": {
         "86efe601-3628-49d1-a447-d81c84262c66": {
           "type": "collection_column",
-          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Side.jpg",
             "tab_name": "Master Cool Air",
@@ -200,11 +199,10 @@
       "block_order": [
         "86efe601-3628-49d1-a447-d81c84262c66"
       ],
-      "disabled": true,
       "settings": {
         "title": "Top Sellers",
         "section_cov": false,
-        "grid": "3"
+        "grid": "2"
       }
     }
   },
