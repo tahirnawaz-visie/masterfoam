@@ -20,7 +20,7 @@
         "title": "60+ Years of Comfort Reinvented",
         "ttl-text-size": 36,
         "richtxt": "<p>We create better than best sleep solutions that help everybody feel and live better.<\/p>",
-        "richtxt_bg_clr": "#444",
+        "richtxt_bg_clr": "#444444",
         "text-size": 30,
         "btntxt": "",
         "btnurl": "",
@@ -85,7 +85,7 @@
         "title": "<b>It’s Comfort, Squared<\/b>",
         "ttl-text-size": 46,
         "richtxt": "<p>Traditional mattresses either dial up the firmness to support your back or opt for softness and localized pressure relief. Only MasterFoam mattresses have the FreshGuard – which provides both. Simultaneously.<br\/><br\/>Our Grid is made of a hyper-elastic material that reduces pressure, provides support, and instantly adapts as you move. Plus, it doesn’t trap body heat!<br\/><br\/><strong>We think you’ll love it as much as we do.<\/strong><\/p>",
-        "richtxt_bg_clr": "#444",
+        "richtxt_bg_clr": "#444444",
         "text-size": 24,
         "btntxt": "",
         "btnurl": "\/",
@@ -108,7 +108,7 @@
         "1633769564023b4dfb-0": {
           "type": "image_with_text",
           "settings": {
-            "image": "shopify:\/\/shop_images\/masm.jpg",
+            "image": "shopify:\/\/shop_images\/520x680.jpg",
             "layout": "right",
             "pre_heading": "OUR BELIEF",
             "pre_heading_size": 24,
