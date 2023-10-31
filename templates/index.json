@@ -278,7 +278,8 @@
         "title": "Top Sellers",
         "section_cov": false,
         "star_image": "shopify:\/\/shop_images\/m-ortho-01.jpg",
-        "grid": "3"
+        "grid": "3",
+        "heading1": "#ffffff"
       }
     },
     "1633781728a88de982": {
