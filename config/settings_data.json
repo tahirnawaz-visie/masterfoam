@@ -155,7 +155,7 @@
     "secondary_image": false,
     "display_countdown": false,
     "enable_quickshop": false,
-    "price_style": "p_range",
+    "price_style": "default",
     "show_color_swatch": false,
     "color_type": "color",
     "vr_bg_position": "50% 50%",
