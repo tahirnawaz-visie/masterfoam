@@ -7,8 +7,8 @@
         ".sec-ttl {padding-bottom: 0;}"
       ],
       "settings": {
-        "title": "",
-        "subtitle": "<b>We would love to hear from you!*<\/b>",
+        "title": "<b>We would love to hear from you!*<\/b>",
+        "subtitle": "",
         "custom_liquid": "",
         "top-offeset": "default",
         "section_cov": true,
@@ -68,8 +68,8 @@
         "store_opening_time": "<p><b>Opening Hours<\/b><\/p>\nMon - Fri: 9am - 5:30pm<br>",
         "cnt_title": "MASTER ENTERPRISES PVT. LTD",
         "store_address": "<b>Address:<\/b> \nS-30, S.I.T.E MAURIPUR ROAD, KARACHI",
-        "store_phone": "<b>Phone:<\/b> +92 42 111 666 555",
-        "store_email": "<b>Email:<\/b> online@master.com.pk",
+        "store_phone": "Phone: +92 42 111 666 555",
+        "store_email": "Email: online@master.com.pk",
         "show_socials": true,
         "socials_ttl": "Stay Connected",
         "form_bg": "#ffffff",
