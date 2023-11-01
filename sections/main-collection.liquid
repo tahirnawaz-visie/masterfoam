@@ -42,7 +42,7 @@
   <div class="page-width{% if section.settings.fullwidth %} fullwidth {% endif %}" id="Collection">
     <div class="fl">
       <div class="fl1 w_100 main-col" style="min-width:0;">
-<h2> {{ collection.sub-title}}</h2>
+
         {% include 'collection-slideshow' %}
 		
         {% if section.settings.show_collection_image and section.settings.banner_position == 'content-side' %}
@@ -60,6 +60,7 @@
         
         {% if section.settings.show_collection_image == false and section.settings.show_collection_name %} 
         	<h1 class="collection-title" itemprop="name">{{ collection.title }}</h1>
+          <h2> {{ collection.metafields.custum.sub-title}}</h2>
         {% endif %}
 		
         {% if section.settings.collection-des == "top" and collection.description != blank %}
