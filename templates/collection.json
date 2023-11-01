@@ -131,7 +131,7 @@
       "settings": {
         "fullwidth": false,
         "show_collection_name": false,
-        "show_collection_image": true,
+        "show_collection_image": false,
         "banner_position": "top",
         "bheight": 300,
         "bheightipad": 200,
