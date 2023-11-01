@@ -57,10 +57,10 @@
               {% if section.settings.show_collection_name %}<h1 class="collection-title" itemprop="name">{{ collection.title }}</h1>{% endif %}
             </div>
         {% endif %}
-        
+         <h2> {{ collection.metafields.custum.sub-title}}</h2>
         {% if section.settings.show_collection_image == false and section.settings.show_collection_name %} 
         	<h1 class="collection-title" itemprop="name">{{ collection.title }}</h1>
-          <h2> {{ collection.metafields.custum.sub-title}}</h2>
+         
         {% endif %}
 		
         {% if section.settings.collection-des == "top" and collection.description != blank %}
