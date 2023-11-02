@@ -151,6 +151,7 @@
     },
     "5fa443e7-c288-4295-a929-7a98d115c066": {
       "type": "info-lines",
+      "disabled": true,
       "custom_css": [
         ".simple-text {text-transform: ;}"
       ],
@@ -186,6 +187,7 @@
     },
     "8712cd6a-c4a5-4797-ab20-dab2ff797591": {
       "type": "info-lines",
+      "disabled": true,
       "settings": {
         "fullwidth": true,
         "top-offeset": "default",
