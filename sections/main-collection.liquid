@@ -16,6 +16,10 @@
 	{% if section.settings.show_collection_name %}<h1 class="collection-title">{{ collection.title }}</h1>{% endif %}
   </div>
 {% endif %}
+  {% if collection.metafields.custom.sub_tittle != blank %}
+    <h1 class="collection-title">{{ collection.metafields.custom.sub_tittle }}</h1>
+    {% endif %}
+  
 {%- if settings.breadcrumb_cl -%}{%- include 'breadcrumb' -%}{%- else -%}<div class="topSpace"></div>{%- endif -%}
 {%- liquid
 	assign sort_by = collection.sort_by | default: collection.default_sort_by
