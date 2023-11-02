@@ -81,7 +81,7 @@
       "settings": {
         "fullwidth": true,
         "top-offeset": "default",
-        "infolines": "",
+        "infolines": "{{ collection.metafields.custom.sub_tittle }}",
         "text-size": 40,
         "sec_bg_clr": "#ffffff",
         "text_clr": "#ed1c24",
