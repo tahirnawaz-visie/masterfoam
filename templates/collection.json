@@ -6,8 +6,8 @@
         "template--16736629424355__798f2be8-16dc-4739-a4a2-01bc60fc68e0-image-1": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/1600x700-Banner02.jpg",
-            "mb_image": "shopify:\/\/shop_images\/Mobile-Version03.jpg",
+            "image": "shopify:\/\/shop_images\/Master_Foam_-_New_Banner_1600x700_8cbcb85e-4dc3-4222-af51-76a9d1507bae.jpg",
+            "mb_image": "shopify:\/\/shop_images\/1080x1080_2.jpg",
             "alignment": "top",
             "smalltitle": "",
             "heading1": "#ffffff",
@@ -53,7 +53,6 @@
         "template--16736629424355__798f2be8-16dc-4739-a4a2-01bc60fc68e0-image-1",
         "template--16736629424355__798f2be8-16dc-4739-a4a2-01bc60fc68e0-image-2"
       ],
-      "disabled": true,
       "settings": {
         "section_width": false,
         "box-width": 1500,
@@ -82,7 +81,7 @@
       "settings": {
         "fullwidth": true,
         "top-offeset": "default",
-        "infolines": "<strong>Better Sleep Starts Here<\/strong>",
+        "infolines": "",
         "text-size": 40,
         "sec_bg_clr": "#ffffff",
         "text_clr": "#ed1c24",
@@ -236,7 +235,7 @@
         "title": "Top Sellers",
         "section_cov": false,
         "grid": "3",
-        "heading1": "rgba(0,0,0,0)"
+        "heading1": "#ffe9c0"
       }
     }
   },
