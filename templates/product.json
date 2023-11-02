@@ -60,7 +60,7 @@
       "settings": {
         "show_related_products": true,
         "related_products_autoplay": true,
-        "sec_bg_clr": "rgba(0,0,0,0)",
+        "sec_bg_clr": "#ffe9c0",
         "sec_txt_clr": "#ed1c24",
         "autoplay_speed": "3000",
         "related_title": "Top Seller",
