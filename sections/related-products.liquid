@@ -103,9 +103,12 @@
 {{ relatedProducts | strip_newlines | remove: "  " | remove: "	" }}
 
 <style>
+   #{{ section.id }}{
+      background-color: {{section.settings.sec_bg_clr}};
+    padding: 20px 0;
+   }
   #{{ section.id }} .sec-ttl {
-    background-color: {{section.settings.sec_bg_clr}};
-  padding: 20px 0;
+   
   margin-bottom: 20px;
   }
   #{{ section.id }} .sec-ttl .h3{
@@ -141,7 +144,7 @@
       {
             "type": "color",
             "id": "sec_bg_clr",
-            "label": "Heading Background Color",
+            "label": "Background Color",
 			"default":"#fafafa"	
 		 },
       {
