@@ -118,7 +118,7 @@
         "show_collection_name": false,
         "show_collection_image": true,
         "banner_position": "top",
-        "bheight": 550,
+        "bheight": 600,
         "bheightipad": 300,
         "bheightmob": 250,
         "banner_style": "info-over",
