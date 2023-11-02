@@ -17,7 +17,9 @@
   </div>
 {% endif %}
   {% if collection.metafields.custom.sub_tittle != blank %}
+    <div class="collection_box">
     <h1 class="collection-title">{{ collection.metafields.custom.sub_tittle }}</h1>
+    </div>
     {% endif %}
 {%- if settings.breadcrumb_cl -%}{%- include 'breadcrumb' -%}{%- else -%}<div class="topSpace"></div>{%- endif -%}
 {%- liquid
