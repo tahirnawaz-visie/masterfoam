@@ -10,6 +10,9 @@
   .collection-title { color:{{section.settings.clr_text}};}
   .collection-description { color:{{section.settings.clr_text_des}};}
   .sidebar { {% if section.settings.sidebar_position == "left" %}order:-1; padding-right:30px;{% elsif section.settings.sidebar_position == "right" %}padding-left:30px;{% endif %} }
+  .collection_box{
+  text-align: center;
+  }
 </style>
 {% if section.settings.show_collection_image and section.settings.banner_position == 'top' %}
   <div class="clPageBnr flex lazyload{% if collection.image %} with-image {% endif %}" {% if section.settings.show_collection_image and collection.image %}data-bgset="{% include 'bgset', image: collection.image %}" data-sizes="auto" data-parent-fit="contain" style="background-image:url({{ collection.image | img_url: '300x' }});"{% endif %}>
