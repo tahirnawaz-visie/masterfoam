@@ -13,6 +13,16 @@
   .collection_box{
   text-align: center;
   }
+  .collection_box .collection-title {
+    font-size: 46px;
+    text-transform: capitalize;
+    color: #e30613 !important;
+}
+  @media only screen and (max-width:767px) {
+  .collection_box .collection-title {
+    font-size: 28px;
+  }
+  }
 </style>
 {% if section.settings.show_collection_image and section.settings.banner_position == 'top' %}
   <div class="clPageBnr flex lazyload{% if collection.image %} with-image {% endif %}" {% if section.settings.show_collection_image and collection.image %}data-bgset="{% include 'bgset', image: collection.image %}" data-sizes="auto" data-parent-fit="contain" style="background-image:url({{ collection.image | img_url: '300x' }});"{% endif %}>
