@@ -53,6 +53,7 @@
         "template--16736629424355__798f2be8-16dc-4739-a4a2-01bc60fc68e0-image-1",
         "template--16736629424355__798f2be8-16dc-4739-a4a2-01bc60fc68e0-image-2"
       ],
+      "disabled": true,
       "settings": {
         "section_width": false,
         "box-width": 1500,
@@ -71,21 +72,6 @@
         "ds_height": 700,
         "tb_height": 500,
         "mb_height": 300
-      }
-    },
-    "5fa443e7-c288-4295-a929-7a98d115c066": {
-      "type": "info-lines",
-      "custom_css": [
-        ".simple-text {text-transform: ;}"
-      ],
-      "settings": {
-        "fullwidth": true,
-        "top-offeset": "small",
-        "infolines": "<b>{{ collection.metafields.custom.sub_tittle }}<\/b>",
-        "text-size": 40,
-        "sec_bg_clr": "#ffffff",
-        "text_clr": "#ed1c24",
-        "text-padding": 20
       }
     },
     "collection": {
@@ -130,9 +116,9 @@
       "settings": {
         "fullwidth": false,
         "show_collection_name": false,
-        "show_collection_image": false,
+        "show_collection_image": true,
         "banner_position": "top",
-        "bheight": 300,
+        "bheight": 380,
         "bheightipad": 200,
         "bheightmob": 100,
         "banner_style": "info-over",
@@ -161,6 +147,21 @@
         "pagination": "button",
         "collection_sidebar": false,
         "sidebar_position": "left"
+      }
+    },
+    "5fa443e7-c288-4295-a929-7a98d115c066": {
+      "type": "info-lines",
+      "custom_css": [
+        ".simple-text {text-transform: ;}"
+      ],
+      "settings": {
+        "fullwidth": true,
+        "top-offeset": "small",
+        "infolines": "<b>{{ collection.metafields.custom.sub_tittle }}<\/b>",
+        "text-size": 40,
+        "sec_bg_clr": "#ffffff",
+        "text_clr": "#ed1c24",
+        "text-padding": 20
       }
     },
     "related-products": {
@@ -241,8 +242,8 @@
   },
   "order": [
     "798f2be8-16dc-4739-a4a2-01bc60fc68e0",
-    "5fa443e7-c288-4295-a929-7a98d115c066",
     "collection",
+    "5fa443e7-c288-4295-a929-7a98d115c066",
     "related-products",
     "8712cd6a-c4a5-4797-ab20-dab2ff797591",
     "a2d24187-3bc8-495f-890c-0ec5671d6d09"
