@@ -378,6 +378,9 @@
           "1561010652330",
           "ed42ba6f-8286-433d-8b52-629a5d020235"
         ],
+        "custom_css": [
+          ".site-footer {margin-top: 0;}"
+        ],
         "settings": {
           "section_width": false,
           "snow_effect": false,
