@@ -5,7 +5,7 @@
       "custom_css": [
         ".section-cover {margin-bottom: 50px;}",
         ".sec-ttl {padding-bottom: 0;}",
-        "h3 {font-size: 30px;}",
+        "h3 {font-size: 30px; text-transform: capitalize}",
         "@media only screen and (max-width: 766px) {h3 {font-size: 24px; }}"
       ],
       "settings": {
