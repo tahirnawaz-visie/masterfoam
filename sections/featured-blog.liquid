@@ -47,7 +47,7 @@
     {%- assign blog = blogs[section.settings.blog] -%}
 
     {% unless blog.articles_count == 0 %}
-    <div class="grid grid--blog carousel" data-slick='{"slidesToShow": {{section.settings.grid}},"slidesToScroll": 1, {%- if settings.rtl -%}"rtl": true,{%- endif -%} "infinite": true, "responsive":[{"breakpoint": 1024,"settings":{"slidesToShow": {{section.settings.tablet-grid}} }},{"breakpoint": 776,"settings":{"slidesToShow": {{section.settings.mobile-grid}} }} ]}'>
+    <div class="grid grid--blog carousel" data-slick='{"slidesToShow": {{section.settings.grid}},"slidesToScroll": 1, arrows: false, {%- if settings.rtl -%}"rtl": true,{%- endif -%} "infinite": true, "responsive":[{"breakpoint": 1024,"settings":{"slidesToShow": {{section.settings.tablet-grid}} }},{"breakpoint": 776,"settings":{"slidesToShow": {{section.settings.mobile-grid}} }} ]}'>
       {% for article in blog.articles limit: section.settings.post_limit %}
       	<div class="grid__item {{grid_mb}} {{grid_tb}} {{grid_ds}}">{% include 'blog-card-grid', sizes: image_size %}</div>
       {% endfor %}
