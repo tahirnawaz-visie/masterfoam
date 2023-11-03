@@ -12,6 +12,9 @@
     },
     "16337695579db422ae": {
       "type": "richtext",
+      "custom_css": [
+        "@media only screen and (max-width: 769px) {p {font-size: 16px; }}"
+      ],
       "settings": {
         "fullwidth": false,
         "top-offeset": "default",
@@ -78,7 +81,7 @@
     "16d3d62e-560f-411e-84bd-49f7b534cce9": {
       "type": "richtext",
       "custom_css": [
-        "@media only screen and (max-width: 769px){p {font-size: 16px; }}"
+        "@media only screen and (max-width: 769px) {p {font-size: 16px; }}"
       ],
       "settings": {
         "fullwidth": true,
