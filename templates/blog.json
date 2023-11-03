@@ -2,6 +2,9 @@
   "sections": {
     "blog": {
       "type": "blog-template",
+      "custom_css": [
+        "h1{margin-top: 20px}"
+      ],
       "settings": {
         "layout": "grid",
         "img_ratio": "100",
