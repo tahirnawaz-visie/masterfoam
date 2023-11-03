@@ -7,7 +7,7 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/1900x700-Banner.jpg",
-            "mb_image": "shopify:\/\/shop_images\/Mobile-Version02.jpg",
+            "mb_image": "shopify:\/\/shop_images\/Mobile-Version.jpg",
             "alignment": "top",
             "smalltitle": "",
             "heading1": "#000000",
