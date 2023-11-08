@@ -63,7 +63,7 @@
         "sec_bg_clr": "#ffe9c0",
         "sec_txt_clr": "#ed1c24",
         "autoplay_speed": "3000",
-        "related_title": "Top Sellers",
+        "related_title": "<b>Top Sellers<\/b>",
         "related_sub_title": "",
         "grid": 3,
         "tablet-grid": 2,
