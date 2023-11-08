@@ -57,13 +57,16 @@
     },
     "related-products": {
       "type": "related-products",
+      "custom_css": [
+        ".sec-ttl h3 {text-transform: capitalize; font-weight: bold;}"
+      ],
       "settings": {
         "show_related_products": true,
         "related_products_autoplay": true,
         "sec_bg_clr": "#ffe9c0",
         "sec_txt_clr": "#ed1c24",
         "autoplay_speed": "3000",
-        "related_title": "<b>Top Sellers<\/b>",
+        "related_title": "Top Sellers",
         "related_sub_title": "",
         "grid": 3,
         "tablet-grid": 2,
