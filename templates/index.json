@@ -127,7 +127,8 @@
         "1560507278694-1"
       ],
       "custom_css": [
-        ".sec-ttl .h3,.sec-ttl h3 {font-weight: 700; text-transform: capitalize;}"
+        ".sec-ttl .h3,.sec-ttl h3 {font-weight: 700; text-transform: capitalize;}",
+        ".collection-grid-item:hover {background: #fee9bf;}"
       ],
       "settings": {
         "title": "Better Sleep Starts Here",
