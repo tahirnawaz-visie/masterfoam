@@ -7,7 +7,7 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/1900x700-Banner_3.jpg",
-            "mb_image": "shopify:\/\/shop_images\/Mobile-Version.jpg",
+            "mb_image": "shopify:\/\/shop_images\/1024x1024-mobile-banner.jpg",
             "alignment": "top",
             "smalltitle": "",
             "heading1": "#000000",
@@ -404,7 +404,7 @@
         "top-offeset": "none",
         "section_cov": true,
         "sec_bg_clr": "#ffe9c0",
-        "blog": "featured",
+        "blog": "news",
         "img_ratio": "100",
         "post_limit": 3,
         "grid": 3,
