@@ -404,7 +404,7 @@
         "top-offeset": "none",
         "section_cov": true,
         "sec_bg_clr": "#ffe9c0",
-        "blog": "news",
+        "blog": "featured",
         "img_ratio": "100",
         "post_limit": 3,
         "grid": 3,
