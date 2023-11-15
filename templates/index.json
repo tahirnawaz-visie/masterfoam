@@ -436,8 +436,7 @@
         "template--20305434476855__6908c554-831a-4f1f-9d4a-e94162f8a243-quote-3"
       ],
       "custom_css": [
-        ".quote-bg .sec-ttl h3 {text-align: right;}",
-        ".quote-bg blockquote {margin-left: 320px; font-size: 16px;}"
+        "}.quote-bg blockquote {text-align: right; font-size: 16px;}"
       ],
       "settings": {
         "section_width": true,
