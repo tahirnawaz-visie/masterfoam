@@ -48,11 +48,8 @@
         {% endif %}
       </div>
     </div>
-     <div class="details-custom{% if section.settings.textalign %} {{ section.settings.textalign}}{% endif %}{% if section.settings.leftpadzero %} pad-0{% endif %} wd-{{ section.settings.box-width}} {{ block.settings.textalign}}{% if block.settings.text-left %} text-left{% endif %}">
-        {% if block.settings.collection_name2 != blank %}
-        	<h3> {{ block.settings.collection_name2 }} </h3>                       
-        {% endif %}  
-       <p class="collection-grid-item__title {{section.settings.text_size}} {{ section.settings.font_weight}}">
+    
+       <h3 class="collection-grid-item__title {{section.settings.text_size}} {{ section.settings.font_weight}}">
           {% if collection.empty? %}
             {% if block.settings.collection_name != blank %}
                {{ block.settings.collection_name }}
@@ -66,8 +63,12 @@
               {{ collection.title }}
             {% endif %}                  		
           {% endif %}
-        </p>
-         
+        </h3>
+    
+          <div class="details-custom{% if section.settings.textalign %} {{ section.settings.textalign}}{% endif %}{% if section.settings.leftpadzero %} pad-0{% endif %} wd-{{ section.settings.box-width}} {{ block.settings.textalign}}{% if block.settings.text-left %} text-left{% endif %}">
+        {% if block.settings.collection_name2 != blank %}
+        	<p> {{ block.settings.collection_name2 }} </p>                       
+        {% endif %}  
 
         {% if section.settings.product_count %}
         	<span class="counts">{{ 'collections.general.items_with_count' | t: count: collection.all_products_count }}</span>
