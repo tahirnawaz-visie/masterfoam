@@ -132,7 +132,8 @@
         ".collection-grid-item:hover {background: #fee9bf; transform: scale(1.05) !important;}",
         ".collection-grid-item:hover .img {transform: inherit;}",
         ".collection-grid-item__title {margin-top: 20px;}",
-        ".collection-banners {margin-bottom: 20px;}"
+        ".collection-banners {margin-bottom: 20px;}",
+        ".sec-ttl span {color: grey;}"
       ],
       "settings": {
         "title": "Sleep Well, Live Better",
@@ -403,8 +404,8 @@
       "blocks": {
         "template--20305434476855__6908c554-831a-4f1f-9d4a-e94162f8a243-quote-1": {
           "type": "quote",
-          "disabled": true,
           "settings": {
+            "image": "shopify:\/\/shop_images\/Vector_Smart_Object5.png",
             "quote": "",
             "author": "",
             "display_rat": true,
@@ -413,7 +414,6 @@
         },
         "template--20305434476855__6908c554-831a-4f1f-9d4a-e94162f8a243-quote-2": {
           "type": "quote",
-          "disabled": true,
           "settings": {
             "quote": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
             "author": "Author's name",
@@ -423,7 +423,6 @@
         },
         "template--20305434476855__6908c554-831a-4f1f-9d4a-e94162f8a243-quote-3": {
           "type": "quote",
-          "disabled": true,
           "settings": {
             "quote": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
             "author": "Author's name",
