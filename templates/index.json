@@ -403,15 +403,17 @@
       "blocks": {
         "template--20305434476855__6908c554-831a-4f1f-9d4a-e94162f8a243-quote-1": {
           "type": "quote",
+          "disabled": true,
           "settings": {
-            "quote": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
-            "author": "Author's name",
+            "quote": "",
+            "author": "",
             "display_rat": true,
             "rating": 5
           }
         },
         "template--20305434476855__6908c554-831a-4f1f-9d4a-e94162f8a243-quote-2": {
           "type": "quote",
+          "disabled": true,
           "settings": {
             "quote": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
             "author": "Author's name",
@@ -421,6 +423,7 @@
         },
         "template--20305434476855__6908c554-831a-4f1f-9d4a-e94162f8a243-quote-3": {
           "type": "quote",
+          "disabled": true,
           "settings": {
             "quote": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
             "author": "Author's name",
@@ -437,13 +440,14 @@
       "settings": {
         "section_width": true,
         "top-offeset": "default",
-        "title": "Testimonials",
-        "quoteStyle": "style1",
+        "title": "Very Happy with my purchase.<br>\nIts Original and nice packing.",
+        "quoteStyle": "style3",
         "autoplay": false,
         "autoplay_speed": 5,
         "arrow": true,
         "dots": false,
         "testimonials_bg": "#f5f5f5",
+        "testimonials_bg_img": "shopify:\/\/shop_images\/Vector_Smart_Object5.png",
         "testimonials_hd": "#444",
         "testimonials_text": "#444",
         "text_bg": "#fff",
