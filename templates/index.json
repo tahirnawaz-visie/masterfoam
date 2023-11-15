@@ -138,7 +138,7 @@
         "title": "Sleep Well, Live Better",
         "subtitle": "Engineered with precision and crafted with care",
         "layout_content": "collection_custom_design",
-        "top-offeset": "default",
+        "top-offeset": "small",
         "section_width": false,
         "hide_mobile": false,
         "pad-desk": 55,
