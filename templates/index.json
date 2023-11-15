@@ -84,7 +84,7 @@
             "collection": "",
             "url": "shopify:\/\/collections\/masterfoam",
             "collection_image": "shopify:\/\/shop_images\/b1.jpg",
-            "collection_name": "FINEST Mattresses",
+            "collection_name": "FINEST MATTRESSES",
             "collection_name2": "Making Nights Restful",
             "textalign": "center",
             "text-left": false,
@@ -452,7 +452,7 @@
         "testimonials_bg_img": "shopify:\/\/shop_images\/Vector_Smart_Object5.png",
         "testimonials_hd": "#ffffff",
         "testimonials_text": "#ffffff",
-        "text_bg": "#fff",
+        "text_bg": "#ffffff",
         "rating_clr": "#ffffff"
       }
     },
