@@ -443,7 +443,7 @@
       "settings": {
         "section_width": true,
         "top-offeset": "default",
-        "title": "Very Happy with my purchase.<br>\nIts Original and nice packing.\nVery Happy with my purchase.<br>\nIts Original and nice packing.\nVery Happy with my purchase.<br>\nIts Original and nice packing.\nVery Happy with my purchase.<br>\nIts Original and nice packing.\nVery Happy with my purchase.<br>\nIts Original and nice packing.\nVery Happy with my purchase.<br>\nIts Original and nice packing.",
+        "title": "Very Happy with my purchase.<br>\nIts Original and nice packing.",
         "quoteStyle": "style1",
         "autoplay": false,
         "autoplay_speed": 5,
@@ -454,7 +454,7 @@
         "testimonials_hd": "#ffffff",
         "testimonials_text": "#ffffff",
         "text_bg": "#fff",
-        "rating_clr": "#EBB868"
+        "rating_clr": "#ffffff"
       }
     },
     "0da49d82-5b5c-4a9a-84cf-6462a1f9f20c": {
