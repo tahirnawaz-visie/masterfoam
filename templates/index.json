@@ -133,7 +133,7 @@
         ".collection-grid-item:hover .img {transform: inherit;}",
         ".collection-grid-item__title {margin-top: 20px;}",
         ".collection-banners {margin-bottom: 20px;}",
-        ".sec-ttl span {color: grey; font-size:20px;}"
+        ".sec-ttl span {color: grey; font-size: 22px;}"
       ],
       "settings": {
         "title": "Sleep Well, Live Better",
