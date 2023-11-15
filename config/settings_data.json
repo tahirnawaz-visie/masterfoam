@@ -82,6 +82,7 @@
     "color_slideshow_image_overlay": "#000",
     "image_slideshow_overlay_opacity": 0.5,
     "display_overlay_mb": false,
+    "title_align": "text-center",
     "section_heading_1_size": 46,
     "section_heading_1_lh": 1.4,
     "section_heading_2_size": 36,
