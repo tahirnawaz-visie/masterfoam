@@ -50,9 +50,9 @@
     </div>
      <div class="details-custom{% if section.settings.textalign %} {{ section.settings.textalign}}{% endif %}{% if section.settings.leftpadzero %} pad-0{% endif %} wd-{{ section.settings.box-width}} {{ block.settings.textalign}}{% if block.settings.text-left %} text-left{% endif %}">
         {% if block.settings.collection_name2 != blank %}
-        	<p> {{ block.settings.collection_name2 }} </p>                       
+        	<h3> {{ block.settings.collection_name2 }} </h3>                       
         {% endif %}  
-       <h3 class="collection-grid-item__title {{section.settings.text_size}} {{ section.settings.font_weight}}">
+       <p class="collection-grid-item__title {{section.settings.text_size}} {{ section.settings.font_weight}}">
           {% if collection.empty? %}
             {% if block.settings.collection_name != blank %}
                {{ block.settings.collection_name }}
@@ -66,7 +66,7 @@
               {{ collection.title }}
             {% endif %}                  		
           {% endif %}
-        </h3>
+        </p>
          
 
         {% if section.settings.product_count %}
