@@ -405,8 +405,7 @@
         "template--20305434476855__6908c554-831a-4f1f-9d4a-e94162f8a243-quote-1": {
           "type": "quote",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Vector_Smart_Object5.png",
-            "quote": "",
+            "quote": "<p>Very Happy with my purchase.<br\/>Its Original and nice packing. Rider was also coperative.<\/p><p>Thanku Master!<\/p><p><\/p>",
             "author": "",
             "display_rat": true,
             "rating": 5
@@ -415,8 +414,8 @@
         "template--20305434476855__6908c554-831a-4f1f-9d4a-e94162f8a243-quote-2": {
           "type": "quote",
           "settings": {
-            "quote": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
-            "author": "Author's name",
+            "quote": "<p>Very Happy with my purchase.<br\/>Its Original and nice packing. Rider was also coperative.<\/p><p>Thanku Master!<\/p><p><\/p>",
+            "author": "",
             "display_rat": true,
             "rating": 5
           }
@@ -424,8 +423,8 @@
         "template--20305434476855__6908c554-831a-4f1f-9d4a-e94162f8a243-quote-3": {
           "type": "quote",
           "settings": {
-            "quote": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
-            "author": "Author's name",
+            "quote": "<p>Very Happy with my purchase.<br\/>Its Original and nice packing. Rider was also coperative.<\/p><p>Thanku Master!<\/p><p><\/p>",
+            "author": "",
             "display_rat": true,
             "rating": 5
           }
@@ -442,7 +441,7 @@
       "settings": {
         "section_width": true,
         "top-offeset": "default",
-        "title": "Very Happy with my purchase.<br>\nIts Original and nice packing.",
+        "title": "",
         "quoteStyle": "style1",
         "autoplay": false,
         "autoplay_speed": 5,
@@ -452,7 +451,7 @@
         "testimonials_bg_img": "shopify:\/\/shop_images\/Vector_Smart_Object5.png",
         "testimonials_hd": "#ffffff",
         "testimonials_text": "#ffffff",
-        "text_bg": "#ffffff",
+        "text_bg": "rgba(0,0,0,0)",
         "rating_clr": "#ffffff"
       }
     },
