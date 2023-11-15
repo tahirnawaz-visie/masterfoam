@@ -398,6 +398,58 @@
         "autoplay_speed": 5
       }
     },
+    "6908c554-831a-4f1f-9d4a-e94162f8a243": {
+      "type": "quotes",
+      "blocks": {
+        "template--20305434476855__6908c554-831a-4f1f-9d4a-e94162f8a243-quote-1": {
+          "type": "quote",
+          "settings": {
+            "quote": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
+            "author": "Author's name",
+            "display_rat": true,
+            "rating": 5
+          }
+        },
+        "template--20305434476855__6908c554-831a-4f1f-9d4a-e94162f8a243-quote-2": {
+          "type": "quote",
+          "settings": {
+            "quote": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
+            "author": "Author's name",
+            "display_rat": true,
+            "rating": 5
+          }
+        },
+        "template--20305434476855__6908c554-831a-4f1f-9d4a-e94162f8a243-quote-3": {
+          "type": "quote",
+          "settings": {
+            "quote": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
+            "author": "Author's name",
+            "display_rat": true,
+            "rating": 5
+          }
+        }
+      },
+      "block_order": [
+        "template--20305434476855__6908c554-831a-4f1f-9d4a-e94162f8a243-quote-1",
+        "template--20305434476855__6908c554-831a-4f1f-9d4a-e94162f8a243-quote-2",
+        "template--20305434476855__6908c554-831a-4f1f-9d4a-e94162f8a243-quote-3"
+      ],
+      "settings": {
+        "section_width": true,
+        "top-offeset": "default",
+        "title": "Testimonials",
+        "quoteStyle": "style1",
+        "autoplay": false,
+        "autoplay_speed": 5,
+        "arrow": true,
+        "dots": false,
+        "testimonials_bg": "#f5f5f5",
+        "testimonials_hd": "#444",
+        "testimonials_text": "#444",
+        "text_bg": "#fff",
+        "rating_clr": "#EBB868"
+      }
+    },
     "0da49d82-5b5c-4a9a-84cf-6462a1f9f20c": {
       "type": "featured-blog",
       "custom_css": [
@@ -438,6 +490,7 @@
     "1633781728a88de982",
     "16337817926d98687d",
     "1649484698947b2b97",
+    "6908c554-831a-4f1f-9d4a-e94162f8a243",
     "0da49d82-5b5c-4a9a-84cf-6462a1f9f20c"
   ]
 }
