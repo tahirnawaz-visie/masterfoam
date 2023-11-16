@@ -78,7 +78,7 @@
   {% if collection.metafields.custom.special_heading != blank %}
     <div class="container">
         <div class="icon1">
-            <img {{ collection.metafields.custom.icon_1 }}>
+            <img src="{{ collection.metafields.custom.icon_1 | img_url}}">
             <h4>{{ collection.metafields.custom.icon_1_heading }}</h4>
         </div>
         <div class="icon2">
