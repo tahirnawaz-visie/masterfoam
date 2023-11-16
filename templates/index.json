@@ -421,8 +421,8 @@
         "btn-size-mob": "mob-btn-sm",
         "max-width": 60,
         "txt_align": "tc",
-        "section_cov": false,
-        "sec_bg_clr": "#fafafa",
+        "section_cov": true,
+        "sec_bg_clr": "#faf6f6",
         "text_clr": "#ed1c24"
       }
     },
