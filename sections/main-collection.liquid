@@ -38,8 +38,34 @@
     <div class="collection_box">
     <h1 class="collection-title">{{ collection.metafields.custom.sub_tittle }}</h1>
     </div>
+
+     {% endif %}
   
-    {% endif %}
+    <div class="heading">
+        <h1>What Makes us special?</h1>
+    </div>
+
+    <div class="container">
+        <div class="icon1">
+            <img src="cart.png">
+            <h3>Advanced Support Technology</h3>
+            <p>Advanced Support Technology <br>Advanced Support Technology
+                <br>Advanced Support Technology<br>Advanced Support Technology</p>
+        </div>
+        <div class="icon2">
+            <img src="cart.png">
+            <h3>Best Materials</h3>
+            <p>Advanced Support Technology <br> Advanced Support Technology
+                <br>Advanced Support Technology<br>Advanced Support Technology</p>
+        </div>
+        <div class="icon3">
+            <img src="cart.png">
+            <h3>Advanced Design</h3>
+            <p>Advanced Support Technology <br> Advanced Support Technology
+                <br>Advanced Support Technology<br>Advanced Support Technology</p>
+        </div>
+    </div>
+   
 {%- if settings.breadcrumb_cl -%}{%- include 'breadcrumb' -%}{%- else -%}<div class="topSpace"></div>{%- endif -%}
 {%- liquid
 	assign sort_by = collection.sort_by | default: collection.default_sort_by
