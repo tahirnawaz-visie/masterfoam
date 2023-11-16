@@ -405,9 +405,8 @@
         "template--20305434476855__6908c554-831a-4f1f-9d4a-e94162f8a243-quote-1": {
           "type": "quote",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Mobile-Version.jpg",
             "quote": "<p>Very Happy with my purchase.<br\/>Its Original and nice packing.<\/p><p>Rider was also coperative.<\/p><p>Thanku Master!<\/p><p><\/p>",
-            "author": "Zaheer Khan",
+            "author": "Zaheer <br>Khan",
             "display_rat": true,
             "rating": 5
           }
