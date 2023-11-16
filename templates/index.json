@@ -414,6 +414,7 @@
         },
         "template--20305434476855__6908c554-831a-4f1f-9d4a-e94162f8a243-quote-2": {
           "type": "quote",
+          "disabled": true,
           "settings": {
             "quote": "<p>Very Happy with my purchase.<br\/>Its Original and nice packing.<\/p><p> Rider was also coperative.<\/p><p>Thanku Master!<\/p>",
             "author": "",
@@ -423,6 +424,7 @@
         },
         "template--20305434476855__6908c554-831a-4f1f-9d4a-e94162f8a243-quote-3": {
           "type": "quote",
+          "disabled": true,
           "settings": {
             "quote": "<p>Very Happy with my purchase.<br\/>Its Original and nice packing.<\/p><p> Rider was also coperative.<\/p><p>Thanku Master!<\/p><p><\/p>",
             "author": "",
