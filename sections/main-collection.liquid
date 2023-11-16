@@ -65,11 +65,11 @@
     </div>
 
      {% endif %}
-  
+  {% if collection.metafields.custom.special_heading != blank %}
     <div class="heading">
-        <h1>What Makes us special?</h1>
+        <h1>{{collection.metafields.custom.special_heading}}</h1>
     </div>
-
+ {% endif %}
     <div class="container">
         <div class="icon1">
             <img src="cart.png">
