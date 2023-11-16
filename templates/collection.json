@@ -204,21 +204,22 @@
         "template--20305434018103__78402336-3b71-4f91-a71a-3885dcd3919b-image_with_text-1": {
           "type": "image_with_text",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Layer_56.png",
             "layout": "left",
             "pre_heading": "",
             "pre_heading_size": 20,
-            "title": "Image with text",
-            "heading_size": 20,
-            "text": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "title": "Sleep Your Way With Master Foam!",
+            "heading_size": 25,
+            "text": "<p>We get that everyone sleeps differently. <\/p><p>Thats why our mattresses come in different feels, from super soft to firm for extra support. Find your Perfect match and wake up happy everyday!<\/p>",
             "richtext_size": 20,
-            "richtext_size_clr": "#000",
+            "richtext_size_clr": "#ffffff",
             "button_label": "",
             "button_link": "",
             "btn-size-desk": "btn-sm",
             "btn-size-mob": "mob-btn-sm",
             "text_align": "text-left",
-            "text_clr": "#000",
-            "text_bg_clr": "#f5f5f5",
+            "text_clr": "#ffffff",
+            "text_bg_clr": "#e60d0d",
             "button_bg_clr": "#000",
             "button_bdr_clr": "#000",
             "button_text_clr": "#fff"
@@ -229,10 +230,10 @@
         "template--20305434018103__78402336-3b71-4f91-a71a-3885dcd3919b-image_with_text-1"
       ],
       "settings": {
-        "top-offeset": "small",
+        "top-offeset": "default",
         "section_width": true,
         "section_cov": false,
-        "sec_bg_clr": "#ff0000",
+        "sec_bg_clr": "rgba(0,0,0,0)",
         "snow_effect": false,
         "snow_style": "style2"
       }
