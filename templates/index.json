@@ -399,6 +399,33 @@
         "autoplay_speed": 5
       }
     },
+    "776d9321-81d4-44c5-a8a6-466f772e885e": {
+      "type": "richtext",
+      "settings": {
+        "fullwidth": true,
+        "top-offeset": "default",
+        "pre_heading": "",
+        "pre_heading_size": 26,
+        "title": "<b>Customer Testimonials<\/b>",
+        "ttl-text-size": 41,
+        "richtxt": "<p>But don't just take our word for it. Hear what our satisfied customers have to say about their experience with Master Foam mattresses<\/p>",
+        "richtxt_bg_clr": "#444",
+        "text-size": 20,
+        "btntxt": "",
+        "btnurl": "\/",
+        "btn-style": "btn",
+        "btntxt1": "",
+        "btnurl1": "",
+        "btn-style2": "btn",
+        "btn-size-desk": "btn-sm",
+        "btn-size-mob": "mob-btn-sm",
+        "max-width": 60,
+        "txt_align": "tc",
+        "section_cov": true,
+        "sec_bg_clr": "#faf6f6",
+        "text_clr": "#ed1c24"
+      }
+    },
     "6908c554-831a-4f1f-9d4a-e94162f8a243": {
       "type": "quotes",
       "blocks": {
@@ -443,7 +470,7 @@
       ],
       "settings": {
         "section_width": true,
-        "top-offeset": "default",
+        "top-offeset": "none",
         "title": "",
         "quoteStyle": "style1",
         "autoplay": false,
@@ -498,6 +525,7 @@
     "1633781728a88de982",
     "16337817926d98687d",
     "1649484698947b2b97",
+    "776d9321-81d4-44c5-a8a6-466f772e885e",
     "6908c554-831a-4f1f-9d4a-e94162f8a243",
     "0da49d82-5b5c-4a9a-84cf-6462a1f9f20c"
   ]
