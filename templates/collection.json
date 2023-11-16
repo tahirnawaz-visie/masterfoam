@@ -198,6 +198,45 @@
         "text-padding": 20
       }
     },
+    "78402336-3b71-4f91-a71a-3885dcd3919b": {
+      "type": "feature-row",
+      "blocks": {
+        "template--20305434018103__78402336-3b71-4f91-a71a-3885dcd3919b-image_with_text-1": {
+          "type": "image_with_text",
+          "settings": {
+            "layout": "left",
+            "pre_heading": "",
+            "pre_heading_size": 20,
+            "title": "Image with text",
+            "heading_size": 20,
+            "text": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "richtext_size": 20,
+            "richtext_size_clr": "#000",
+            "button_label": "",
+            "button_link": "",
+            "btn-size-desk": "btn-sm",
+            "btn-size-mob": "mob-btn-sm",
+            "text_align": "text-left",
+            "text_clr": "#000",
+            "text_bg_clr": "#f5f5f5",
+            "button_bg_clr": "#000",
+            "button_bdr_clr": "#000",
+            "button_text_clr": "#fff"
+          }
+        }
+      },
+      "block_order": [
+        "template--20305434018103__78402336-3b71-4f91-a71a-3885dcd3919b-image_with_text-1"
+      ],
+      "settings": {
+        "top-offeset": "default",
+        "section_width": true,
+        "section_cov": false,
+        "sec_bg_clr": "#ff0000",
+        "snow_effect": false,
+        "snow_style": "style2"
+      }
+    },
     "a2d24187-3bc8-495f-890c-0ec5671d6d09": {
       "type": "top-seller",
       "blocks": {
@@ -240,45 +279,6 @@
         "grid": "3",
         "heading1": "#ffe9c0"
       }
-    },
-    "78402336-3b71-4f91-a71a-3885dcd3919b": {
-      "type": "feature-row",
-      "blocks": {
-        "template--20305434018103__78402336-3b71-4f91-a71a-3885dcd3919b-image_with_text-1": {
-          "type": "image_with_text",
-          "settings": {
-            "layout": "left",
-            "pre_heading": "",
-            "pre_heading_size": 20,
-            "title": "Image with text",
-            "heading_size": 20,
-            "text": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "richtext_size": 20,
-            "richtext_size_clr": "#000",
-            "button_label": "",
-            "button_link": "",
-            "btn-size-desk": "btn-sm",
-            "btn-size-mob": "mob-btn-sm",
-            "text_align": "text-left",
-            "text_clr": "#000",
-            "text_bg_clr": "#f5f5f5",
-            "button_bg_clr": "#000",
-            "button_bdr_clr": "#000",
-            "button_text_clr": "#fff"
-          }
-        }
-      },
-      "block_order": [
-        "template--20305434018103__78402336-3b71-4f91-a71a-3885dcd3919b-image_with_text-1"
-      ],
-      "settings": {
-        "top-offeset": "default",
-        "section_width": true,
-        "section_cov": false,
-        "sec_bg_clr": "#fafafa",
-        "snow_effect": false,
-        "snow_style": "style1"
-      }
     }
   },
   "order": [
@@ -287,7 +287,7 @@
     "5fa443e7-c288-4295-a929-7a98d115c066",
     "related-products",
     "8712cd6a-c4a5-4797-ab20-dab2ff797591",
-    "a2d24187-3bc8-495f-890c-0ec5671d6d09",
-    "78402336-3b71-4f91-a71a-3885dcd3919b"
+    "78402336-3b71-4f91-a71a-3885dcd3919b",
+    "a2d24187-3bc8-495f-890c-0ec5671d6d09"
   ]
 }
