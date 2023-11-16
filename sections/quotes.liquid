@@ -22,11 +22,12 @@
             	<img src="{{block.settings.image |img_url:'500x300',crop: 'center'}}" alt="" /> 
               {% endif %}
             </span>
-              {% if block.settings.author != blank %}
-              <p class="authour">{{ block.settings.author }}</p>
-              {% endif %}
+             
           
             {% endif %}
+             {% if block.settings.author != blank %}
+              <p class="authour">{{ block.settings.author }}</p>
+              {% endif %}
             </div>
               <div class="text_section">
             <blockquote class="quotes-slider__text text-center">             
