@@ -205,7 +205,7 @@
           "type": "image_with_text",
           "settings": {
             "image": "shopify:\/\/shop_images\/Layer_56.png",
-            "layout": "left",
+            "layout": "right",
             "pre_heading": "",
             "pre_heading_size": 20,
             "title": "Sleep Your Way With Master Foam!",
