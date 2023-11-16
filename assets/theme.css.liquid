@@ -2721,7 +2721,32 @@ font-family: adorn-icons!important;
  display: flex;
     justify-content: space-evenly;
     align-items: center;
- }                        
+ }  
+.author_section .authour{
+      background: red;
+    height: 120px;
+    width: 120px;
+    text-align: center;
+    line-height: 120px;
+    border-radius: 50%;
+    font-size: 24px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                          
 
 {% endcapture %}
 {{ siteCss | strip_newlines | remove: "  " | remove: "	" | replace: "; ",";" | replace: " { ","{" }}
