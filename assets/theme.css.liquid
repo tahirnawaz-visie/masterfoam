@@ -2717,7 +2717,11 @@ font-family: adorn-icons!important;
  .grid--blog .slick-dots{
     margin-bottom: 20px;
   }
-                         
+ .test_box{
+ display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+ }                        
 
 {% endcapture %}
 {{ siteCss | strip_newlines | remove: "  " | remove: "	" | replace: "; ",";" | replace: " { ","{" }}
