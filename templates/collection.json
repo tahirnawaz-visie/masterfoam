@@ -229,7 +229,7 @@
         "template--20305434018103__78402336-3b71-4f91-a71a-3885dcd3919b-image_with_text-1"
       ],
       "settings": {
-        "top-offeset": "default",
+        "top-offeset": "small",
         "section_width": true,
         "section_cov": false,
         "sec_bg_clr": "#ff0000",
