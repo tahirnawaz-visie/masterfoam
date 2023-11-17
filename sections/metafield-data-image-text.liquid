@@ -1,7 +1,7 @@
 <div class="content-indent {{ section.settings.top-offeset}}">
   {% if section.settings.section_cov %}<div class="section-cover" style="background-color:{{section.settings.sec_bg_clr}};">{% endif%}
   <div class="{% unless section.settings.section_width %} page-width{% endunless %}">
-
+{% assign backgroundImage = section.settings.background_image | asset_url %}
     {% for block in section.blocks limit: section.blocks.size %}    
       {% assign box-delay = forloop.index | minus:1 %}
       {% assign delay_time = 50 | times : box-delay %}         
@@ -89,8 +89,8 @@
 
  {
       "type": "image_picker",
-      "id": "image",
-      "label": "Image"   
+        "id": "background_image",
+        "label": "Background Image"  
 	  },
 
       
