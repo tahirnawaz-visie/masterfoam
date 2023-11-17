@@ -1,7 +1,7 @@
 <div class="content-indent {{ section.settings.top-offeset}}">
   {% if section.settings.section_cov %}<div class="section-cover" style="background-color:{{section.settings.sec_bg_clr}};">{% endif%}
   <div class="{% unless section.settings.section_width %} page-width{% endunless %}">
-{% assign backgroundImage = section.settings.background_image | asset_url %}
+
     {% for block in section.blocks limit: section.blocks.size %}    
       {% assign box-delay = forloop.index | minus:1 %}
       {% assign delay_time = 50 | times : box-delay %}         
@@ -21,6 +21,7 @@
 
       <div class="feature-row {% if section.settings.snow_effect %}falling-snow {% endif %}{% if section.settings.snow_style == "style2" %}style2 {% else %}style1 {% endif %}row-{{ block.id }}"
            style="background-color:{{block.settings.text_bg_clr}};">
+        {% assign backgroundImage = section.settings.background_image | asset_url %}
         {{ image_layout }}
         <div class="feature-row__item feature-row__text {{ block.settings.layout }} wow{% if block.settings.layout == 'right' %} fadeInLeft{% else %} fadeInRight{% endif %}" data-wow-delay="{{delay_time}}ms">
           <div class="row-text {{block.settings.text_align}}">
@@ -38,8 +39,7 @@
           color:{{block.settings.button_text_clr}};}
         .row-{{ block.id }} .btn:hover {opacity:0.9;}
 
-        .custom-block {
-            margin: 0 auto; 
+       
   }
       </style>
 
