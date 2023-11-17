@@ -1,5 +1,5 @@
 <div class="content-indent {{ section.settings.top-offeset}}">
- 
+  {% assign backgroundImage = section.settings.background_image | img_url: "1900x400" %}
   {% if section.settings.section_cov %}<div class="section-cover" style="background-color:{{section.settings.sec_bg_clr}};">{% endif%}
   <div class="{% unless section.settings.section_width %} page-width{% endunless %}">
  
@@ -45,7 +45,7 @@
       </style>
 
     {% endfor %}  
- {% assign background_Image = section.settings.background_image | asset_url %}
+
   </div>
   {% if section.settings.section_cov %}</div> {% endif%}
 </div>
