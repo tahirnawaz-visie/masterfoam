@@ -72,14 +72,17 @@
   {% if collection.metafields.custom.special_heading != blank %}
     <div class="heading">
         <h1>{{collection.metafields.custom.special_heading}}</h1>
+    {% if collection.metafields.custom.special_paragraph != blank %}
+    <p>{{collection.metafields.custom.special_paragraph}}</p>
+       {% endif %}
     </div>
  {% endif %}
 
-  {% if collection.metafields.custom.special_heading != blank %}
+  {% if collection.metafields.custom.icon_1_heading != blank %}
     <div class="container">
         <div class="icon1">
     {% assign image_url = collection.metafields.custom.icon_1 %}
-            <img src="{{ collection.metafields.custom.icon_1 }}">
+            <img src="{{ collection.metafields.custom.icon_1 }}" />
             <h4>{{ collection.metafields.custom.icon_1_heading }}</h4>
         </div>
         <div class="icon2">
