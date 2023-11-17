@@ -214,7 +214,7 @@
             "btn-size-desk": "btn-sm",
             "btn-size-mob": "mob-btn-sm",
             "text_align": "text-left",
-            "text_clr": "#000000",
+            "text_clr": "#ed1c24",
             "text_bg_clr": "rgba(0,0,0,0)",
             "button_bg_clr": "#000000",
             "button_bdr_clr": "#000000",
@@ -225,11 +225,14 @@
       "block_order": [
         "template--20305434018103__f1716ba8-dd8d-4b5d-a1af-8f7a59438596-image_with_text-1"
       ],
+      "custom_css": [
+        "element.style {margin: 0 auto;}"
+      ],
       "settings": {
         "top-offeset": "none",
         "section_width": false,
         "section_cov": true,
-        "sec_bg_clr": "#f6f6f6",
+        "sec_bg_clr": "rgba(0,0,0,0)",
         "snow_effect": false,
         "snow_style": "style1"
       }
