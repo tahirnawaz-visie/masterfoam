@@ -513,9 +513,6 @@ s.product-price__price { opacity:0.6; margin-right:4px; font-weight:400; }
 
 @media only screen and (max-width:767px) {
   .bredcrumbWrap {margin-bottom:20px;}
-  .icon_list_coll{
-    grid-template-columns: repeat(auto-fill, minmax(100%, 1fr));
-  }
 }
 
 {% comment %}/*========= Collection Banners =========*/{% endcomment %}
@@ -2847,7 +2844,11 @@ background: url(https://cdn.shopify.com/s/files/1/0768/4312/2999/files/bg3.jpg?v
       margin-top: 22px;
 }
 
-
+@media only screen and (max-width:767px) {
+  .icon_list_coll{
+    grid-template-columns: repeat(auto-fill, minmax(100%, 1fr));
+  }
+}
   
 
 
