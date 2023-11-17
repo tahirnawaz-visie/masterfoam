@@ -80,6 +80,7 @@
 
   {% if collection.metafields.custom.icon_1_heading != blank %}
     <div class="page-width">
+    <div class="icon_list_coll">
         <div class="icon1">
     {% assign image_url = collection.metafields.custom.icon_1 %}
             <img src="{{ collection.metafields.custom.icon_1 }}" />
@@ -100,6 +101,7 @@
             <img src="{{ collection.metafields.custom.icon4 }}">
             <h4>{{ collection.metafields.custom.icon4_heading }}</h4>
         </div>
+    </div>
     </div>
      {% endif %}
    
