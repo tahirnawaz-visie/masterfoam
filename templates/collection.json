@@ -309,8 +309,8 @@
       ],
       "settings": {
         "top-offeset": "default",
-        "section_width": true,
-        "section_cov": false,
+        "section_width": false,
+        "section_cov": true,
         "sec_bg_clr": "#fafafa",
         "snow_effect": false,
         "snow_style": "style1"
