@@ -1,6 +1,6 @@
 <div class="content-indent {{ section.settings.top-offeset}}">
   {% assign backgroundImage = section.settings.background_image | img_url: "1900x400" %}
-  {% if section.settings.section_cov %}<div class="section-cover" style="background-color:{{section.settings.sec_bg_clr}}; background: url({{ backgroundImage }});    background-repeat: no-repeat;background-size: cover;">{% endif%}
+  {% if section.settings.section_cov %}<div class="section-cover" style="background-color:{{section.settings.sec_bg_clr}}; background: url({{ backgroundImage }}); background-repeat: no-repeat;background-size: cover;">{% endif%}
   <div class="{% unless section.settings.section_width %} page-width{% endunless %}">
  
     {% for block in section.blocks limit: section.blocks.size %}    
@@ -12,7 +12,7 @@
           {%- assign img_url = block.settings.image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
           <span class="imgWrapper" style="max-width:{{ block.settings.image.width }}px;">
               <img class="feature-row__image lazyload" src="{{ block.settings.image }}" width="100%"
-                  data-src="{{ block.settings.image }}" data-widths="[180, 360, 540, 720, 900]" data-aspectratio="{{ block.settings.image.aspect_ratio }}" data-sizes="auto" alt="{{ block.settings.image.alt | escape }}" style="width: {{ block.settings.block_width }}%;">
+                  data-src="{{ block.settings.image }}" data-widths="[180, 360, 540, 720, 900]" data-aspectratio="{{ block.settings.image.aspect_ratio }}" data-sizes="auto" alt="{{ block.settings.image.alt | escape }}" style="width: {{ block.settings.block_width }}%; margin: 0 auto;">
            
           </span>
    
