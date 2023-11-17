@@ -471,7 +471,7 @@
         "top-offeset": "none",
         "title": "",
         "quoteStyle": "style1",
-        "autoplay": false,
+        "autoplay": true,
         "autoplay_speed": 5,
         "arrow": true,
         "dots": false,
