@@ -205,7 +205,7 @@
           "type": "image_with_text",
           "settings": {
             "image": "{{ collection.metafields.custom.image1 }}",
-            "block_width": 70,
+            "block_width": 60,
             "layout": "left",
             "title": "{{ collection.metafields.custom.image1_heading}}",
             "text": "{{ collection.metafields.custom.image1_paragraph}}",
