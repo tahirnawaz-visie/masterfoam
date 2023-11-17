@@ -28,6 +28,30 @@
     font-size: 28px;
   }
   }
+
+
+    .container{
+        display: grid;
+    grid-template-columns: 690px 260px 320px 230px;
+    margin-top: 80px;
+   text-align: center;
+   background-image:url("bg.png");
+       }
+       .image{
+        margin-left: 280px;
+        margin-top: 80px;
+       }
+       .text{
+       margin-top: -25px;
+       margin-top: 80px;
+       }
+        img{
+            width: 340px;
+        }
+        h1{
+            color: red;
+            font-family:Arial, Helvetica, sans-serif;
+        }
 </style>
 {% if section.settings.show_collection_image and section.settings.banner_position == 'top' %}
   <div class="clPageBnr flex lazyload{% if collection.image %} with-image {% endif %}" {% if section.settings.show_collection_image and collection.image %}data-bgset="{% include 'bgset', image: collection.image %}" data-sizes="auto" data-parent-fit="contain" style="background-image:url({{ collection.image | img_url: '300x' }});"{% endif %}>
@@ -256,9 +280,17 @@
           {% if is_empty_collection %}<div class="grid__item small--text-center"><p class="text-center">{{ 'collections.general.no_matches' | t }}</p></div>{% endif %}
         </div>
 
-
-<h1>{{collection.metafields.custom.image1_heading }}</h1>
-
+{% if collection.metafields.custom.icon_1_heading != blank %}
+  <div class="container">
+       <div class="image">
+        <img src="{{ collection.metafields.custom.image1 }}">
+       </div>
+       <div class="text">
+       <h1>{{collection.metafields.custom.image1_heading }}</h1>
+        <p>{{collection.metafields.custom.image1_paragraph}}</p>
+       </div>
+    </div>
+{% endif %}
   
         {% if paginate.pages > 1 %}
           {% if section.settings.pagination == "infinite" or section.settings.pagination == "button" %}
