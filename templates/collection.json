@@ -297,7 +297,7 @@
             "btn-size-mob": "mob-btn-sm",
             "text_align": "text-left",
             "text_clr": "#000000",
-            "text_bg_clr": "#f5f5f5",
+            "text_bg_clr": "rgba(0,0,0,0)",
             "button_bg_clr": "#000000",
             "button_bdr_clr": "#000000",
             "button_text_clr": "#ffffff"
@@ -311,7 +311,7 @@
         "top-offeset": "default",
         "section_width": false,
         "section_cov": true,
-        "sec_bg_clr": "#fafafa",
+        "sec_bg_clr": "#ec6a6a",
         "snow_effect": false,
         "snow_style": "style1"
       }
