@@ -76,7 +76,7 @@
     </div>
     </div>
      {% endif %}
-
+ {% if collection.metafields.custom.promote_title != blank %}
   <div class="metafields_box_second">
     <div class="page-width">
        <h3>{{ collection.metafields.custom.promote_title }}</h3>
@@ -84,7 +84,7 @@
    <img src="{{ collection.metafields.custom.promote_image }}">
     </div>
   </div>
-
+ {% endif %}
 
   
 {%- if settings.breadcrumb_cl -%}{%- include 'breadcrumb' -%}{%- else -%}<div class="topSpace"></div>{%- endif -%}
