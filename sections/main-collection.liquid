@@ -44,17 +44,9 @@
            margin-left: 80px;
            
         }
-        .icon1{
-            padding: 15px;
-        }
-        .icon2{
-            padding: 15px;
-        }
-        .icon3{
-            padding: 15px;
-        }
-   .icon4{
-            padding: 15px;
+        .icon_box h4{
+          font-size: 28px;
+          font-weight: bold;
         }
 </style>
 {% if section.settings.show_collection_image and section.settings.banner_position == 'top' %}
@@ -81,22 +73,22 @@
   {% if collection.metafields.custom.icon_1_heading != blank %}
     <div class="page-width">
     <div class="icon_list_coll">
-        <div class="icon1">
+        <div class="icon1 icon_box">
     {% assign image_url = collection.metafields.custom.icon_1 %}
             <img src="{{ collection.metafields.custom.icon_1 }}" />
             <h4>{{ collection.metafields.custom.icon_1_heading }}</h4>
         </div>
-        <div class="icon2">
+        <div class="icon2 icon_box">
             {% assign image_url = collection.metafields.custom.icon2 %}
             <img src="{{ collection.metafields.custom.icon2 }}">
             <h4>{{collection.metafields.custom.icon2_heading}}</h4>
         </div>
-        <div class="icon3">
+        <div class="icon3 icon_box">
              {% assign image_url = collection.metafields.custom.icon3 %}
             <img src="{{ collection.metafields.custom.icon3 }}">
             <h4>{{ collection.metafields.custom.icon3_heading }}</h4>
         </div>
-      <div class="icon4">
+      <div class="icon4 icon_box">
              {% assign image_url = collection.metafields.custom.icon4 %}
             <img src="{{ collection.metafields.custom.icon4 }}">
             <h4>{{ collection.metafields.custom.icon4_heading }}</h4>
