@@ -14,8 +14,6 @@
               <img class="feature-row__image lazyload" src="{{ block.settings.image }}" width="100%"
                   data-src="{{ block.settings.image }}" data-widths="[180, 360, 540, 720, 900]" data-aspectratio="{{ block.settings.image.aspect_ratio }}" data-sizes="auto" alt="{{ block.settings.image.alt | escape }}">
           </span>
-        {% else %}
-        	{{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
         {% endif %}
       </div>
       {%- endcapture -%}
