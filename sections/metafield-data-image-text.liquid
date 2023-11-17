@@ -1,3 +1,12 @@
+{% assign showSection = false %}
+ {% for block in section.blocks limit: section.blocks.size %}  
+ {% if block.settings.title != blank %}
+      {% assign showSection = true %}
+    {% endif %}
+  
+ {% endfor %}
+
+{% if showSection %}
 <div class="content-indent {{ section.settings.top-offeset}}">
   {% assign backgroundImage = section.settings.background_image | img_url: "1900x400" %}
   {% if section.settings.section_cov %}<div class="section-cover" style="background-color:{{section.settings.sec_bg_clr}}; background: url({{ backgroundImage }}); background-repeat: no-repeat;background-size: cover;">{% endif%}
@@ -49,7 +58,7 @@
   </div>
   {% if section.settings.section_cov %}</div> {% endif%}
 </div>
-
+ {% endif %}
 {% schema %}
   {
     "name": "Metafields data",
