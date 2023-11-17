@@ -287,20 +287,20 @@
         "template--20305434018103__f1716ba8-dd8d-4b5d-a1af-8f7a59438596-image_with_text-1": {
           "type": "image_with_text",
           "settings": {
-            "image": "",
+            "image": "{{ collection.metafields.custom.image1}}",
             "layout": "left",
-            "title": "Image with text",
-            "text": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "title": "{{ collection.metafields.custom.image1_heading}}",
+            "text": "{{ collection.metafields.custom.image1_paragraph}}",
             "button_label": "",
             "button_link": "",
             "btn-size-desk": "btn-sm",
             "btn-size-mob": "mob-btn-sm",
             "text_align": "text-left",
-            "text_clr": "#000",
+            "text_clr": "#000000",
             "text_bg_clr": "#f5f5f5",
-            "button_bg_clr": "#000",
-            "button_bdr_clr": "#000",
-            "button_text_clr": "#fff"
+            "button_bg_clr": "#000000",
+            "button_bdr_clr": "#000000",
+            "button_text_clr": "#ffffff"
           }
         }
       },
