@@ -71,11 +71,13 @@
             <h4>{{ collection.metafields.custom.icon3_heading }}</h4>
      <p>{{ collection.metafields.custom.icon3_paragraph }}</p>
         </div>
+     {% if collection.metafields.custom.icon4_heading != blank %}
       <div class="icon4 icon_box">
             <img src="{{ collection.metafields.custom.icon4 }}">
             <h4>{{ collection.metafields.custom.icon4_heading }}</h4>
      <p>{{ collection.metafields.custom.icon4_paragraph }}</p>
         </div>
+        {% endif %}
     </div>
     </div>
      {% endif %}
@@ -92,15 +94,19 @@
   <div class="free_delivery_section">
     <div class="page-width">
     <div class="icon_list_coll">
+   {% if collection.metafields.custom.numbers_heading != blank %}
         <div class="icon1 icon_box">
 
             <h4>{{ collection.metafields.custom.numbers}}</h4>
             <p>{{ collection.metafields.custom.numbers_heading}}</p>
         </div>
+      {% endif %}
+   {% if collection.metafields.custom.free_heading != blank %}
         <div class="icon2 icon_box">
             <img src="{{ collection.metafields.custom.free_icon }}" width="">
             <p>{{collection.metafields.custom.free_heading}}</p>
         </div>
+   {% endif %}
   </div>
   </div>
     </div>
