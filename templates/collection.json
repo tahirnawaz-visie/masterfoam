@@ -232,6 +232,7 @@
         "top-offeset": "none",
         "section_width": false,
         "section_cov": true,
+        "background_image": "shopify:\/\/shop_images\/Website_MasterFoam_HealthCare_Page.png",
         "sec_bg_clr": "rgba(0,0,0,0)",
         "snow_effect": false,
         "snow_style": "style1"
