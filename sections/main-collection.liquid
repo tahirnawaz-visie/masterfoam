@@ -76,7 +76,17 @@
     </div>
     </div>
      {% endif %}
-   
+
+  <div class="metafields_box_second">
+    <div class="page-width">
+       <h3>{{ collection.metafields.custom.promote_title }}</h3>
+  <p>{{ collection.metafields.custom.promote_paragraph }}</p>
+   <img src="{{ collection.metafields.custom.promote_image }}">
+    </div>
+  </div>
+
+
+  
 {%- if settings.breadcrumb_cl -%}{%- include 'breadcrumb' -%}{%- else -%}<div class="topSpace"></div>{%- endif -%}
 {%- liquid
 	assign sort_by = collection.sort_by | default: collection.default_sort_by
