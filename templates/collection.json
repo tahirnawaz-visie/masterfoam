@@ -226,7 +226,7 @@
         "template--20305434018103__f1716ba8-dd8d-4b5d-a1af-8f7a59438596-image_with_text-1"
       ],
       "custom_css": [
-        "element.style {margin: 10 auto;}"
+        "element.style {margin: 0 auto;}"
       ],
       "settings": {
         "top-offeset": "none",
