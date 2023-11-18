@@ -32,8 +32,8 @@
 
 </style>
 {% if section.settings.show_collection_image and section.settings.banner_position == 'top' %}
-  <div class="clPageBnr flex lazyload{% if collection.image %} with-image {% endif %}" {% if section.settings.show_collection_image and collection.image %}{% endif %}>
-  <img src="{{ collection.image | img_url: '1900x' }}" />
+  <div class="flex lazyload{% if collection.image %} with-image {% endif %}">
+  {% if section.settings.show_collection_image and collection.image %}<img src="{{ collection.image | img_url: '1900x' }}" />{% endif %}
   {% if section.settings.show_collection_name %}<h1 class="collection-title">{{ collection.title }}</h1>{% endif %}
   </div>
 {% endif %}
