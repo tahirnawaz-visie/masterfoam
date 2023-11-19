@@ -277,7 +277,7 @@
         "eb0f2d74-f649-441e-aca0-ee3c1cd1b1db"
       ],
       "custom_css": [
-        "h2 {font-weight: 700; color: #e30613; margin-top: 20px; text-transform: capitalize;}",
+        "h2 {font-weight: 700; color: #e30613; margin-top: 0px; text-transform: capitalize;}",
         ".title-box {background: none;}"
       ],
       "settings": {
