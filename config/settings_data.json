@@ -388,7 +388,7 @@
           "show_designby": false,
           "show_payment": false,
           "payment_img_width": "350",
-          "whatsuppt": true,
+          "whatsuppt": false,
           "whatsuppt_img": "shopify:\/\/shop_images\/Whatsapp-logo.png"
         }
       },
