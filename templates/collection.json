@@ -270,6 +270,9 @@
       "block_order": [
         "template--20305434018103__78402336-3b71-4f91-a71a-3885dcd3919b-image_with_text-1"
       ],
+      "custom_css": [
+        ".feature-row .row-text{width:70%}"
+      ],
       "settings": {
         "top-offeset": "none",
         "section_width": true,
