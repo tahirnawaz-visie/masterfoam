@@ -203,7 +203,7 @@
             "button_link": "",
             "btn-size-desk": "btn-sm",
             "btn-size-mob": "mob-btn-sm",
-            "text_align": "text-left",
+            "text_align": "text-center",
             "text_clr": "#000000",
             "text_bg_clr": "#ffe9c0",
             "button_bg_clr": "#000000",
