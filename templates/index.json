@@ -92,20 +92,6 @@
             "width": "33%"
           }
         },
-        "1560507334237": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "",
-            "url": "shopify:\/\/collections\/accessories",
-            "collection_image": "shopify:\/\/shop_images\/344x449_folda_bed.jpg",
-            "collection_name": "ACCESSORIES",
-            "collection_name2": "Comfort and support Essentials",
-            "textalign": "center",
-            "text-left": false,
-            "collection_btn": "Shop Now",
-            "width": "33%"
-          }
-        },
         "1560507278694-1": {
           "type": "featured_collection",
           "settings": {
@@ -119,12 +105,26 @@
             "collection_btn": "Shop Now",
             "width": "33%"
           }
+        },
+        "1560507334237": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "",
+            "url": "shopify:\/\/collections\/accessories",
+            "collection_image": "shopify:\/\/shop_images\/344x449_folda_bed.jpg",
+            "collection_name": "ACCESSORIES",
+            "collection_name2": "Comfort and Support Essentials",
+            "textalign": "center",
+            "text-left": false,
+            "collection_btn": "Shop Now",
+            "width": "33%"
+          }
         }
       },
       "block_order": [
         "1560507278694-0",
-        "1560507334237",
-        "1560507278694-1"
+        "1560507278694-1",
+        "1560507334237"
       ],
       "custom_css": [
         ".sec-ttl .h3,.sec-ttl h3 {font-weight: 700; font-size: 40px; text-transform: capitalize;}",
