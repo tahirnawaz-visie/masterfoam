@@ -477,9 +477,8 @@
         "arrow": true,
         "dots": false,
         "testimonials_bg": "rgba(0,0,0,0)",
-        "testimonials_bg_img": "shopify:\/\/shop_images\/Vector_Smart_Object5.png",
         "testimonials_hd": "#ffffff",
-        "testimonials_text": "#ffffff",
+        "testimonials_text": "#444",
         "text_bg": "rgba(0,0,0,0)",
         "rating_clr": "#ffffff"
       }
