@@ -36,9 +36,9 @@
       "settings": {
         "title": "",
         "subtitle": "",
-        "top-offeset": "default",
+        "top-offeset": "none",
         "section_cov": true,
-        "sec_bg_clr": "#fafafa",
+        "sec_bg_clr": "#fff",
         "blog": "featured",
         "img_ratio": "100",
         "post_limit": 3,
