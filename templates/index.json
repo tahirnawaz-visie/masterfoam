@@ -476,7 +476,7 @@
         "autoplay_speed": 5,
         "arrow": true,
         "dots": false,
-        "testimonials_bg": "rgba(0,0,0,0)",
+        "testimonials_bg": "#dddddd",
         "testimonials_hd": "#ffffff",
         "testimonials_text": "#444",
         "text_bg": "rgba(0,0,0,0)",
