@@ -469,8 +469,9 @@
       "settings": {
         "section_width": true,
         "top-offeset": "none",
+        "layout_content": "custom_testemonials",
         "title": "",
-        "quoteStyle": "style1",
+        "quoteStyle": "style3",
         "autoplay": true,
         "autoplay_speed": 5,
         "arrow": true,
