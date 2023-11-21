@@ -463,8 +463,8 @@
         "template--20305434476855__6908c554-831a-4f1f-9d4a-e94162f8a243-quote-3"
       ],
       "custom_css": [
-        ".quote-bg blockquote {font-size: 18px;}",
-        ".quote-bg {padding: 100px 40px;}"
+        ".quote-bg blockquote {font-size: 16px;}",
+        ".quote-bg {padding: 50px 40px;}"
       ],
       "settings": {
         "section_width": true,
@@ -478,7 +478,7 @@
         "dots": false,
         "testimonials_bg": "#f6f6f6",
         "testimonials_hd": "#ffffff",
-        "testimonials_text": "#444",
+        "testimonials_text": "#444444",
         "text_bg": "rgba(0,0,0,0)",
         "rating_clr": "#ffffff"
       }
