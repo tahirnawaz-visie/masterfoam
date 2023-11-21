@@ -245,7 +245,7 @@
         "template--20305434018103__78402336-3b71-4f91-a71a-3885dcd3919b-image_with_text-1": {
           "type": "image_with_text",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Layer_56.png",
+            "image": "shopify:\/\/shop_images\/New-Family-Banner-MF.jpg",
             "layout": "right",
             "pre_heading": "",
             "pre_heading_size": 20,
@@ -271,7 +271,7 @@
         "template--20305434018103__78402336-3b71-4f91-a71a-3885dcd3919b-image_with_text-1"
       ],
       "custom_css": [
-        ".feature-row .row-text{width:70%}"
+        ".feature-row .row-text {width: 70%;}"
       ],
       "settings": {
         "top-offeset": "none",
