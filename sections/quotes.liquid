@@ -1,3 +1,5 @@
+
+
 <div class="content-indent {{ section.settings.top-offeset}}">
 <div class="quote-bg wow fadeInUp">  
     <div class="page-width" data-section-id="{{ section.id }}" data-section-type="quotes">
@@ -91,7 +93,21 @@
                 "label": "None"
               }
 			]
-        }, 	  
+        }, 	
+      {
+            "type": "select",
+            "id": "layout_content",
+            "label": "Select design",
+            "options": [
+                {
+                    "value": "custom_testemonials",
+                    "label": "Custom Layout"
+                }, {
+                    "value": "default_testemonials",
+                    "label": "Default laoyout"
+                }
+            ]
+        },
       {
         "type": "textarea",
         "id": "title",
