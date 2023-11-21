@@ -1,0 +1,32 @@
+<div class="content-indent {{ section.settings.top-offeset}}">
+  <div class="quote-bg wow fadeInUp">  
+    <div class="page-width" data-section-id="{{ section.id }}" data-section-type="quotes">
+      <div class="quote-bg-inner">
+     
+      {%- if section.settings.title != blank -%}
+        <div class="sec-ttl {{ settings.title_align}}"><h3 class="h3">{{ section.settings.title }}</h3></div>
+      {%- endif -%}
+
+      {% if section.blocks.size > 0 %}
+        <div class="quotes-wrapper {{section.settings.quoteStyle}}">
+          <div class="quotes-slider" id="Quotes-{{ section.id }}" id="Quotes-{{section.id}}" data-slick='{"slidesToShow":{% if section.settings.quoteStyle == "style1" %} 1 {% else %} 3 {% endif %},"autoplay":{{ section.settings.autoplay }}, "autoplaySpeed":{{section.settings.autoplay_speed | times: 1000}},"arrows":{{section.settings.arrow}},"dots":{{section.settings.dots}},{%- if settings.rtl -%}"rtl": true,{%- endif -%}"responsive":[{"breakpoint": 768,"settings":{"slidesToShow":1}} ]}'>
+            {% for block in section.blocks %}
+              <div>
+                <spn></spn>
+                 {% if block.settings.quote != blank %}
+                    <p class="rte-setting">{{ block.settings.quote }}</p>
+                  {% endif %}
+         
+                {% if block.settings.author != blank %}
+              <p class="authour">{{ block.settings.author }}</p>
+              {% endif %}
+                <span></span>
+              </div>
+              {% endfor %}
+          </div>
+        </div>
+      {%- endif -%}
+      </div>
+    </div>
+   </div>
+</div>
