@@ -215,7 +215,7 @@
             "btn-size-mob": "mob-btn-sm",
             "text_align": "text-left",
             "text_clr": "#ed1c24",
-            "text_bg_clr": "#f6f6f6",
+            "text_bg_clr": "rgba(0,0,0,0)",
             "button_bg_clr": "#000000",
             "button_bdr_clr": "#000000",
             "button_text_clr": "#ffffff"
