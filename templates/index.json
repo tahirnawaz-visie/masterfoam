@@ -473,6 +473,15 @@
             "display_rat": true,
             "rating": 5
           }
+        },
+        "19806c7d-a512-400a-8006-2954292d128f": {
+          "type": "quote",
+          "settings": {
+            "quote": "<p>Master has always been producing great quality. Our experience and trust on Master has increased because molty improved a lot with the passage of time. Thank you Master Foam!<\/p>",
+            "author": "Umer khan",
+            "display_rat": true,
+            "rating": 5
+          }
         }
       },
       "block_order": [
@@ -480,7 +489,8 @@
         "template--20305434476855__6908c554-831a-4f1f-9d4a-e94162f8a243-quote-2",
         "template--20305434476855__6908c554-831a-4f1f-9d4a-e94162f8a243-quote-3",
         "e5125972-fe8b-49c3-906d-4c9fedf2d59c",
-        "55f8d813-90dc-4f1b-a0fa-970040480cc5"
+        "55f8d813-90dc-4f1b-a0fa-970040480cc5",
+        "19806c7d-a512-400a-8006-2954292d128f"
       ],
       "custom_css": [
         ".quote-bg blockquote {font-size: 16px;}",
