@@ -126,7 +126,7 @@
     "annouance_bg": "#e34848",
     "annouance_fs": 11,
     "snow_effect": false,
-    "topbar": true,
+    "topbar": false,
     "topbar_fullwidth": false,
     "leftTxt": "<p class=\"find-store\"><a href=\"https:\/\/www.masterfoam.com.pk\/pages\/store-locator\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0612\/8042\/0067\/files\/map.png?v=1689917527\"> <span>Find Store<\/span><\/a><\/p>",
     "leftTxt-mobile": false,
