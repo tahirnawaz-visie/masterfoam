@@ -362,6 +362,7 @@
           },
           "ed42ba6f-8286-433d-8b52-629a5d020235": {
             "type": "custom",
+            "disabled": true,
             "settings": {
               "title": "Follow Us",
               "logo-width": 150,
