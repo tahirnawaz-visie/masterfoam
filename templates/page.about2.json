@@ -140,7 +140,8 @@
         "1633769564023b4dfb-0"
       ],
       "custom_css": [
-        ".rte p {line-height: 40px; text-align: left;}"
+        ".rte p {line-height: 40px; text-align: left;}",
+        ".imgWrapper {margin: 0 auto;}"
       ],
       "settings": {
         "top-offeset": "default",
