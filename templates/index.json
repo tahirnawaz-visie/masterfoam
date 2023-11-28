@@ -464,13 +464,23 @@
             "display_rat": true,
             "rating": 5
           }
+        },
+        "559d4cb9-135f-4052-98ca-82738d1821ad": {
+          "type": "quote",
+          "settings": {
+            "quote": "<p>I have ordered two single bed mattress from Master. it was a good experience on reasonable price. Delivered before time, excellent service!<\/p>",
+            "author": "Zaheer Khan",
+            "display_rat": true,
+            "rating": 5
+          }
         }
       },
       "block_order": [
         "template--20305434476855__6908c554-831a-4f1f-9d4a-e94162f8a243-quote-1",
         "template--20305434476855__6908c554-831a-4f1f-9d4a-e94162f8a243-quote-2",
         "template--20305434476855__6908c554-831a-4f1f-9d4a-e94162f8a243-quote-3",
-        "e5125972-fe8b-49c3-906d-4c9fedf2d59c"
+        "e5125972-fe8b-49c3-906d-4c9fedf2d59c",
+        "559d4cb9-135f-4052-98ca-82738d1821ad"
       ],
       "custom_css": [
         ".quote-bg blockquote {font-size: 16px;}",
