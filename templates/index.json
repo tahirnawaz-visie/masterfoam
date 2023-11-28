@@ -455,12 +455,22 @@
             "display_rat": true,
             "rating": 5
           }
+        },
+        "e5125972-fe8b-49c3-906d-4c9fedf2d59c": {
+          "type": "quote",
+          "settings": {
+            "quote": "<p>Very happy with my purchase. Its original and nice packing. Rider was also cooperative. Thank u Master!<\/p>",
+            "author": "Rameen R",
+            "display_rat": true,
+            "rating": 5
+          }
         }
       },
       "block_order": [
         "template--20305434476855__6908c554-831a-4f1f-9d4a-e94162f8a243-quote-1",
         "template--20305434476855__6908c554-831a-4f1f-9d4a-e94162f8a243-quote-2",
-        "template--20305434476855__6908c554-831a-4f1f-9d4a-e94162f8a243-quote-3"
+        "template--20305434476855__6908c554-831a-4f1f-9d4a-e94162f8a243-quote-3",
+        "e5125972-fe8b-49c3-906d-4c9fedf2d59c"
       ],
       "custom_css": [
         ".quote-bg blockquote {font-size: 16px;}",
