@@ -12,7 +12,6 @@
           <div class="quotes-slider" id="Quotes-{{ section.id }}" id="Quotes-{{section.id}}" data-slick='{"slidesToShow":{% if section.settings.quoteStyle == "style1" %} 1 {% else %} 3 {% endif %},"autoplay":{{ section.settings.autoplay }}, "autoplaySpeed":{{section.settings.autoplay_speed | times: 1000}},"arrows":{{section.settings.arrow}},"dots":{{section.settings.dots}},{%- if settings.rtl -%}"rtl": true,{%- endif -%}"responsive":[{"breakpoint": 768,"settings":{"slidesToShow":1}} ]}'>
             {% for block in section.blocks %}
               <div class="custom_testemo">
-                <span class="cote_top"><img src="https://cdn.shopify.com/s/files/1/0768/4312/2999/files/test.png" width="" /></span>
                  {% if block.settings.quote != blank %}
                     <div class="rte-setting">{{ block.settings.quote }}</div>
                   {% endif %}
@@ -20,7 +19,6 @@
                 {% if block.settings.author != blank %}
               <p class="authour">{{ block.settings.author }}</p>
               {% endif %}
-                <span class="cote_bottom"><img src="https://cdn.shopify.com/s/files/1/0768/4312/2999/files/test2.png" width="" /></span>
               </div>
               {% endfor %}
           </div>
