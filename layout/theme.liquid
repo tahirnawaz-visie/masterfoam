@@ -75,6 +75,7 @@
 	{%- include 'weglot_hreftags' -%}
 	{%- include 'weglot_switcher' -%}
   {%- endif -%}
+  <meta name="google-site-verification" content="_loLyAmt4TAec5mydFdKHXE4kbFMcfcRLmXPwNnUDaA" />
 </head>
 <body id="{{ page_title | handle }}" class="template-{{ template | split: '.' | first }} {%- if settings.rtl -%}rtl {%- endif -%}lazyload"
 	{%- if settings.bodybg_img %} data-bgset="{% include 'bgset', image: settings.bodybg_img %}" data-sizes="auto" data-parent-fit="cover" style="background-image:url('{{ settings.bodybg_img | img_url: '50x50' }});"{%- endif -%}>
