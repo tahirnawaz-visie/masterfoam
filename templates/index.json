@@ -12,7 +12,7 @@
     "slideshow": {
       "type": "slideshow",
       "blocks": {
-        "image_dtCymt": {
+        "1561726660568-0": {
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/Web-Banner_1.jpg",
@@ -25,17 +25,17 @@
             "subheading": "",
             "heading3": "#000000",
             "slide_button_text": "",
-            "link": "",
+            "link": "shopify:\/\/collections",
             "btn-style": "btn",
             "display_btn": false,
-            "slide_button2_text": "",
+            "slide_button2_text": "Shop now",
             "link2": "",
             "btn-style2": "btn",
             "newTab": false,
             "text_align": "left"
           }
         },
-        "1561726660568-0": {
+        "image_XXB8p8": {
           "type": "image",
           "disabled": true,
           "settings": {
@@ -84,8 +84,8 @@
         }
       },
       "block_order": [
-        "image_dtCymt",
         "1561726660568-0",
+        "image_XXB8p8",
         "1561726660568-1"
       ],
       "settings": {
